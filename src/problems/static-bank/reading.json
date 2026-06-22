@@ -1,0 +1,128 @@
+[
+  {
+    "id": "reading-001",
+    "text": "Beatrix reads at 2 pages per minute. She has 15 minutes before bed. How many pages can she read?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "30",
+      "value": { "kind": "integer", "value": 30 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "2 \\frac{\\text{pages}}{\\text{min}} \\times 15 \\text{ min} = 30 \\text{ pages}", "caption": "rate × time = total (same idea as distance = speed × time)", "visual": "number-line" }
+      ],
+      "selfExplanation": {
+        "question": "Reading rate is mathematically like what other kind of problem?",
+        "options": [
+          { "label": "a rate problem — pages per minute is just like miles per hour", "isCorrect": true },
+          { "label": "a percent problem", "isCorrect": false },
+          { "label": "a fractions problem", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#reading-rate"],
+    "source": "static"
+  },
+  {
+    "id": "reading-002",
+    "text": "Beatrix has 60 pages left in her book. She reads at 2.5 pages per minute. How many MINUTES until she finishes?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "24",
+      "value": { "kind": "integer", "value": 24 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\text{time} = \\frac{\\text{pages}}{\\text{rate}}", "caption": "rearrange rate × time = pages to solve for time" },
+        { "math": "\\frac{60}{2.5} = 24 \\text{ minutes}", "caption": "divide pages by reading rate" }
+      ]
+    },
+    "tags": ["#word-problem", "#reading-rate", "#decimals"],
+    "source": "static"
+  },
+  {
+    "id": "reading-003",
+    "text": "Beatrix has 90 pages to read and only 30 minutes before lights out. What reading rate (in pages per minute) does she need to finish?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "3",
+      "value": { "kind": "integer", "value": 3 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\text{rate} = \\frac{\\text{pages}}{\\text{time}}", "caption": "this time we solve for the rate" },
+        { "math": "\\frac{90}{30} = 3 \\text{ pages per minute}", "caption": "divide pages by time" }
+      ],
+      "selfExplanation": {
+        "question": "Looking at all three reading-rate problems so far, what's the pattern?",
+        "options": [
+          { "label": "pages = rate × time — and you can solve for any one of the three", "isCorrect": true },
+          { "label": "you always divide pages by time", "isCorrect": false },
+          { "label": "the rate is always the same number", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#reading-rate", "#pre-algebra"],
+    "source": "static"
+  },
+  {
+    "id": "reading-004",
+    "text": "Beatrix used to read at 2 pages per minute. After a long day, she slowed to 1.5 pages per minute. How many MORE minutes will it take her to read 60 pages now compared to before?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "10",
+      "value": { "kind": "integer", "value": 10 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\text{old time} = \\frac{60}{2} = 30 \\text{ min}", "caption": "how long it used to take" },
+        { "math": "\\text{new time} = \\frac{60}{1.5} = 40 \\text{ min}", "caption": "how long it takes now" },
+        { "math": "40 - 30 = 10 \\text{ more minutes}", "caption": "find the difference" }
+      ]
+    },
+    "tags": ["#word-problem", "#reading-rate"],
+    "source": "static"
+  },
+  {
+    "id": "reading-005",
+    "text": "Beatrix's book is 280 pages. She wants to finish it in 10 days. How many pages per day must she read?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "28",
+      "value": { "kind": "integer", "value": 28 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\frac{280 \\text{ pages}}{10 \\text{ days}} = 28 \\text{ pages per day}", "caption": "divide total pages by total days for a daily target" }
+      ]
+    },
+    "tags": ["#word-problem", "#reading-rate"],
+    "source": "static"
+  },
+  {
+    "id": "reading-006",
+    "text": "Beatrix read 30 minutes today, 45 minutes yesterday, and 20 minutes the day before. How many TOTAL HOURS has she read across these three days, rounded to one decimal place?",
+    "answer": {
+      "form": { "kind": "decimal", "places": 1, "tolerance": 0.05 },
+      "canonical": "1.6",
+      "value": { "kind": "decimal", "value": 1.5833333333333333 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "30 + 45 + 20 = 95 \\text{ minutes}", "caption": "add up the minutes" },
+        { "math": "\\frac{95}{60} \\approx 1.583", "caption": "divide by 60 to convert minutes to hours" },
+        { "math": "1.583 \\approx 1.6 \\text{ hours}", "caption": "round to one decimal place" }
+      ],
+      "selfExplanation": {
+        "question": "Why is the answer 1.6, not 1.5?",
+        "options": [
+          { "label": "1.583 rounds UP to 1.6 because the next digit (8) is 5 or more", "isCorrect": true },
+          { "label": "rounding always goes up", "isCorrect": false },
+          { "label": "1.583 is closer to 1.5 — the answer should be 1.5", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#reading-rate", "#decimals"],
+    "source": "static"
+  }
+]

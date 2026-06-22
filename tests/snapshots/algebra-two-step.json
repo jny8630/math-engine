@@ -1,0 +1,6012 @@
+{
+  "templateId": "algebra-two-step",
+  "tags": [
+    "#algebra",
+    "#pre-algebra",
+    "#linear-equations"
+  ],
+  "tidyMode": [
+    {
+      "text": "Solve for x: \\(7x - 2 = -16\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-2",
+        "value": {
+          "kind": "integer",
+          "value": -2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x - 2 = -16",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "7x - 2 + 2 = -16 + 2",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "7x = -14",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{-14}{7}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -2",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(5x + 7 = 32\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x + 7 = 32",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "5x + 7 - 7 = 32 - 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "5x = 25",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{25}{5}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x - 6 = 26\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x - 6 = 26",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x - 6 + 6 = 26 + 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = 32",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{32}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x + 5 = 14\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x + 5 = 14",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x + 5 - 5 = 14 - 5",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = 9",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{9}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x + 7 = -29\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-4",
+        "value": {
+          "kind": "integer",
+          "value": -4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x + 7 = -29",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x + 7 - 7 = -29 - 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = -36",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{-36}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x + 8 = -20\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-7",
+        "value": {
+          "kind": "integer",
+          "value": -7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x + 8 = -20",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x + 8 - 8 = -20 - 8",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = -28",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-28}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -7",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(3x - 6 = 0\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x - 6 = 0",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "3x - 6 + 6 = 0 + 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "3x = 6",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{6}{3}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 2",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(5x - 1 = 19\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x - 1 = 19",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "5x - 1 + 1 = 19 + 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "5x = 20",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{20}{5}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(5x - 7 = -32\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x - 7 = -32",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "5x - 7 + 7 = -32 + 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "5x = -25",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{-25}{5}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(2x - 6 = -18\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x - 6 = -18",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "2x - 6 + 6 = -18 + 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "2x = -12",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{-12}{2}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x - 5 = -29\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-4",
+        "value": {
+          "kind": "integer",
+          "value": -4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x - 5 = -29",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x - 5 + 5 = -29 + 5",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = -24",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{-24}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x + 6 = 18\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x + 6 = 18",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x + 6 - 6 = 18 - 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = 12",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{12}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 2",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(7x + 3 = 10\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x + 3 = 10",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "7x + 3 - 3 = 10 - 3",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "7x = 7",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{7}{7}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(3x + 6 = 18\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x + 6 = 18",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "3x + 6 - 6 = 18 - 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "3x = 12",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{12}{3}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x + 1 = -17\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-3",
+        "value": {
+          "kind": "integer",
+          "value": -3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x + 1 = -17",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x + 1 - 1 = -17 - 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = -18",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{-18}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -3",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x + 4 = -59\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-7",
+        "value": {
+          "kind": "integer",
+          "value": -7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x + 4 = -59",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x + 4 - 4 = -59 - 4",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = -63",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{-63}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -7",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x + 1 = 41\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x + 1 = 41",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x + 1 - 1 = 41 - 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = 40",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{40}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x + 1 = -19\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x + 1 = -19",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x + 1 - 1 = -19 - 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = -20",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-20}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(2x - 3 = 3\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "3",
+        "value": {
+          "kind": "integer",
+          "value": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x - 3 = 3",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "2x - 3 + 3 = 3 + 3",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "2x = 6",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{6}{2}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 3",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x - 3 = -75\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-8",
+        "value": {
+          "kind": "integer",
+          "value": -8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x - 3 = -75",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x - 3 + 3 = -75 + 3",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = -72",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{-72}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -8",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x - 4 = -8\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x - 4 = -8",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x - 4 + 4 = -8 + 4",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = -4",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-4}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(3x - 6 = 12\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x - 6 = 12",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "3x - 6 + 6 = 12 + 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "3x = 18",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{18}{3}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(3x - 3 = -21\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x - 3 = -21",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "3x - 3 + 3 = -21 + 3",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "3x = -18",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{-18}{3}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x + 8 = -24\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-4",
+        "value": {
+          "kind": "integer",
+          "value": -4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x + 8 = -24",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x + 8 - 8 = -24 - 8",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = -32",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{-32}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x - 7 = 33\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x - 7 = 33",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x - 7 + 7 = 33 + 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = 40",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{40}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x + 6 = -30\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x + 6 = -30",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x + 6 - 6 = -30 - 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = -36",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{-36}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x - 7 = -1\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x - 7 = -1",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x - 7 + 7 = -1 + 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = 6",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{6}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(5x + 1 = 21\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x + 1 = 21",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "5x + 1 - 1 = 21 - 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "5x = 20",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{20}{5}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x - 7 = -79\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-8",
+        "value": {
+          "kind": "integer",
+          "value": -8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x - 7 = -79",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x - 7 + 7 = -79 + 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = -72",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{-72}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -8",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x - 1 = -10\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x - 1 = -10",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x - 1 + 1 = -10 + 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = -9",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{-9}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x + 6 = 14\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x + 6 = 14",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x + 6 - 6 = 14 - 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = 8",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{8}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x - 6 = 18\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x - 6 = 18",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x - 6 + 6 = 18 + 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = 24",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{24}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(2x + 7 = 23\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "8",
+        "value": {
+          "kind": "integer",
+          "value": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x + 7 = 23",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "2x + 7 - 7 = 23 - 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "2x = 16",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{16}{2}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 8",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x - 8 = -28\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x - 8 = -28",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x - 8 + 8 = -28 + 8",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = -20",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-20}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x - 8 = 55\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x - 8 = 55",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x - 8 + 8 = 55 + 8",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = 63",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{63}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 7",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x - 7 = -71\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-8",
+        "value": {
+          "kind": "integer",
+          "value": -8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x - 7 = -71",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x - 7 + 7 = -71 + 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = -64",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{-64}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -8",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(5x - 2 = 33\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x - 2 = 33",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "5x - 2 + 2 = 33 + 2",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "5x = 35",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{35}{5}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 7",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(7x - 1 = -22\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-3",
+        "value": {
+          "kind": "integer",
+          "value": -3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x - 1 = -22",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "7x - 1 + 1 = -22 + 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "7x = -21",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{-21}{7}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -3",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x + 2 = 20\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x + 2 = 20",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x + 2 - 2 = 20 - 2",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = 18",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{18}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 2",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(7x + 7 = 35\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x + 7 = 35",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "7x + 7 - 7 = 35 - 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "7x = 28",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{28}{7}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x + 4 = 22\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x + 4 = 22",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x + 4 - 4 = 22 - 4",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = 18",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{18}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 2",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x + 6 = 18\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "3",
+        "value": {
+          "kind": "integer",
+          "value": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x + 6 = 18",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x + 6 - 6 = 18 - 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = 12",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{12}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 3",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x - 4 = 20\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x - 4 = 20",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x - 4 + 4 = 20 + 4",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = 24",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{24}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(7x - 5 = 30\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x - 5 = 30",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "7x - 5 + 5 = 30 + 5",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "7x = 35",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{35}{7}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x - 3 = 45\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "8",
+        "value": {
+          "kind": "integer",
+          "value": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x - 3 = 45",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x - 3 + 3 = 45 + 3",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = 48",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{48}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 8",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(2x + 2 = 8\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "3",
+        "value": {
+          "kind": "integer",
+          "value": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x + 2 = 8",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "2x + 2 - 2 = 8 - 2",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "2x = 6",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{6}{2}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 3",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(7x - 1 = 13\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x - 1 = 13",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "7x - 1 + 1 = 13 + 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "7x = 14",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{14}{7}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 2",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(5x + 5 = -20\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x + 5 = -20",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "5x + 5 - 5 = -20 - 5",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "5x = -25",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{-25}{5}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(5x - 2 = -32\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x - 2 = -32",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "5x - 2 + 2 = -32 + 2",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "5x = -30",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{-30}{5}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x + 1 = -23\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x + 1 = -23",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x + 1 - 1 = -23 - 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = -24",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-24}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "Solve for x: \\(10x - 4 = -94\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-9",
+        "value": {
+          "kind": "integer",
+          "value": -9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x - 4 = -94",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "10x - 4 + 4 = -94 + 4",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "10x = -90",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{-90}{10}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -9",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(3x - 14 = -11\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x - 14 = -11",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "3x - 14 + 14 = -11 + 14",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "3x = 3",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{3}{3}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x + 1 = 81\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x + 1 = 81",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x + 1 - 1 = 81 - 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = 80",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{80}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 10",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(5x + 1 = 6\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x + 1 = 6",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "5x + 1 - 1 = 6 - 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "5x = 5",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{5}{5}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(12x - 15 = -147\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-11",
+        "value": {
+          "kind": "integer",
+          "value": -11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12x - 15 = -147",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "12x - 15 + 15 = -147 + 15",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "12x = -132",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{12x}{12} = \\frac{-132}{12}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -11",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(11x + 10 = -133\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-13",
+        "value": {
+          "kind": "integer",
+          "value": -13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x + 10 = -133",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "11x + 10 - 10 = -133 - 10",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "11x = -143",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{-143}{11}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -13",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(11x - 8 = 113\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "11",
+        "value": {
+          "kind": "integer",
+          "value": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x - 8 = 113",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "11x - 8 + 8 = 113 + 8",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "11x = 121",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{121}{11}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 11",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(5x - 2 = -22\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-4",
+        "value": {
+          "kind": "integer",
+          "value": -4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x - 2 = -22",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "5x - 2 + 2 = -22 + 2",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "5x = -20",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{-20}{5}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x - 14 = -62\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x - 14 = -62",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x - 14 + 14 = -62 + 14",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = -48",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{-48}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x + 2 = -79\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-9",
+        "value": {
+          "kind": "integer",
+          "value": -9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x + 2 = -79",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x + 2 - 2 = -79 - 2",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = -81",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{-81}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -9",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x + 10 = 100\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x + 10 = 100",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x + 10 - 10 = 100 - 10",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = 90",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{90}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 10",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(12x + 11 = -109\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-10",
+        "value": {
+          "kind": "integer",
+          "value": -10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12x + 11 = -109",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "12x + 11 - 11 = -109 - 11",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "12x = -120",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{12x}{12} = \\frac{-120}{12}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -10",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x - 10 = -82\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-9",
+        "value": {
+          "kind": "integer",
+          "value": -9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x - 10 = -82",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x - 10 + 10 = -82 + 10",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = -72",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{-72}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -9",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x + 4 = 12\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x + 4 = 12",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x + 4 - 4 = 12 - 4",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = 8",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{8}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x + 9 = -45\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x + 9 = -45",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x + 9 - 9 = -45 - 9",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = -54",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{-54}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(12x + 10 = 70\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12x + 10 = 70",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "12x + 10 - 10 = 70 - 10",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "12x = 60",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{12x}{12} = \\frac{60}{12}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(3x - 6 = 12\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x - 6 = 12",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "3x - 6 + 6 = 12 + 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "3x = 18",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{18}{3}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(2x + 9 = 29\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x + 9 = 29",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "2x + 9 - 9 = 29 - 9",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "2x = 20",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{20}{2}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 10",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(12x + 11 = -157\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-14",
+        "value": {
+          "kind": "integer",
+          "value": -14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12x + 11 = -157",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "12x + 11 - 11 = -157 - 11",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "12x = -168",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{12x}{12} = \\frac{-168}{12}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -14",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(10x + 6 = -144\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-15",
+        "value": {
+          "kind": "integer",
+          "value": -15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x + 6 = -144",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "10x + 6 - 6 = -144 - 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "10x = -150",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{-150}{10}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -15",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x - 15 = -27\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-3",
+        "value": {
+          "kind": "integer",
+          "value": -3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x - 15 = -27",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x - 15 + 15 = -27 + 15",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = -12",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-12}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -3",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x - 9 = -61\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-13",
+        "value": {
+          "kind": "integer",
+          "value": -13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x - 9 = -61",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x - 9 + 9 = -61 + 9",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = -52",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-52}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -13",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(12x - 14 = 94\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "9",
+        "value": {
+          "kind": "integer",
+          "value": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12x - 14 = 94",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "12x - 14 + 14 = 94 + 14",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "12x = 108",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{12x}{12} = \\frac{108}{12}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 9",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(10x - 3 = 37\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x - 3 = 37",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "10x - 3 + 3 = 37 + 3",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "10x = 40",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{40}{10}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x - 8 = 24\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x - 8 = 24",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x - 8 + 8 = 24 + 8",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = 32",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{32}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(7x - 3 = -31\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-4",
+        "value": {
+          "kind": "integer",
+          "value": -4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x - 3 = -31",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "7x - 3 + 3 = -31 + 3",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "7x = -28",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{-28}{7}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x - 13 = 51\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "8",
+        "value": {
+          "kind": "integer",
+          "value": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x - 13 = 51",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x - 13 + 13 = 51 + 13",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = 64",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{64}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 8",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(11x - 14 = 8\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x - 14 = 8",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "11x - 14 + 14 = 8 + 14",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "11x = 22",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{22}{11}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 2",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x - 6 = 72\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "13",
+        "value": {
+          "kind": "integer",
+          "value": 13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x - 6 = 72",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x - 6 + 6 = 72 + 6",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = 78",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{78}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 13",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x - 14 = -22\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-2",
+        "value": {
+          "kind": "integer",
+          "value": -2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x - 14 = -22",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x - 14 + 14 = -22 + 14",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = -8",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-8}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -2",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x - 14 = -50\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x - 14 = -50",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x - 14 + 14 = -50 + 14",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = -36",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{-36}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(7x - 2 = 61\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "9",
+        "value": {
+          "kind": "integer",
+          "value": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x - 2 = 61",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "7x - 2 + 2 = 61 + 2",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "7x = 63",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{63}{7}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 9",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x - 11 = -29\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-3",
+        "value": {
+          "kind": "integer",
+          "value": -3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x - 11 = -29",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x - 11 + 11 = -29 + 11",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = -18",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{-18}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -3",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(11x - 15 = -125\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-10",
+        "value": {
+          "kind": "integer",
+          "value": -10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x - 15 = -125",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "11x - 15 + 15 = -125 + 15",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "11x = -110",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{-110}{11}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -10",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(10x + 7 = -3\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x + 7 = -3",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "10x + 7 - 7 = -3 - 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "10x = -10",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{-10}{10}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(8x + 1 = 81\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x + 1 = 81",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "8x + 1 - 1 = 81 - 1",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "8x = 80",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{80}{8}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 10",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(4x - 14 = -54\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-10",
+        "value": {
+          "kind": "integer",
+          "value": -10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x - 14 = -54",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "4x - 14 + 14 = -54 + 14",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "4x = -40",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-40}{4}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -10",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(10x - 3 = 67\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x - 3 = 67",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "10x - 3 + 3 = 67 + 3",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "10x = 70",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{70}{10}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 7",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(7x - 10 = -31\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-3",
+        "value": {
+          "kind": "integer",
+          "value": -3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x - 10 = -31",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "7x - 10 + 10 = -31 + 10",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "7x = -21",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{-21}{7}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -3",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(11x - 4 = 40\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x - 4 = 40",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "11x - 4 + 4 = 40 + 4",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "11x = 44",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{44}{11}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 4",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(2x + 11 = 1\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x + 11 = 1",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "2x + 11 - 11 = 1 - 11",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "2x = -10",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{-10}{2}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(11x + 9 = 97\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "8",
+        "value": {
+          "kind": "integer",
+          "value": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x + 9 = 97",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "11x + 9 - 9 = 97 - 9",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "11x = 88",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{88}{11}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 8",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(10x + 2 = -8\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x + 2 = -8",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "10x + 2 - 2 = -8 - 2",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "10x = -10",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{-10}{10}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -1",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(9x - 5 = 40\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x - 5 = 40",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "9x - 5 + 5 = 40 + 5",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "9x = 45",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{45}{9}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 5",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(5x + 14 = 29\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "3",
+        "value": {
+          "kind": "integer",
+          "value": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x + 14 = 29",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "5x + 14 - 14 = 29 - 14",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "5x = 15",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{15}{5}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 3",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(11x + 2 = 145\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "13",
+        "value": {
+          "kind": "integer",
+          "value": 13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x + 2 = 145",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "11x + 2 - 2 = 145 - 2",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "11x = 143",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{143}{11}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 13",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(6x + 3 = -33\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x + 3 = -33",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "6x + 3 - 3 = -33 - 3",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "6x = -36",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{-36}{6}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = -6",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(10x - 9 = 141\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "15",
+        "value": {
+          "kind": "integer",
+          "value": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x - 9 = 141",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "10x - 9 + 9 = 141 + 9",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "10x = 150",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{150}{10}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 15",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(11x + 5 = 93\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "8",
+        "value": {
+          "kind": "integer",
+          "value": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x + 5 = 93",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "11x + 5 - 5 = 93 - 5",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "11x = 88",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{88}{11}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 8",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "Solve for x: \\(12x - 7 = 125\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "11",
+        "value": {
+          "kind": "integer",
+          "value": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12x - 7 = 125",
+            "caption": "start with the equation; we want x alone"
+          },
+          {
+            "math": "12x - 7 + 7 = 125 + 7",
+            "caption": "first peel off the constant — undo the addition"
+          },
+          {
+            "math": "12x = 132",
+            "caption": "simplify both sides"
+          },
+          {
+            "math": "\\frac{12x}{12} = \\frac{132}{12}",
+            "caption": "now divide both sides by the coefficient"
+          },
+          {
+            "math": "x = 11",
+            "caption": "x is isolated"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we use the OPPOSITE operation to isolate x?",
+          "options": [
+            {
+              "label": "inverse operations undo each other so x is left alone",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the numbers smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because both sides must stay equal",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra",
+        "#linear-equations"
+      ],
+      "source": "generator"
+    }
+  ]
+}

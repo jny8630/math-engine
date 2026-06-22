@@ -1,0 +1,5010 @@
+{
+  "templateId": "decimal-add",
+  "tags": [
+    "#decimals"
+  ],
+  "tidyMode": [
+    {
+      "text": "What is \\(1.06 + 5.48\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.54",
+        "value": {
+          "kind": "decimal",
+          "value": 6.540000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 1.06 \\\\ + 5.48 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "1.06 + 5.48 = 6.54",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.84 + 8.48\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "17.32",
+        "value": {
+          "kind": "decimal",
+          "value": 17.32
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.84 \\\\ + 8.48 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "8.84 + 8.48 = 17.32",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.64 + 2.29\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.93",
+        "value": {
+          "kind": "decimal",
+          "value": 6.93
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.64 \\\\ + 2.29 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.64 + 2.29 = 6.93",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.47 + 8.70\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "17.17",
+        "value": {
+          "kind": "decimal",
+          "value": 17.17
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.47 \\\\ + 8.70 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "8.47 + 8.70 = 17.17",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.96 + 6.48\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "15.44",
+        "value": {
+          "kind": "decimal",
+          "value": 15.440000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.96 \\\\ + 6.48 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "8.96 + 6.48 = 15.44",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.63 + 4.84\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.47",
+        "value": {
+          "kind": "decimal",
+          "value": 7.47
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.63 \\\\ + 4.84 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.63 + 4.84 = 7.47",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.28 + 2.18\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "3.46",
+        "value": {
+          "kind": "decimal",
+          "value": 3.46
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 1.28 \\\\ + 2.18 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "1.28 + 2.18 = 3.46",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.52 + 5.09\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.61",
+        "value": {
+          "kind": "decimal",
+          "value": 12.61
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.52 \\\\ + 5.09 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.52 + 5.09 = 12.61",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.08 + 8.62\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "13.70",
+        "value": {
+          "kind": "decimal",
+          "value": 13.7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.08 \\\\ + 8.62 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.08 + 8.62 = 13.70",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.38 + 4.45\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "8.83",
+        "value": {
+          "kind": "decimal",
+          "value": 8.83
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.38 \\\\ + 4.45 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.38 + 4.45 = 8.83",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.75 + 8.97\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.72",
+        "value": {
+          "kind": "decimal",
+          "value": 12.72
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.75 \\\\ + 8.97 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.75 + 8.97 = 12.72",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.57 + 7.27\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.84",
+        "value": {
+          "kind": "decimal",
+          "value": 11.84
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.57 \\\\ + 7.27 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.57 + 7.27 = 11.84",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.78 + 5.87\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "13.65",
+        "value": {
+          "kind": "decimal",
+          "value": 13.65
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.78 \\\\ + 5.87 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.78 + 5.87 = 13.65",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.87 + 7.20\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.07",
+        "value": {
+          "kind": "decimal",
+          "value": 12.07
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.87 \\\\ + 7.20 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.87 + 7.20 = 12.07",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.26 + 1.35\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "10.61",
+        "value": {
+          "kind": "decimal",
+          "value": 10.61
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.26 \\\\ + 1.35 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "9.26 + 1.35 = 10.61",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.02 + 9.39\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "17.41",
+        "value": {
+          "kind": "decimal",
+          "value": 17.41
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.02 \\\\ + 9.39 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "8.02 + 9.39 = 17.41",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.29 + 9.32\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "18.61",
+        "value": {
+          "kind": "decimal",
+          "value": 18.61
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.29 \\\\ + 9.32 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "9.29 + 9.32 = 18.61",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.85 + 2.89\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.74",
+        "value": {
+          "kind": "decimal",
+          "value": 12.74
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.85 \\\\ + 2.89 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "9.85 + 2.89 = 12.74",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.90 + 3.94\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.84",
+        "value": {
+          "kind": "decimal",
+          "value": 5.84
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 1.90 \\\\ + 3.94 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "1.90 + 3.94 = 5.84",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.37 + 5.62\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.99",
+        "value": {
+          "kind": "decimal",
+          "value": 11.99
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.37 \\\\ + 5.62 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "6.37 + 5.62 = 11.99",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.16 + 5.30\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.46",
+        "value": {
+          "kind": "decimal",
+          "value": 6.46
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 1.16 \\\\ + 5.30 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "1.16 + 5.30 = 6.46",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.78 + 9.86\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.64",
+        "value": {
+          "kind": "decimal",
+          "value": 12.639999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.78 \\\\ + 9.86 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.78 + 9.86 = 12.64",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.92 + 9.19\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "13.11",
+        "value": {
+          "kind": "decimal",
+          "value": 13.11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.92 \\\\ + 9.19 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.92 + 9.19 = 13.11",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.55 + 2.89\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.44",
+        "value": {
+          "kind": "decimal",
+          "value": 11.440000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.55 \\\\ + 2.89 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "8.55 + 2.89 = 11.44",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.47 + 7.71\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.18",
+        "value": {
+          "kind": "decimal",
+          "value": 12.18
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.47 \\\\ + 7.71 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.47 + 7.71 = 12.18",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.63 + 9.63\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "15.26",
+        "value": {
+          "kind": "decimal",
+          "value": 15.260000000000002
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.63 \\\\ + 9.63 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.63 + 9.63 = 15.26",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.93 + 2.99\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.92",
+        "value": {
+          "kind": "decimal",
+          "value": 12.92
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.93 \\\\ + 2.99 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "9.93 + 2.99 = 12.92",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.87 + 3.36\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "9.23",
+        "value": {
+          "kind": "decimal",
+          "value": 9.23
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.87 \\\\ + 3.36 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.87 + 3.36 = 9.23",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.55 + 3.47\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.02",
+        "value": {
+          "kind": "decimal",
+          "value": 12.020000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.55 \\\\ + 3.47 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "8.55 + 3.47 = 12.02",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.33 + 9.09\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "17.42",
+        "value": {
+          "kind": "decimal",
+          "value": 17.42
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.33 \\\\ + 9.09 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "8.33 + 9.09 = 17.42",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.78 + 9.30\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "18.08",
+        "value": {
+          "kind": "decimal",
+          "value": 18.08
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.78 \\\\ + 9.30 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "8.78 + 9.30 = 18.08",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.27 + 5.66\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "9.93",
+        "value": {
+          "kind": "decimal",
+          "value": 9.93
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.27 \\\\ + 5.66 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.27 + 5.66 = 9.93",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.41 + 8.62\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "18.03",
+        "value": {
+          "kind": "decimal",
+          "value": 18.03
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.41 \\\\ + 8.62 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "9.41 + 8.62 = 18.03",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.00 + 2.50\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.50",
+        "value": {
+          "kind": "decimal",
+          "value": 5.5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.00 \\\\ + 2.50 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.00 + 2.50 = 5.50",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.66 + 9.01\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "15.67",
+        "value": {
+          "kind": "decimal",
+          "value": 15.67
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.66 \\\\ + 9.01 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "6.66 + 9.01 = 15.67",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.56 + 9.50\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "15.06",
+        "value": {
+          "kind": "decimal",
+          "value": 15.059999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.56 \\\\ + 9.50 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.56 + 9.50 = 15.06",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.25 + 8.62\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "15.87",
+        "value": {
+          "kind": "decimal",
+          "value": 15.87
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.25 \\\\ + 8.62 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.25 + 8.62 = 15.87",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.81 + 9.39\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.20",
+        "value": {
+          "kind": "decimal",
+          "value": 12.200000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.81 \\\\ + 9.39 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.81 + 9.39 = 12.20",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.61 + 4.55\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "10.16",
+        "value": {
+          "kind": "decimal",
+          "value": 10.16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.61 \\\\ + 4.55 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.61 + 4.55 = 10.16",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.41 + 3.17\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.58",
+        "value": {
+          "kind": "decimal",
+          "value": 11.58
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.41 \\\\ + 3.17 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "8.41 + 3.17 = 11.58",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.87 + 5.77\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "13.64",
+        "value": {
+          "kind": "decimal",
+          "value": 13.64
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.87 \\\\ + 5.77 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.87 + 5.77 = 13.64",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.14 + 1.89\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "9.03",
+        "value": {
+          "kind": "decimal",
+          "value": 9.03
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.14 \\\\ + 1.89 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.14 + 1.89 = 9.03",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.59 + 1.80\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.39",
+        "value": {
+          "kind": "decimal",
+          "value": 5.39
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.59 \\\\ + 1.80 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.59 + 1.80 = 5.39",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.47 + 8.02\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.49",
+        "value": {
+          "kind": "decimal",
+          "value": 11.49
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.47 \\\\ + 8.02 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.47 + 8.02 = 11.49",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.30 + 5.84\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "9.14",
+        "value": {
+          "kind": "decimal",
+          "value": 9.14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.30 \\\\ + 5.84 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.30 + 5.84 = 9.14",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.90 + 2.93\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "9.83",
+        "value": {
+          "kind": "decimal",
+          "value": 9.83
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.90 \\\\ + 2.93 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "6.90 + 2.93 = 9.83",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.01 + 3.82\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "9.83",
+        "value": {
+          "kind": "decimal",
+          "value": 9.83
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.01 \\\\ + 3.82 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "6.01 + 3.82 = 9.83",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.47 + 5.66\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "8.13",
+        "value": {
+          "kind": "decimal",
+          "value": 8.13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.47 \\\\ + 5.66 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.47 + 5.66 = 8.13",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.19 + 1.75\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "3.94",
+        "value": {
+          "kind": "decimal",
+          "value": 3.94
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.19 \\\\ + 1.75 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.19 + 1.75 = 3.94",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.81 + 7.49\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "13.30",
+        "value": {
+          "kind": "decimal",
+          "value": 13.3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.81 \\\\ + 7.49 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.81 + 7.49 = 13.30",
+            "caption": "add column by column, carry as needed"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "What is \\(3.97 + 9.32\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "13.290",
+        "value": {
+          "kind": "decimal",
+          "value": 13.290000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.97 \\\\ + 9.32 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.97 + 9.32 = 13.29",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "13.29 \\approx 13.290",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.49 + 1.26\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.75",
+        "value": {
+          "kind": "decimal",
+          "value": 6.75
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.49 \\\\ + 1.26 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.49 + 1.26 = 6.75",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "6.75 \\approx 6.75",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.32 + 5.01\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "14.330",
+        "value": {
+          "kind": "decimal",
+          "value": 14.33
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.32 \\\\ + 5.01 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "9.32 + 5.01 = 14.33",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "14.33 \\approx 14.330",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.68 + 5.11\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.79",
+        "value": {
+          "kind": "decimal",
+          "value": 12.79
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.68 \\\\ + 5.11 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.68 + 5.11 = 12.79",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "12.79 \\approx 12.79",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.03 + 5.45\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "12.480",
+        "value": {
+          "kind": "decimal",
+          "value": 12.48
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.03 \\\\ + 5.45 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.03 + 5.45 = 12.48",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "12.48 \\approx 12.480",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.64 + 2.52\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.16",
+        "value": {
+          "kind": "decimal",
+          "value": 5.16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.64 \\\\ + 2.52 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.64 + 2.52 = 5.16",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "5.16 \\approx 5.16",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.51 + 8.90\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "16.410",
+        "value": {
+          "kind": "decimal",
+          "value": 16.41
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.51 \\\\ + 8.90 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.51 + 8.90 = 16.41",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "16.41 \\approx 16.410",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.56 + 2.61\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "10.170",
+        "value": {
+          "kind": "decimal",
+          "value": 10.17
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.56 \\\\ + 2.61 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.56 + 2.61 = 10.17",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "10.17 \\approx 10.170",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.04 + 9.97\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "15.01",
+        "value": {
+          "kind": "decimal",
+          "value": 15.010000000000002
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.04 \\\\ + 9.97 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.04 + 9.97 = 15.01",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "15.01 \\approx 15.01",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.09 + 8.40\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "10.49",
+        "value": {
+          "kind": "decimal",
+          "value": 10.49
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.09 \\\\ + 8.40 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.09 + 8.40 = 10.49",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "10.49 \\approx 10.49",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.92 + 7.92\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.84",
+        "value": {
+          "kind": "decimal",
+          "value": 12.84
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.92 \\\\ + 7.92 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.92 + 7.92 = 12.84",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "12.84 \\approx 12.84",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.64 + 6.75\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "10.390",
+        "value": {
+          "kind": "decimal",
+          "value": 10.39
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.64 \\\\ + 6.75 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.64 + 6.75 = 10.39",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "10.39 \\approx 10.390",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.01 + 2.30\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "3.31",
+        "value": {
+          "kind": "decimal",
+          "value": 3.3099999999999996
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 1.01 \\\\ + 2.30 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "1.01 + 2.30 = 3.31",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "3.31 \\approx 3.31",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.00 + 1.51\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "7.510",
+        "value": {
+          "kind": "decimal",
+          "value": 7.51
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.00 \\\\ + 1.51 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "6.00 + 1.51 = 7.51",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "7.51 \\approx 7.510",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.20 + 9.00\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "16.20",
+        "value": {
+          "kind": "decimal",
+          "value": 16.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.20 \\\\ + 9.00 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.20 + 9.00 = 16.20",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "16.20 \\approx 16.20",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.36 + 5.32\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "7.680",
+        "value": {
+          "kind": "decimal",
+          "value": 7.68
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.36 \\\\ + 5.32 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.36 + 5.32 = 7.68",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "7.68 \\approx 7.680",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.75 + 5.03\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "9.78",
+        "value": {
+          "kind": "decimal",
+          "value": 9.780000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.75 \\\\ + 5.03 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.75 + 5.03 = 9.78",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "9.78 \\approx 9.78",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.19 + 6.12\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "15.310",
+        "value": {
+          "kind": "decimal",
+          "value": 15.309999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.19 \\\\ + 6.12 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "9.19 + 6.12 = 15.31",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "15.31 \\approx 15.310",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.32 + 9.12\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "11.440",
+        "value": {
+          "kind": "decimal",
+          "value": 11.44
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.32 \\\\ + 9.12 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.32 + 9.12 = 11.44",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "11.44 \\approx 11.440",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.70 + 3.17\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "7.870",
+        "value": {
+          "kind": "decimal",
+          "value": 7.87
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.70 \\\\ + 3.17 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.70 + 3.17 = 7.87",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "7.87 \\approx 7.870",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.87 + 5.19\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "12.060",
+        "value": {
+          "kind": "decimal",
+          "value": 12.06
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.87 \\\\ + 5.19 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "6.87 + 5.19 = 12.06",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "12.06 \\approx 12.060",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.16 + 4.36\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "6.520",
+        "value": {
+          "kind": "decimal",
+          "value": 6.5200000000000005
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.16 \\\\ + 4.36 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.16 + 4.36 = 6.52",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "6.52 \\approx 6.520",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.19 + 8.08\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "13.270",
+        "value": {
+          "kind": "decimal",
+          "value": 13.27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.19 \\\\ + 8.08 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.19 + 8.08 = 13.27",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "13.27 \\approx 13.270",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.19 + 9.17\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "15.360",
+        "value": {
+          "kind": "decimal",
+          "value": 15.36
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.19 \\\\ + 9.17 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "6.19 + 9.17 = 15.36",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "15.36 \\approx 15.360",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.51 + 3.53\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "9.04",
+        "value": {
+          "kind": "decimal",
+          "value": 9.04
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.51 \\\\ + 3.53 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.51 + 3.53 = 9.04",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "9.04 \\approx 9.04",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.87 + 5.24\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "8.11",
+        "value": {
+          "kind": "decimal",
+          "value": 8.11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.87 \\\\ + 5.24 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.87 + 5.24 = 8.11",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "8.11 \\approx 8.11",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.40 + 3.04\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "6.440",
+        "value": {
+          "kind": "decimal",
+          "value": 6.4399999999999995
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.40 \\\\ + 3.04 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.40 + 3.04 = 6.44",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "6.44 \\approx 6.440",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.50 + 7.53\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "10.030",
+        "value": {
+          "kind": "decimal",
+          "value": 10.030000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.50 \\\\ + 7.53 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.50 + 7.53 = 10.03",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "10.03 \\approx 10.030",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.17 + 2.59\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.76",
+        "value": {
+          "kind": "decimal",
+          "value": 6.76
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.17 \\\\ + 2.59 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.17 + 2.59 = 6.76",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "6.76 \\approx 6.76",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.19 + 4.95\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "13.14",
+        "value": {
+          "kind": "decimal",
+          "value": 13.14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.19 \\\\ + 4.95 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "8.19 + 4.95 = 13.14",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "13.14 \\approx 13.14",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.90 + 5.99\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "9.890",
+        "value": {
+          "kind": "decimal",
+          "value": 9.89
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.90 \\\\ + 5.99 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.90 + 5.99 = 9.89",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "9.89 \\approx 9.890",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.15 + 6.35\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "13.50",
+        "value": {
+          "kind": "decimal",
+          "value": 13.5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.15 \\\\ + 6.35 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.15 + 6.35 = 13.50",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "13.50 \\approx 13.50",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.14 + 2.10\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "3.240",
+        "value": {
+          "kind": "decimal",
+          "value": 3.24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 1.14 \\\\ + 2.10 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "1.14 + 2.10 = 3.24",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "3.24 \\approx 3.240",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.73 + 5.28\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.01",
+        "value": {
+          "kind": "decimal",
+          "value": 7.01
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 1.73 \\\\ + 5.28 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "1.73 + 5.28 = 7.01",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "7.01 \\approx 7.01",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.08 + 9.18\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "14.260",
+        "value": {
+          "kind": "decimal",
+          "value": 14.26
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.08 \\\\ + 9.18 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.08 + 9.18 = 14.26",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "14.26 \\approx 14.260",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.52 + 2.55\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.07",
+        "value": {
+          "kind": "decimal",
+          "value": 6.07
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.52 \\\\ + 2.55 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.52 + 2.55 = 6.07",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "6.07 \\approx 6.07",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.24 + 7.30\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.54",
+        "value": {
+          "kind": "decimal",
+          "value": 11.54
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.24 \\\\ + 7.30 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.24 + 7.30 = 11.54",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "11.54 \\approx 11.54",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.96 + 4.28\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "10.240",
+        "value": {
+          "kind": "decimal",
+          "value": 10.24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.96 \\\\ + 4.28 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "5.96 + 4.28 = 10.24",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "10.24 \\approx 10.240",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.35 + 3.85\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "13.20",
+        "value": {
+          "kind": "decimal",
+          "value": 13.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.35 \\\\ + 3.85 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "9.35 + 3.85 = 13.20",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "13.20 \\approx 13.20",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.12 + 5.89\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.01",
+        "value": {
+          "kind": "decimal",
+          "value": 7.01
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 1.12 \\\\ + 5.89 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "1.12 + 5.89 = 7.01",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "7.01 \\approx 7.01",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.82 + 6.65\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "14.47",
+        "value": {
+          "kind": "decimal",
+          "value": 14.47
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.82 \\\\ + 6.65 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.82 + 6.65 = 14.47",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "14.47 \\approx 14.47",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.70 + 2.22\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.92",
+        "value": {
+          "kind": "decimal",
+          "value": 5.92
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 3.70 \\\\ + 2.22 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "3.70 + 2.22 = 5.92",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "5.92 \\approx 5.92",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.39 + 8.51\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "9.900",
+        "value": {
+          "kind": "decimal",
+          "value": 9.9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 1.39 \\\\ + 8.51 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "1.39 + 8.51 = 9.90",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "9.90 \\approx 9.900",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.65 + 4.11\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "10.76",
+        "value": {
+          "kind": "decimal",
+          "value": 10.760000000000002
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.65 \\\\ + 4.11 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "6.65 + 4.11 = 10.76",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "10.76 \\approx 10.76",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.47 + 2.02\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.49",
+        "value": {
+          "kind": "decimal",
+          "value": 6.49
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.47 \\\\ + 2.02 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.47 + 2.02 = 6.49",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "6.49 \\approx 6.49",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.89 + 9.20\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "17.09",
+        "value": {
+          "kind": "decimal",
+          "value": 17.09
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.89 \\\\ + 9.20 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.89 + 9.20 = 17.09",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "17.09 \\approx 17.09",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.75 + 2.25\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.00",
+        "value": {
+          "kind": "decimal",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 4.75 \\\\ + 2.25 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "4.75 + 2.25 = 7.00",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "7.00 \\approx 7.00",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.19 + 2.42\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.61",
+        "value": {
+          "kind": "decimal",
+          "value": 4.609999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.19 \\\\ + 2.42 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.19 + 2.42 = 4.61",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "4.61 \\approx 4.61",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.35 + 7.73\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "10.08",
+        "value": {
+          "kind": "decimal",
+          "value": 10.08
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 2.35 \\\\ + 7.73 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "2.35 + 7.73 = 10.08",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "10.08 \\approx 10.08",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.34 + 4.28\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.62",
+        "value": {
+          "kind": "decimal",
+          "value": 11.620000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.34 \\\\ + 4.28 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points so each digit is in its proper place"
+          },
+          {
+            "math": "7.34 + 4.28 = 11.62",
+            "caption": "add column by column, carry as needed"
+          },
+          {
+            "math": "11.62 \\approx 11.62",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    }
+  ]
+}

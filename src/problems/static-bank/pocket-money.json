@@ -1,0 +1,135 @@
+[
+  {
+    "id": "pocket-money-001",
+    "text": "Beatrix gets $5 a week in allowance plus $3 a week from one chore. She wants to save $40. How many weeks until she has enough?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "5",
+      "value": { "kind": "integer", "value": 5 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$5 + \\$3 = \\$8 \\text{ per week}", "caption": "first find her weekly income" },
+        { "math": "\\frac{\\$40}{\\$8} = 5 \\text{ weeks}", "caption": "divide target by weekly income" }
+      ],
+      "selfExplanation": {
+        "question": "What kind of math problem is this in disguise?",
+        "options": [
+          { "label": "a linear equation: 8w = 40, solve for w", "isCorrect": true },
+          { "label": "a percent problem", "isCorrect": false },
+          { "label": "a fraction problem", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#pocket-money", "#pre-algebra", "#linear-equations"],
+    "source": "static"
+  },
+  {
+    "id": "pocket-money-002",
+    "text": "Beatrix does three chores a week: dishes pays $2, laundry pays $3, and vacuuming pays $5. What is her total weekly income from chores?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$10.00",
+      "value": { "kind": "currency", "cents": 1000 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$2 + \\$3 + \\$5 = \\$10", "caption": "add up what each chore pays" }
+      ]
+    },
+    "tags": ["#word-problem", "#pocket-money"],
+    "source": "static"
+  },
+  {
+    "id": "pocket-money-003",
+    "text": "Beatrix has $20 saved and earns $8 each week. She wants to save up to $100. How many MORE weeks until she reaches her goal?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "10",
+      "value": { "kind": "integer", "value": 10 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$100 - \\$20 = \\$80", "caption": "find how much more she needs" },
+        { "math": "\\frac{\\$80}{\\$8 / \\text{week}} = 10 \\text{ weeks}", "caption": "divide the gap by her weekly income" }
+      ],
+      "selfExplanation": {
+        "question": "As an equation, what does this look like?",
+        "options": [
+          { "label": "20 + 8w = 100, solve for w", "isCorrect": true },
+          { "label": "8w = 20, solve for w", "isCorrect": false },
+          { "label": "20w = 100, solve for w", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#pocket-money", "#pre-algebra", "#linear-equations"],
+    "source": "static"
+  },
+  {
+    "id": "pocket-money-004",
+    "text": "Beatrix earns $10 a week but spends $4 a week on snacks. How much does she NET each week?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$6.00",
+      "value": { "kind": "currency", "cents": 600 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$10 - \\$4 = \\$6", "caption": "subtract spending from income to find net savings" }
+      ]
+    },
+    "tags": ["#word-problem", "#pocket-money"],
+    "source": "static"
+  },
+  {
+    "id": "pocket-money-005",
+    "text": "Beatrix has $35 and earns $8 a week. She wants $75 in 4 weeks. How many EXTRA dollars must she earn each week to hit her target?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$2.00",
+      "value": { "kind": "currency", "cents": 200 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$75 - \\$35 = \\$40", "caption": "find the savings gap" },
+        { "math": "\\frac{\\$40}{4 \\text{ weeks}} = \\$10 \\text{ per week needed}", "caption": "find the required weekly rate" },
+        { "math": "\\$10 - \\$8 = \\$2 \\text{ extra per week}", "caption": "subtract what she already earns" }
+      ],
+      "selfExplanation": {
+        "question": "This is solving 35 + (8 + x) × 4 = 75 for x. Why does the linear equation form help?",
+        "options": [
+          { "label": "naming the unknown lets you trace what each piece of the problem becomes", "isCorrect": true },
+          { "label": "equations are required for word problems", "isCorrect": false },
+          { "label": "it gives a different answer than word reasoning", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#pocket-money", "#pre-algebra", "#linear-equations"],
+    "source": "static"
+  },
+  {
+    "id": "pocket-money-006",
+    "text": "Beatrix did 5 chores this week at $2 each, plus a $3 bonus for finishing them all on time. What did she earn in total?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$13.00",
+      "value": { "kind": "currency", "cents": 1300 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "5 \\times \\$2 = \\$10", "caption": "calculate chore earnings first" },
+        { "math": "\\$10 + \\$3 = \\$13", "caption": "add the bonus" }
+      ],
+      "selfExplanation": {
+        "question": "As an equation: total = 2 × 5 + 3. What does this look like in algebra form?",
+        "options": [
+          { "label": "y = 2x + 3 — where x is chores done and y is total earnings", "isCorrect": true },
+          { "label": "y = 5x + 2", "isCorrect": false },
+          { "label": "y = 3x", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#pocket-money", "#pre-algebra", "#linear-equations"],
+    "source": "static"
+  }
+]

@@ -1,0 +1,5382 @@
+{
+  "templateId": "fraction-sub",
+  "tags": [
+    "#fractions"
+  ],
+  "tidyMode": [
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/12",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 3) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{9}{12}, \\quad \\frac{1}{3} = \\frac{4}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{9}{12} - \\frac{4}{12} = \\frac{5}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} - \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/15",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 3) = 15",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{4}{5} = \\frac{12}{15}, \\quad \\frac{2}{3} = \\frac{10}{15}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{12}{15} - \\frac{10}{15} = \\frac{2}{15}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{7}{8} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "13/24",
+        "value": {
+          "kind": "fraction",
+          "n": 13,
+          "d": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(8, 3) = 24",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{7}{8} = \\frac{21}{24}, \\quad \\frac{1}{3} = \\frac{8}{24}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{21}{24} - \\frac{8}{24} = \\frac{13}{24}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} - \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/15",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 5) = 15",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{3} = \\frac{5}{15}, \\quad \\frac{1}{5} = \\frac{3}{15}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{5}{15} - \\frac{3}{15} = \\frac{2}{15}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 2) = 6",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{3} = \\frac{4}{6}, \\quad \\frac{1}{2} = \\frac{3}{6}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{4}{6} - \\frac{3}{6} = \\frac{1}{6}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/12",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 3) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{9}{12}, \\quad \\frac{1}{3} = \\frac{4}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{9}{12} - \\frac{4}{12} = \\frac{5}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} - \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "13/30",
+        "value": {
+          "kind": "fraction",
+          "n": 13,
+          "d": 30
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 6) = 30",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{5} = \\frac{18}{30}, \\quad \\frac{1}{6} = \\frac{5}{30}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{18}{30} - \\frac{5}{30} = \\frac{13}{30}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} - \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "19/30",
+        "value": {
+          "kind": "fraction",
+          "n": 19,
+          "d": 30
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 6) = 30",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{4}{5} = \\frac{24}{30}, \\quad \\frac{1}{6} = \\frac{5}{30}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{24}{30} - \\frac{5}{30} = \\frac{19}{30}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{9}{10} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/5",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(10, 2) = 10",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{9}{10} = \\frac{9}{10}, \\quad \\frac{1}{2} = \\frac{5}{10}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{9}{10} - \\frac{5}{10} = \\frac{4}{10}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{4}{10} = \\frac{2}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} - \\frac{3}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/40",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 8) = 40",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{5} = \\frac{24}{40}, \\quad \\frac{3}{8} = \\frac{15}{40}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{24}{40} - \\frac{15}{40} = \\frac{9}{40}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "0",
+        "value": {
+          "kind": "fraction",
+          "n": 0,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 2) = 2",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{1}{2}, \\quad \\frac{1}{2} = \\frac{1}{2}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{1}{2} - \\frac{1}{2} = \\frac{0}{2}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{0}{2} = 0",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} - \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/12",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(6, 4) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{5}{6} = \\frac{10}{12}, \\quad \\frac{1}{4} = \\frac{3}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{10}{12} - \\frac{3}{12} = \\frac{7}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(6, 2) = 6",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{5}{6} = \\frac{5}{6}, \\quad \\frac{1}{2} = \\frac{3}{6}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{5}{6} - \\frac{3}{6} = \\frac{2}{6}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} - \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "11/20",
+        "value": {
+          "kind": "fraction",
+          "n": 11,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 4) = 20",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{4}{5} = \\frac{16}{20}, \\quad \\frac{1}{4} = \\frac{5}{20}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{16}{20} - \\frac{5}{20} = \\frac{11}{20}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} - \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/15",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 5) = 15",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{3} = \\frac{10}{15}, \\quad \\frac{2}{5} = \\frac{6}{15}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{10}{15} - \\frac{6}{15} = \\frac{4}{15}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} - \\frac{7}{12}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/12",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 12) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{3} = \\frac{8}{12}, \\quad \\frac{7}{12} = \\frac{7}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{8}{12} - \\frac{7}{12} = \\frac{1}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{3}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/8",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 8) = 8",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{4}{8}, \\quad \\frac{3}{8} = \\frac{3}{8}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{4}{8} - \\frac{3}{8} = \\frac{1}{8}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/12",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 3) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{9}{12}, \\quad \\frac{1}{3} = \\frac{4}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{9}{12} - \\frac{4}{12} = \\frac{5}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{11}{12} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/12",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(12, 2) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{11}{12} = \\frac{11}{12}, \\quad \\frac{1}{2} = \\frac{6}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{11}{12} - \\frac{6}{12} = \\frac{5}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 6) = 6",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{3}{6}, \\quad \\frac{1}{6} = \\frac{1}{6}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{3}{6} - \\frac{1}{6} = \\frac{2}{6}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} - \\frac{1}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "17/24",
+        "value": {
+          "kind": "fraction",
+          "n": 17,
+          "d": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(6, 8) = 24",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{5}{6} = \\frac{20}{24}, \\quad \\frac{1}{8} = \\frac{3}{24}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{20}{24} - \\frac{3}{24} = \\frac{17}{24}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/10",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 2) = 10",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{4}{5} = \\frac{8}{10}, \\quad \\frac{1}{2} = \\frac{5}{10}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{8}{10} - \\frac{5}{10} = \\frac{3}{10}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/20",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 5) = 20",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{15}{20}, \\quad \\frac{2}{5} = \\frac{8}{20}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{15}{20} - \\frac{8}{20} = \\frac{7}{20}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} - \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "13/30",
+        "value": {
+          "kind": "fraction",
+          "n": 13,
+          "d": 30
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 6) = 30",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{5} = \\frac{18}{30}, \\quad \\frac{1}{6} = \\frac{5}{30}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{18}{30} - \\frac{5}{30} = \\frac{13}{30}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/10",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 5) = 10",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{5}{10}, \\quad \\frac{2}{5} = \\frac{4}{10}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{5}{10} - \\frac{4}{10} = \\frac{1}{10}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{8} - \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/40",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(8, 5) = 40",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{5}{8} = \\frac{25}{40}, \\quad \\frac{2}{5} = \\frac{16}{40}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{25}{40} - \\frac{16}{40} = \\frac{9}{40}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{12} - \\frac{3}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/24",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(12, 8) = 24",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{5}{12} = \\frac{10}{24}, \\quad \\frac{3}{8} = \\frac{9}{24}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{10}{24} - \\frac{9}{24} = \\frac{1}{24}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} - \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(6, 3) = 6",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{5}{6} = \\frac{5}{6}, \\quad \\frac{2}{3} = \\frac{4}{6}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{5}{6} - \\frac{4}{6} = \\frac{1}{6}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "0",
+        "value": {
+          "kind": "fraction",
+          "n": 0,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 3) = 3",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{3} = \\frac{1}{3}, \\quad \\frac{1}{3} = \\frac{1}{3}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{1}{3} - \\frac{1}{3} = \\frac{0}{3}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{0}{3} = 0",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{12}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/12",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 12) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{6}{12}, \\quad \\frac{1}{12} = \\frac{1}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{6}{12} - \\frac{1}{12} = \\frac{5}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "0",
+        "value": {
+          "kind": "fraction",
+          "n": 0,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 2) = 2",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{1}{2}, \\quad \\frac{1}{2} = \\frac{1}{2}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{1}{2} - \\frac{1}{2} = \\frac{0}{2}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{0}{2} = 0",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{8} - \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/40",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(8, 5) = 40",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{8} = \\frac{15}{40}, \\quad \\frac{1}{5} = \\frac{8}{40}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{15}{40} - \\frac{8}{40} = \\frac{7}{40}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} - \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/15",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 5) = 15",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{3} = \\frac{10}{15}, \\quad \\frac{1}{5} = \\frac{3}{15}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{10}{15} - \\frac{3}{15} = \\frac{7}{15}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{10} - \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/10",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(10, 5) = 10",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{10} = \\frac{3}{10}, \\quad \\frac{1}{5} = \\frac{2}{10}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{3}{10} - \\frac{2}{10} = \\frac{1}{10}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/10",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 2) = 10",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{4}{5} = \\frac{8}{10}, \\quad \\frac{1}{2} = \\frac{5}{10}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{8}{10} - \\frac{5}{10} = \\frac{3}{10}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 2) = 6",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{3} = \\frac{4}{6}, \\quad \\frac{1}{2} = \\frac{3}{6}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{4}{6} - \\frac{3}{6} = \\frac{1}{6}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 2) = 6",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{3} = \\frac{4}{6}, \\quad \\frac{1}{2} = \\frac{3}{6}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{4}{6} - \\frac{3}{6} = \\frac{1}{6}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 3) = 6",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{3}{6}, \\quad \\frac{1}{3} = \\frac{2}{6}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{3}{6} - \\frac{2}{6} = \\frac{1}{6}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "11/20",
+        "value": {
+          "kind": "fraction",
+          "n": 11,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 5) = 20",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{15}{20}, \\quad \\frac{1}{5} = \\frac{4}{20}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{15}{20} - \\frac{4}{20} = \\frac{11}{20}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} - \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "11/20",
+        "value": {
+          "kind": "fraction",
+          "n": 11,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 4) = 20",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{4}{5} = \\frac{16}{20}, \\quad \\frac{1}{4} = \\frac{5}{20}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{16}{20} - \\frac{5}{20} = \\frac{11}{20}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 3) = 6",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{3}{6}, \\quad \\frac{1}{3} = \\frac{2}{6}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{3}{6} - \\frac{2}{6} = \\frac{1}{6}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/15",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 3) = 15",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{4}{5} = \\frac{12}{15}, \\quad \\frac{1}{3} = \\frac{5}{15}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{12}{15} - \\frac{5}{15} = \\frac{7}{15}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/12",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 3) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{9}{12}, \\quad \\frac{2}{3} = \\frac{8}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{9}{12} - \\frac{8}{12} = \\frac{1}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/12",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 3) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{9}{12}, \\quad \\frac{2}{3} = \\frac{8}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{9}{12} - \\frac{8}{12} = \\frac{1}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "0",
+        "value": {
+          "kind": "fraction",
+          "n": 0,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 2) = 2",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{1}{2}, \\quad \\frac{1}{2} = \\frac{1}{2}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{1}{2} - \\frac{1}{2} = \\frac{0}{2}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{0}{2} = 0",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{5}{12}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/12",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 12) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{6}{12}, \\quad \\frac{5}{12} = \\frac{5}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{6}{12} - \\frac{5}{12} = \\frac{1}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} - \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/12",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 4) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{3} = \\frac{8}{12}, \\quad \\frac{1}{4} = \\frac{3}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{8}{12} - \\frac{3}{12} = \\frac{5}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/4",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 4) = 4",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{2}{4}, \\quad \\frac{1}{4} = \\frac{1}{4}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{2}{4} - \\frac{1}{4} = \\frac{1}{4}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} - \\frac{1}{10}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/20",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 10) = 20",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{4} = \\frac{5}{20}, \\quad \\frac{1}{10} = \\frac{2}{20}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{5}{20} - \\frac{2}{20} = \\frac{3}{20}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} - \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/12",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 4) = 12",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{3} = \\frac{8}{12}, \\quad \\frac{1}{4} = \\frac{3}{12}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{8}{12} - \\frac{3}{12} = \\frac{5}{12}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "What is \\(\\frac{2}{5} - \\frac{2}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/35",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 7) = 35",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{5} = \\frac{14}{35}, \\quad \\frac{2}{7} = \\frac{10}{35}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{14}{35} - \\frac{10}{35} = \\frac{4}{35}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} - \\frac{5}{16}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "17/48",
+        "value": {
+          "kind": "fraction",
+          "n": 17,
+          "d": 48
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 16) = 48",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{3} = \\frac{32}{48}, \\quad \\frac{5}{16} = \\frac{15}{48}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{32}{48} - \\frac{15}{48} = \\frac{17}{48}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/20",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 5) = 20",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{15}{20}, \\quad \\frac{2}{5} = \\frac{8}{20}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{15}{20} - \\frac{8}{20} = \\frac{7}{20}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{3}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/20",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 5) = 20",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{15}{20}, \\quad \\frac{3}{5} = \\frac{12}{20}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{15}{20} - \\frac{12}{20} = \\frac{3}{20}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 6) = 6",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{3}{6}, \\quad \\frac{1}{6} = \\frac{1}{6}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{3}{6} - \\frac{1}{6} = \\frac{2}{6}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{9}{11} - \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "25/44",
+        "value": {
+          "kind": "fraction",
+          "n": 25,
+          "d": 44
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(11, 4) = 44",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{9}{11} = \\frac{36}{44}, \\quad \\frac{1}{4} = \\frac{11}{44}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{36}{44} - \\frac{11}{44} = \\frac{25}{44}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} - \\frac{1}{20}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/5",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 20) = 20",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{4} = \\frac{5}{20}, \\quad \\frac{1}{20} = \\frac{1}{20}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{5}{20} - \\frac{1}{20} = \\frac{4}{20}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{4}{20} = \\frac{1}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{5}{24}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "13/24",
+        "value": {
+          "kind": "fraction",
+          "n": 13,
+          "d": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 24) = 24",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{18}{24}, \\quad \\frac{5}{24} = \\frac{5}{24}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{18}{24} - \\frac{5}{24} = \\frac{13}{24}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "0",
+        "value": {
+          "kind": "fraction",
+          "n": 0,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 3) = 3",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{3} = \\frac{1}{3}, \\quad \\frac{1}{3} = \\frac{1}{3}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{1}{3} - \\frac{1}{3} = \\frac{0}{3}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{0}{3} = 0",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{10}{21} - \\frac{2}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "16/63",
+        "value": {
+          "kind": "fraction",
+          "n": 16,
+          "d": 63
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(21, 9) = 63",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{10}{21} = \\frac{30}{63}, \\quad \\frac{2}{9} = \\frac{14}{63}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{30}{63} - \\frac{14}{63} = \\frac{16}{63}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{7} - \\frac{2}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/7",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(7, 7) = 7",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{4}{7} = \\frac{4}{7}, \\quad \\frac{2}{7} = \\frac{2}{7}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{4}{7} - \\frac{2}{7} = \\frac{2}{7}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{2}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "19/36",
+        "value": {
+          "kind": "fraction",
+          "n": 19,
+          "d": 36
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 9) = 36",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{27}{36}, \\quad \\frac{2}{9} = \\frac{8}{36}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{27}{36} - \\frac{8}{36} = \\frac{19}{36}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{6}{7} - \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "29/42",
+        "value": {
+          "kind": "fraction",
+          "n": 29,
+          "d": 42
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(7, 6) = 42",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{6}{7} = \\frac{36}{42}, \\quad \\frac{1}{6} = \\frac{7}{42}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{36}{42} - \\frac{7}{42} = \\frac{29}{42}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{13}{14} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/7",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(14, 2) = 14",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{13}{14} = \\frac{13}{14}, \\quad \\frac{1}{2} = \\frac{7}{14}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{13}{14} - \\frac{7}{14} = \\frac{6}{14}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{6}{14} = \\frac{3}{7}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{11} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/33",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 33
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(11, 3) = 33",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{4}{11} = \\frac{12}{33}, \\quad \\frac{1}{3} = \\frac{11}{33}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{12}{33} - \\frac{11}{33} = \\frac{1}{33}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(6, 2) = 6",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{5}{6} = \\frac{5}{6}, \\quad \\frac{1}{2} = \\frac{3}{6}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{5}{6} - \\frac{3}{6} = \\frac{2}{6}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{13}{15} - \\frac{19}{24}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/40",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(15, 24) = 120",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{13}{15} = \\frac{104}{120}, \\quad \\frac{19}{24} = \\frac{95}{120}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{104}{120} - \\frac{95}{120} = \\frac{9}{120}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{9}{120} = \\frac{3}{40}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{5} - \\frac{1}{18}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "31/90",
+        "value": {
+          "kind": "fraction",
+          "n": 31,
+          "d": 90
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 18) = 90",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{5} = \\frac{36}{90}, \\quad \\frac{1}{18} = \\frac{5}{90}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{36}{90} - \\frac{5}{90} = \\frac{31}{90}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{7}{8} - \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "13/24",
+        "value": {
+          "kind": "fraction",
+          "n": 13,
+          "d": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(8, 3) = 24",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{7}{8} = \\frac{21}{24}, \\quad \\frac{1}{3} = \\frac{8}{24}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{21}{24} - \\frac{8}{24} = \\frac{13}{24}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{9}{14} - \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "10/21",
+        "value": {
+          "kind": "fraction",
+          "n": 10,
+          "d": 21
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(14, 6) = 42",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{9}{14} = \\frac{27}{42}, \\quad \\frac{1}{6} = \\frac{7}{42}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{27}{42} - \\frac{7}{42} = \\frac{20}{42}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{20}{42} = \\frac{10}{21}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{1}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "17/28",
+        "value": {
+          "kind": "fraction",
+          "n": 17,
+          "d": 28
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 7) = 28",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{21}{28}, \\quad \\frac{1}{7} = \\frac{4}{28}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{21}{28} - \\frac{4}{28} = \\frac{17}{28}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{7} - \\frac{1}{14}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/14",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(7, 14) = 14",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{5}{7} = \\frac{10}{14}, \\quad \\frac{1}{14} = \\frac{1}{14}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{10}{14} - \\frac{1}{14} = \\frac{9}{14}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{9}{10} - \\frac{5}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/15",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(10, 6) = 30",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{9}{10} = \\frac{27}{30}, \\quad \\frac{5}{6} = \\frac{25}{30}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{27}{30} - \\frac{25}{30} = \\frac{2}{30}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{2}{30} = \\frac{1}{15}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} - \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "0",
+        "value": {
+          "kind": "fraction",
+          "n": 0,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 4) = 4",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{4} = \\frac{1}{4}, \\quad \\frac{1}{4} = \\frac{1}{4}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{1}{4} - \\frac{1}{4} = \\frac{0}{4}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{0}{4} = 0",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{9} - \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/18",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 18
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(9, 6) = 18",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{9} = \\frac{4}{18}, \\quad \\frac{1}{6} = \\frac{3}{18}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{4}{18} - \\frac{3}{18} = \\frac{1}{18}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{11}{12} - \\frac{3}{11}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "85/132",
+        "value": {
+          "kind": "fraction",
+          "n": 85,
+          "d": 132
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(12, 11) = 132",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{11}{12} = \\frac{121}{132}, \\quad \\frac{3}{11} = \\frac{36}{132}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{121}{132} - \\frac{36}{132} = \\frac{85}{132}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{7}{20}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/20",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 20) = 20",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{10}{20}, \\quad \\frac{7}{20} = \\frac{7}{20}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{10}{20} - \\frac{7}{20} = \\frac{3}{20}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{14}{15} - \\frac{1}{20}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "53/60",
+        "value": {
+          "kind": "fraction",
+          "n": 53,
+          "d": 60
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(15, 20) = 60",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{14}{15} = \\frac{56}{60}, \\quad \\frac{1}{20} = \\frac{3}{60}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{56}{60} - \\frac{3}{60} = \\frac{53}{60}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{9}{16} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/16",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(16, 2) = 16",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{9}{16} = \\frac{9}{16}, \\quad \\frac{1}{2} = \\frac{8}{16}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{9}{16} - \\frac{8}{16} = \\frac{1}{16}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{7}{20} - \\frac{7}{24}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/120",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 120
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(20, 24) = 120",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{7}{20} = \\frac{42}{120}, \\quad \\frac{7}{24} = \\frac{35}{120}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{42}{120} - \\frac{35}{120} = \\frac{7}{120}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} - \\frac{2}{15}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/5",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(3, 15) = 15",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{3} = \\frac{5}{15}, \\quad \\frac{2}{15} = \\frac{2}{15}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{5}{15} - \\frac{2}{15} = \\frac{3}{15}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{3}{15} = \\frac{1}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{11}{12} - \\frac{4}{11}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "73/132",
+        "value": {
+          "kind": "fraction",
+          "n": 73,
+          "d": 132
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(12, 11) = 132",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{11}{12} = \\frac{121}{132}, \\quad \\frac{4}{11} = \\frac{48}{132}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{121}{132} - \\frac{48}{132} = \\frac{73}{132}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{6}{7} - \\frac{3}{16}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "75/112",
+        "value": {
+          "kind": "fraction",
+          "n": 75,
+          "d": 112
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(7, 16) = 112",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{6}{7} = \\frac{96}{112}, \\quad \\frac{3}{16} = \\frac{21}{112}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{96}{112} - \\frac{21}{112} = \\frac{75}{112}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} - \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "19/30",
+        "value": {
+          "kind": "fraction",
+          "n": 19,
+          "d": 30
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 6) = 30",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{4}{5} = \\frac{24}{30}, \\quad \\frac{1}{6} = \\frac{5}{30}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{24}{30} - \\frac{5}{30} = \\frac{19}{30}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{6}{13} - \\frac{1}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "35/104",
+        "value": {
+          "kind": "fraction",
+          "n": 35,
+          "d": 104
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(13, 8) = 104",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{6}{13} = \\frac{48}{104}, \\quad \\frac{1}{8} = \\frac{13}{104}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{48}{104} - \\frac{13}{104} = \\frac{35}{104}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} - \\frac{4}{15}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "29/60",
+        "value": {
+          "kind": "fraction",
+          "n": 29,
+          "d": 60
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(4, 15) = 60",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{4} = \\frac{45}{60}, \\quad \\frac{4}{15} = \\frac{16}{60}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{45}{60} - \\frac{16}{60} = \\frac{29}{60}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{10}{11} - \\frac{1}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "59/77",
+        "value": {
+          "kind": "fraction",
+          "n": 59,
+          "d": 77
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(11, 7) = 77",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{10}{11} = \\frac{70}{77}, \\quad \\frac{1}{7} = \\frac{11}{77}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{70}{77} - \\frac{11}{77} = \\frac{59}{77}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{13}{16} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/16",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(16, 2) = 16",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{13}{16} = \\frac{13}{16}, \\quad \\frac{1}{2} = \\frac{8}{16}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{13}{16} - \\frac{8}{16} = \\frac{5}{16}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{6}{7} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/14",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(7, 2) = 14",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{6}{7} = \\frac{12}{14}, \\quad \\frac{1}{2} = \\frac{7}{14}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{12}{14} - \\frac{7}{14} = \\frac{5}{14}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{13} - \\frac{1}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/104",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 104
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(13, 8) = 104",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{2}{13} = \\frac{16}{104}, \\quad \\frac{1}{8} = \\frac{13}{104}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{16}{104} - \\frac{13}{104} = \\frac{3}{104}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{8} - \\frac{1}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "37/72",
+        "value": {
+          "kind": "fraction",
+          "n": 37,
+          "d": 72
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(8, 9) = 72",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{5}{8} = \\frac{45}{72}, \\quad \\frac{1}{9} = \\frac{8}{72}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{45}{72} - \\frac{8}{72} = \\frac{37}{72}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/4",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 4) = 4",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{2}{4}, \\quad \\frac{1}{4} = \\frac{1}{4}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{2}{4} - \\frac{1}{4} = \\frac{1}{4}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{7} - \\frac{1}{10}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/70",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 70
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(7, 10) = 70",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{7} = \\frac{10}{70}, \\quad \\frac{1}{10} = \\frac{7}{70}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{10}{70} - \\frac{7}{70} = \\frac{3}{70}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} - \\frac{4}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/45",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 45
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(5, 9) = 45",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{3}{5} = \\frac{27}{45}, \\quad \\frac{4}{9} = \\frac{20}{45}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{27}{45} - \\frac{20}{45} = \\frac{7}{45}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "0",
+        "value": {
+          "kind": "fraction",
+          "n": 0,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 2) = 2",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{1}{2}, \\quad \\frac{1}{2} = \\frac{1}{2}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{1}{2} - \\frac{1}{2} = \\frac{0}{2}",
+            "caption": "subtract the numerators, keep the denominator"
+          },
+          {
+            "math": "\\frac{0}{2} = 0",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{7}{8} - \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/8",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(8, 4) = 8",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{7}{8} = \\frac{7}{8}, \\quad \\frac{1}{4} = \\frac{2}{8}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{7}{8} - \\frac{2}{8} = \\frac{5}{8}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} - \\frac{3}{11}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "37/66",
+        "value": {
+          "kind": "fraction",
+          "n": 37,
+          "d": 66
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(6, 11) = 66",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{5}{6} = \\frac{55}{66}, \\quad \\frac{3}{11} = \\frac{18}{66}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{55}{66} - \\frac{18}{66} = \\frac{37}{66}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{1}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/8",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 8) = 8",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{4}{8}, \\quad \\frac{1}{8} = \\frac{1}{8}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{4}{8} - \\frac{1}{8} = \\frac{3}{8}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} - \\frac{2}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/18",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 18
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(2, 9) = 18",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{1}{2} = \\frac{9}{18}, \\quad \\frac{2}{9} = \\frac{4}{18}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{9}{18} - \\frac{4}{18} = \\frac{5}{18}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{19}{20} - \\frac{13}{14}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/140",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 140
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{LCM}(20, 14) = 140",
+            "caption": "because subtraction also needs a common denominator",
+            "visual": "bar-model"
+          },
+          {
+            "math": "\\frac{19}{20} = \\frac{133}{140}, \\quad \\frac{13}{14} = \\frac{130}{140}",
+            "caption": "rewriting with the common denominator"
+          },
+          {
+            "math": "\\frac{133}{140} - \\frac{130}{140} = \\frac{3}{140}",
+            "caption": "subtract the numerators, keep the denominator"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we line up the denominators first?",
+          "options": [
+            {
+              "label": "so the parts we're subtracting are the same size",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer smaller",
+              "isCorrect": false
+            },
+            {
+              "label": "because subtraction always uses bigger numbers",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    }
+  ]
+}

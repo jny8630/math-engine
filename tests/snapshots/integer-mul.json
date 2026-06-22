@@ -1,0 +1,5015 @@
+{
+  "templateId": "integer-mul",
+  "tags": [
+    "#negative-integers"
+  ],
+  "tidyMode": [
+    {
+      "text": "What is \\(11 \\times (-4)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-44",
+        "value": {
+          "kind": "integer",
+          "value": -44
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|11| \\times |-4| = 11 \\times 4 = 44",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "11 \\times (-4) = -44",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 44
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(9 \\times (-5)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-45",
+        "value": {
+          "kind": "integer",
+          "value": -45
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|9| \\times |-5| = 9 \\times 5 = 45",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "9 \\times (-5) = -45",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 45
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(6 \\times (-1)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|6| \\times |-1| = 6 \\times 1 = 6",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "6 \\times (-1) = -6",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(4 \\times 4\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "16",
+        "value": {
+          "kind": "integer",
+          "value": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|4| \\times |4| = 4 \\times 4 = 16",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "4 \\times 4 = 16",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1 \\times 4\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|1| \\times |4| = 1 \\times 4 = 4",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "1 \\times 4 = 4",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(11 \\times 9\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "99",
+        "value": {
+          "kind": "integer",
+          "value": 99
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|11| \\times |9| = 11 \\times 9 = 99",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "11 \\times 9 = 99",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-12) \\times (-11)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "132",
+        "value": {
+          "kind": "integer",
+          "value": 132
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-12| \\times |-11| = 12 \\times 11 = 132",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-12) \\times (-11) = 132",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6 \\times (-5)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-30",
+        "value": {
+          "kind": "integer",
+          "value": -30
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|6| \\times |-5| = 6 \\times 5 = 30",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "6 \\times (-5) = -30",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 30
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(2 \\times (-12)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-24",
+        "value": {
+          "kind": "integer",
+          "value": -24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|2| \\times |-12| = 2 \\times 12 = 24",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "2 \\times (-12) = -24",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 24
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(7 \\times (-4)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-28",
+        "value": {
+          "kind": "integer",
+          "value": -28
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|7| \\times |-4| = 7 \\times 4 = 28",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "7 \\times (-4) = -28",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 28
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-12) \\times (-5)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "60",
+        "value": {
+          "kind": "integer",
+          "value": 60
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-12| \\times |-5| = 12 \\times 5 = 60",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-12) \\times (-5) = 60",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-5) \\times (-6)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "30",
+        "value": {
+          "kind": "integer",
+          "value": 30
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-5| \\times |-6| = 5 \\times 6 = 30",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-5) \\times (-6) = 30",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1 \\times 4\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|1| \\times |4| = 1 \\times 4 = 4",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "1 \\times 4 = 4",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-10) \\times (-8)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "80",
+        "value": {
+          "kind": "integer",
+          "value": 80
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-10| \\times |-8| = 10 \\times 8 = 80",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-10) \\times (-8) = 80",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-2) \\times (-5)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-2| \\times |-5| = 2 \\times 5 = 10",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-2) \\times (-5) = 10",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-9) \\times 12\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-108",
+        "value": {
+          "kind": "integer",
+          "value": -108
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-9| \\times |12| = 9 \\times 12 = 108",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-9) \\times 12 = -108",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 108
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(3 \\times 9\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "27",
+        "value": {
+          "kind": "integer",
+          "value": 27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|3| \\times |9| = 3 \\times 9 = 27",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "3 \\times 9 = 27",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-7) \\times (-9)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "63",
+        "value": {
+          "kind": "integer",
+          "value": 63
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-7| \\times |-9| = 7 \\times 9 = 63",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-7) \\times (-9) = 63",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(12 \\times 1\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "12",
+        "value": {
+          "kind": "integer",
+          "value": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|12| \\times |1| = 12 \\times 1 = 12",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "12 \\times 1 = 12",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-2) \\times 1\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-2",
+        "value": {
+          "kind": "integer",
+          "value": -2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-2| \\times |1| = 2 \\times 1 = 2",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-2) \\times 1 = -2",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 2
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(12 \\times 1\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "12",
+        "value": {
+          "kind": "integer",
+          "value": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|12| \\times |1| = 12 \\times 1 = 12",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "12 \\times 1 = 12",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(11 \\times (-8)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-88",
+        "value": {
+          "kind": "integer",
+          "value": -88
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|11| \\times |-8| = 11 \\times 8 = 88",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "11 \\times (-8) = -88",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 88
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(3 \\times 3\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "9",
+        "value": {
+          "kind": "integer",
+          "value": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|3| \\times |3| = 3 \\times 3 = 9",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "3 \\times 3 = 9",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2 \\times (-10)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-20",
+        "value": {
+          "kind": "integer",
+          "value": -20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|2| \\times |-10| = 2 \\times 10 = 20",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "2 \\times (-10) = -20",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-11) \\times (-2)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "22",
+        "value": {
+          "kind": "integer",
+          "value": 22
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-11| \\times |-2| = 11 \\times 2 = 22",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-11) \\times (-2) = 22",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-3) \\times (-7)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "21",
+        "value": {
+          "kind": "integer",
+          "value": 21
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-3| \\times |-7| = 3 \\times 7 = 21",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-3) \\times (-7) = 21",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2 \\times 9\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "18",
+        "value": {
+          "kind": "integer",
+          "value": 18
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|2| \\times |9| = 2 \\times 9 = 18",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "2 \\times 9 = 18",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3 \\times (-2)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|3| \\times |-2| = 3 \\times 2 = 6",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "3 \\times (-2) = -6",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-10) \\times (-7)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "70",
+        "value": {
+          "kind": "integer",
+          "value": 70
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-10| \\times |-7| = 10 \\times 7 = 70",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-10) \\times (-7) = 70",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9 \\times (-2)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-18",
+        "value": {
+          "kind": "integer",
+          "value": -18
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|9| \\times |-2| = 9 \\times 2 = 18",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "9 \\times (-2) = -18",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 18
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(5 \\times 12\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "60",
+        "value": {
+          "kind": "integer",
+          "value": 60
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|5| \\times |12| = 5 \\times 12 = 60",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "5 \\times 12 = 60",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-8) \\times (-6)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "48",
+        "value": {
+          "kind": "integer",
+          "value": 48
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-8| \\times |-6| = 8 \\times 6 = 48",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-8) \\times (-6) = 48",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-10) \\times 12\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-120",
+        "value": {
+          "kind": "integer",
+          "value": -120
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-10| \\times |12| = 10 \\times 12 = 120",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-10) \\times 12 = -120",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 120
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(7 \\times 9\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "63",
+        "value": {
+          "kind": "integer",
+          "value": 63
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|7| \\times |9| = 7 \\times 9 = 63",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "7 \\times 9 = 63",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2 \\times (-8)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-16",
+        "value": {
+          "kind": "integer",
+          "value": -16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|2| \\times |-8| = 2 \\times 8 = 16",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "2 \\times (-8) = -16",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 16
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(6 \\times (-12)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-72",
+        "value": {
+          "kind": "integer",
+          "value": -72
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|6| \\times |-12| = 6 \\times 12 = 72",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "6 \\times (-12) = -72",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 72
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(11 \\times (-5)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-55",
+        "value": {
+          "kind": "integer",
+          "value": -55
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|11| \\times |-5| = 11 \\times 5 = 55",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "11 \\times (-5) = -55",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 55
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(1 \\times (-5)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|1| \\times |-5| = 1 \\times 5 = 5",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "1 \\times (-5) = -5",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 5
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-2) \\times 11\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-22",
+        "value": {
+          "kind": "integer",
+          "value": -22
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-2| \\times |11| = 2 \\times 11 = 22",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-2) \\times 11 = -22",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 22
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(11 \\times 8\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "88",
+        "value": {
+          "kind": "integer",
+          "value": 88
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|11| \\times |8| = 11 \\times 8 = 88",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "11 \\times 8 = 88",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6 \\times 1\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|6| \\times |1| = 6 \\times 1 = 6",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "6 \\times 1 = 6",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6 \\times (-12)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-72",
+        "value": {
+          "kind": "integer",
+          "value": -72
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|6| \\times |-12| = 6 \\times 12 = 72",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "6 \\times (-12) = -72",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 72
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-9) \\times (-12)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "108",
+        "value": {
+          "kind": "integer",
+          "value": 108
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-9| \\times |-12| = 9 \\times 12 = 108",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-9) \\times (-12) = 108",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(10 \\times 11\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "110",
+        "value": {
+          "kind": "integer",
+          "value": 110
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|10| \\times |11| = 10 \\times 11 = 110",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "10 \\times 11 = 110",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-3) \\times (-5)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "15",
+        "value": {
+          "kind": "integer",
+          "value": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-3| \\times |-5| = 3 \\times 5 = 15",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-3) \\times (-5) = 15",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-3) \\times (-2)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-3| \\times |-2| = 3 \\times 2 = 6",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-3) \\times (-2) = 6",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(10 \\times (-6)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-60",
+        "value": {
+          "kind": "integer",
+          "value": -60
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|10| \\times |-6| = 10 \\times 6 = 60",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "10 \\times (-6) = -60",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 60
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-11) \\times 12\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-132",
+        "value": {
+          "kind": "integer",
+          "value": -132
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-11| \\times |12| = 11 \\times 12 = 132",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-11) \\times 12 = -132",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 132
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(11 \\times 3\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "33",
+        "value": {
+          "kind": "integer",
+          "value": 33
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|11| \\times |3| = 11 \\times 3 = 33",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "11 \\times 3 = 33",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1 \\times (-12)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-12",
+        "value": {
+          "kind": "integer",
+          "value": -12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|1| \\times |-12| = 1 \\times 12 = 12",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "1 \\times (-12) = -12",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 12
+          }
+        }
+      ]
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "What is \\((-16) \\times (-20)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "320",
+        "value": {
+          "kind": "integer",
+          "value": 320
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-16| \\times |-20| = 16 \\times 20 = 320",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-16) \\times (-20) = 320",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-3) \\times 18\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-54",
+        "value": {
+          "kind": "integer",
+          "value": -54
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-3| \\times |18| = 3 \\times 18 = 54",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-3) \\times 18 = -54",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 54
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(17 \\times (-11)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-187",
+        "value": {
+          "kind": "integer",
+          "value": -187
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|17| \\times |-11| = 17 \\times 11 = 187",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "17 \\times (-11) = -187",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 187
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-9) \\times 10\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-90",
+        "value": {
+          "kind": "integer",
+          "value": -90
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-9| \\times |10| = 9 \\times 10 = 90",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-9) \\times 10 = -90",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(8 \\times 8\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "64",
+        "value": {
+          "kind": "integer",
+          "value": 64
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|8| \\times |8| = 8 \\times 8 = 64",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "8 \\times 8 = 64",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-5) \\times 7\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-35",
+        "value": {
+          "kind": "integer",
+          "value": -35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-5| \\times |7| = 5 \\times 7 = 35",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-5) \\times 7 = -35",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 35
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-8) \\times (-14)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "112",
+        "value": {
+          "kind": "integer",
+          "value": 112
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-8| \\times |-14| = 8 \\times 14 = 112",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-8) \\times (-14) = 112",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5 \\times 12\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "60",
+        "value": {
+          "kind": "integer",
+          "value": 60
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|5| \\times |12| = 5 \\times 12 = 60",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "5 \\times 12 = 60",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-3) \\times 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-15",
+        "value": {
+          "kind": "integer",
+          "value": -15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-3| \\times |5| = 3 \\times 5 = 15",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-3) \\times 5 = -15",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 15
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-17) \\times 8\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-136",
+        "value": {
+          "kind": "integer",
+          "value": -136
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-17| \\times |8| = 17 \\times 8 = 136",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-17) \\times 8 = -136",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 136
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(13 \\times (-2)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-26",
+        "value": {
+          "kind": "integer",
+          "value": -26
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|13| \\times |-2| = 13 \\times 2 = 26",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "13 \\times (-2) = -26",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 26
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(20 \\times (-15)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-300",
+        "value": {
+          "kind": "integer",
+          "value": -300
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|20| \\times |-15| = 20 \\times 15 = 300",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "20 \\times (-15) = -300",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 300
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(7 \\times 4\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "28",
+        "value": {
+          "kind": "integer",
+          "value": 28
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|7| \\times |4| = 7 \\times 4 = 28",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "7 \\times 4 = 28",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(15 \\times 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "75",
+        "value": {
+          "kind": "integer",
+          "value": 75
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|15| \\times |5| = 15 \\times 5 = 75",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "15 \\times 5 = 75",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4 \\times (-11)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-44",
+        "value": {
+          "kind": "integer",
+          "value": -44
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|4| \\times |-11| = 4 \\times 11 = 44",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "4 \\times (-11) = -44",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 44
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(2 \\times (-13)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-26",
+        "value": {
+          "kind": "integer",
+          "value": -26
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|2| \\times |-13| = 2 \\times 13 = 26",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "2 \\times (-13) = -26",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 26
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-4) \\times 16\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-64",
+        "value": {
+          "kind": "integer",
+          "value": -64
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-4| \\times |16| = 4 \\times 16 = 64",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-4) \\times 16 = -64",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 64
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-20) \\times 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-100",
+        "value": {
+          "kind": "integer",
+          "value": -100
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-20| \\times |5| = 20 \\times 5 = 100",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-20) \\times 5 = -100",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 100
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-2) \\times 9\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-18",
+        "value": {
+          "kind": "integer",
+          "value": -18
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-2| \\times |9| = 2 \\times 9 = 18",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-2) \\times 9 = -18",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 18
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(9 \\times 7\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "63",
+        "value": {
+          "kind": "integer",
+          "value": 63
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|9| \\times |7| = 9 \\times 7 = 63",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "9 \\times 7 = 63",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2 \\times 10\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "20",
+        "value": {
+          "kind": "integer",
+          "value": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|2| \\times |10| = 2 \\times 10 = 20",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "2 \\times 10 = 20",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-14) \\times 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-70",
+        "value": {
+          "kind": "integer",
+          "value": -70
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-14| \\times |5| = 14 \\times 5 = 70",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-14) \\times 5 = -70",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 70
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(11 \\times 20\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "220",
+        "value": {
+          "kind": "integer",
+          "value": 220
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|11| \\times |20| = 11 \\times 20 = 220",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "11 \\times 20 = 220",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7 \\times 8\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "56",
+        "value": {
+          "kind": "integer",
+          "value": 56
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|7| \\times |8| = 7 \\times 8 = 56",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "7 \\times 8 = 56",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-3) \\times 9\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-27",
+        "value": {
+          "kind": "integer",
+          "value": -27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-3| \\times |9| = 3 \\times 9 = 27",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-3) \\times 9 = -27",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 27
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(7 \\times (-12)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-84",
+        "value": {
+          "kind": "integer",
+          "value": -84
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|7| \\times |-12| = 7 \\times 12 = 84",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "7 \\times (-12) = -84",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 84
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-9) \\times (-1)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "9",
+        "value": {
+          "kind": "integer",
+          "value": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-9| \\times |-1| = 9 \\times 1 = 9",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-9) \\times (-1) = 9",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-12) \\times 11\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-132",
+        "value": {
+          "kind": "integer",
+          "value": -132
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-12| \\times |11| = 12 \\times 11 = 132",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-12) \\times 11 = -132",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 132
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-10) \\times (-4)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "40",
+        "value": {
+          "kind": "integer",
+          "value": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-10| \\times |-4| = 10 \\times 4 = 40",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-10) \\times (-4) = 40",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(17 \\times (-7)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-119",
+        "value": {
+          "kind": "integer",
+          "value": -119
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|17| \\times |-7| = 17 \\times 7 = 119",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "17 \\times (-7) = -119",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 119
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(20 \\times 15\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "300",
+        "value": {
+          "kind": "integer",
+          "value": 300
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|20| \\times |15| = 20 \\times 15 = 300",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "20 \\times 15 = 300",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(10 \\times 4\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "40",
+        "value": {
+          "kind": "integer",
+          "value": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|10| \\times |4| = 10 \\times 4 = 40",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "10 \\times 4 = 40",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-20) \\times (-13)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "260",
+        "value": {
+          "kind": "integer",
+          "value": 260
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-20| \\times |-13| = 20 \\times 13 = 260",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-20) \\times (-13) = 260",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-3) \\times (-7)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "21",
+        "value": {
+          "kind": "integer",
+          "value": 21
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-3| \\times |-7| = 3 \\times 7 = 21",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-3) \\times (-7) = 21",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-17) \\times (-16)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "272",
+        "value": {
+          "kind": "integer",
+          "value": 272
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-17| \\times |-16| = 17 \\times 16 = 272",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-17) \\times (-16) = 272",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-17) \\times (-13)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "221",
+        "value": {
+          "kind": "integer",
+          "value": 221
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-17| \\times |-13| = 17 \\times 13 = 221",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-17) \\times (-13) = 221",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(19 \\times 16\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "304",
+        "value": {
+          "kind": "integer",
+          "value": 304
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|19| \\times |16| = 19 \\times 16 = 304",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "19 \\times 16 = 304",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5 \\times (-10)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-50",
+        "value": {
+          "kind": "integer",
+          "value": -50
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|5| \\times |-10| = 5 \\times 10 = 50",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "5 \\times (-10) = -50",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 50
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(3 \\times 20\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "60",
+        "value": {
+          "kind": "integer",
+          "value": 60
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|3| \\times |20| = 3 \\times 20 = 60",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "3 \\times 20 = 60",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-16) \\times 2\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-32",
+        "value": {
+          "kind": "integer",
+          "value": -32
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-16| \\times |2| = 16 \\times 2 = 32",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-16) \\times 2 = -32",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 32
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(12 \\times 6\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "72",
+        "value": {
+          "kind": "integer",
+          "value": 72
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|12| \\times |6| = 12 \\times 6 = 72",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "12 \\times 6 = 72",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6 \\times 12\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "72",
+        "value": {
+          "kind": "integer",
+          "value": 72
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|6| \\times |12| = 6 \\times 12 = 72",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "6 \\times 12 = 72",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-4) \\times (-20)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "80",
+        "value": {
+          "kind": "integer",
+          "value": 80
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-4| \\times |-20| = 4 \\times 20 = 80",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-4) \\times (-20) = 80",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-14) \\times (-16)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "224",
+        "value": {
+          "kind": "integer",
+          "value": 224
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-14| \\times |-16| = 14 \\times 16 = 224",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-14) \\times (-16) = 224",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-17) \\times (-5)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "85",
+        "value": {
+          "kind": "integer",
+          "value": 85
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-17| \\times |-5| = 17 \\times 5 = 85",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-17) \\times (-5) = 85",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-8) \\times 16\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-128",
+        "value": {
+          "kind": "integer",
+          "value": -128
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-8| \\times |16| = 8 \\times 16 = 128",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-8) \\times 16 = -128",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 128
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-15) \\times (-15)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "225",
+        "value": {
+          "kind": "integer",
+          "value": 225
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-15| \\times |-15| = 15 \\times 15 = 225",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-15) \\times (-15) = 225",
+            "caption": "negative × negative = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-18) \\times 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-90",
+        "value": {
+          "kind": "integer",
+          "value": -90
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-18| \\times |5| = 18 \\times 5 = 90",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-18) \\times 5 = -90",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(1 \\times 3\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "3",
+        "value": {
+          "kind": "integer",
+          "value": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|1| \\times |3| = 1 \\times 3 = 3",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "1 \\times 3 = 3",
+            "caption": "positive × positive = positive"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-19) \\times 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-95",
+        "value": {
+          "kind": "integer",
+          "value": -95
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "|-19| \\times |5| = 19 \\times 5 = 95",
+            "caption": "first ignore the signs and multiply the sizes"
+          },
+          {
+            "math": "(-19) \\times 5 = -95",
+            "caption": "a positive and a negative = negative"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why is a negative times a negative a positive?",
+          "options": [
+            {
+              "label": "each negative flips the direction; two flips return forward",
+              "isCorrect": true
+            },
+            {
+              "label": "because the bigger number wins",
+              "isCorrect": false
+            },
+            {
+              "label": "because the absolute value of the product is positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 95
+          }
+        }
+      ]
+    }
+  ]
+}

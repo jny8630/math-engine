@@ -1,0 +1,5210 @@
+{
+  "templateId": "decimal-mul",
+  "tags": [
+    "#decimals"
+  ],
+  "tidyMode": [
+    {
+      "text": "What is \\(9.4 \\times 2.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "23.50",
+        "value": {
+          "kind": "decimal",
+          "value": 23.5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9.4 \\times 2.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "94 \\times 25 = 2350",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "9.4 \\times 2.5 = 23.50",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.5 \\times 6\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "33.00",
+        "value": {
+          "kind": "decimal",
+          "value": 33
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.5 \\times 6",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "55 \\times 60 = 3300",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.5 \\times 6 = 33.00",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.6 \\times 9\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "32.40",
+        "value": {
+          "kind": "decimal",
+          "value": 32.4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.6 \\times 9",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "36 \\times 90 = 3240",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.6 \\times 9 = 32.40",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.9 \\times 3.1\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.09",
+        "value": {
+          "kind": "decimal",
+          "value": 12.09
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.9 \\times 3.1",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "39 \\times 31 = 1209",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.9 \\times 3.1 = 12.09",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.1 \\times 5.2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "10.92",
+        "value": {
+          "kind": "decimal",
+          "value": 10.92
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.1 \\times 5.2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "21 \\times 52 = 1092",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.1 \\times 5.2 = 10.92",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.8 \\times 4.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "20.64",
+        "value": {
+          "kind": "decimal",
+          "value": 20.64
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4.8 \\times 4.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "48 \\times 43 = 2064",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "4.8 \\times 4.3 = 20.64",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.7 \\times 8.9\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "50.73",
+        "value": {
+          "kind": "decimal",
+          "value": 50.73
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.7 \\times 8.9",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "57 \\times 89 = 5073",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.7 \\times 8.9 = 50.73",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.5 \\times 4.9\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "36.75",
+        "value": {
+          "kind": "decimal",
+          "value": 36.75
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7.5 \\times 4.9",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "75 \\times 49 = 3675",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7.5 \\times 4.9 = 36.75",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.5 \\times 1.7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "12.75",
+        "value": {
+          "kind": "decimal",
+          "value": 12.75
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7.5 \\times 1.7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "75 \\times 17 = 1275",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7.5 \\times 1.7 = 12.75",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.9 \\times 1.9\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.21",
+        "value": {
+          "kind": "decimal",
+          "value": 11.21
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.9 \\times 1.9",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "59 \\times 19 = 1121",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.9 \\times 1.9 = 11.21",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.6 \\times 7.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "56.24",
+        "value": {
+          "kind": "decimal",
+          "value": 56.24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7.6 \\times 7.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "76 \\times 74 = 5624",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7.6 \\times 7.4 = 56.24",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.3 \\times 9.2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "57.96",
+        "value": {
+          "kind": "decimal",
+          "value": 57.96
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6.3 \\times 9.2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "63 \\times 92 = 5796",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "6.3 \\times 9.2 = 57.96",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.9 \\times 9.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "46.06",
+        "value": {
+          "kind": "decimal",
+          "value": 46.06
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4.9 \\times 9.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "49 \\times 94 = 4606",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "4.9 \\times 9.4 = 46.06",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.5 \\times 6.1\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "33.55",
+        "value": {
+          "kind": "decimal",
+          "value": 33.55
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.5 \\times 6.1",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "55 \\times 61 = 3355",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.5 \\times 6.1 = 33.55",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.4 \\times 2.6\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "19.24",
+        "value": {
+          "kind": "decimal",
+          "value": 19.24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7.4 \\times 2.6",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "74 \\times 26 = 1924",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7.4 \\times 2.6 = 19.24",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8 \\times 7.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "60.00",
+        "value": {
+          "kind": "decimal",
+          "value": 60
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8 \\times 7.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "80 \\times 75 = 6000",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "8 \\times 7.5 = 60.00",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.1 \\times 5.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "38.34",
+        "value": {
+          "kind": "decimal",
+          "value": 38.34
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7.1 \\times 5.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "71 \\times 54 = 3834",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7.1 \\times 5.4 = 38.34",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.6 \\times 6.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "36.40",
+        "value": {
+          "kind": "decimal",
+          "value": 36.4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.6 \\times 6.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "56 \\times 65 = 3640",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.6 \\times 6.5 = 36.40",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.6 \\times 4.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "43.20",
+        "value": {
+          "kind": "decimal",
+          "value": 43.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9.6 \\times 4.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "96 \\times 45 = 4320",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "9.6 \\times 4.5 = 43.20",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.3 \\times 2.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "18.25",
+        "value": {
+          "kind": "decimal",
+          "value": 18.25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7.3 \\times 2.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "73 \\times 25 = 1825",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7.3 \\times 2.5 = 18.25",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.1 \\times 9.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "47.43",
+        "value": {
+          "kind": "decimal",
+          "value": 47.43
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.1 \\times 9.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "51 \\times 93 = 4743",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.1 \\times 9.3 = 47.43",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.1 \\times 7.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "59.94",
+        "value": {
+          "kind": "decimal",
+          "value": 59.94
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8.1 \\times 7.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "81 \\times 74 = 5994",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "8.1 \\times 7.4 = 59.94",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6 \\times 3.6\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "21.60",
+        "value": {
+          "kind": "decimal",
+          "value": 21.6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6 \\times 3.6",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "60 \\times 36 = 2160",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "6 \\times 3.6 = 21.60",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.8 \\times 5.8\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "16.24",
+        "value": {
+          "kind": "decimal",
+          "value": 16.24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.8 \\times 5.8",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "28 \\times 58 = 1624",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.8 \\times 5.8 = 16.24",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8 \\times 5.7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "45.60",
+        "value": {
+          "kind": "decimal",
+          "value": 45.6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8 \\times 5.7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "80 \\times 57 = 4560",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "8 \\times 5.7 = 45.60",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.3 \\times 6.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "52.29",
+        "value": {
+          "kind": "decimal",
+          "value": 52.29
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8.3 \\times 6.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "83 \\times 63 = 5229",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "8.3 \\times 6.3 = 52.29",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.1 \\times 8.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "60.35",
+        "value": {
+          "kind": "decimal",
+          "value": 60.35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7.1 \\times 8.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "71 \\times 85 = 6035",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7.1 \\times 8.5 = 60.35",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.6 \\times 7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "25.20",
+        "value": {
+          "kind": "decimal",
+          "value": 25.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.6 \\times 7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "36 \\times 70 = 2520",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.6 \\times 7 = 25.20",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.7 \\times 2.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "8.51",
+        "value": {
+          "kind": "decimal",
+          "value": 8.51
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.7 \\times 2.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "37 \\times 23 = 851",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.7 \\times 2.3 = 8.51",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.1 \\times 8.7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "53.07",
+        "value": {
+          "kind": "decimal",
+          "value": 53.07
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6.1 \\times 8.7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "61 \\times 87 = 5307",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "6.1 \\times 8.7 = 53.07",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.9 \\times 3.7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "36.63",
+        "value": {
+          "kind": "decimal",
+          "value": 36.63
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9.9 \\times 3.7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "99 \\times 37 = 3663",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "9.9 \\times 3.7 = 36.63",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3 \\times 7.2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "21.60",
+        "value": {
+          "kind": "decimal",
+          "value": 21.6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3 \\times 7.2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "30 \\times 72 = 2160",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3 \\times 7.2 = 21.60",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.4 \\times 5.8\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "48.72",
+        "value": {
+          "kind": "decimal",
+          "value": 48.72
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8.4 \\times 5.8",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "84 \\times 58 = 4872",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "8.4 \\times 5.8 = 48.72",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.6 \\times 2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.20",
+        "value": {
+          "kind": "decimal",
+          "value": 5.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.6 \\times 2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "26 \\times 20 = 520",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.6 \\times 2 = 5.20",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.9 \\times 1.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.35",
+        "value": {
+          "kind": "decimal",
+          "value": 4.35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.9 \\times 1.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "29 \\times 15 = 435",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.9 \\times 1.5 = 4.35",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.2 \\times 4.2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "21.84",
+        "value": {
+          "kind": "decimal",
+          "value": 21.84
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.2 \\times 4.2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "52 \\times 42 = 2184",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.2 \\times 4.2 = 21.84",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.4 \\times 1.7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "10.88",
+        "value": {
+          "kind": "decimal",
+          "value": 10.88
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6.4 \\times 1.7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "64 \\times 17 = 1088",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "6.4 \\times 1.7 = 10.88",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.2 \\times 8.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "18.70",
+        "value": {
+          "kind": "decimal",
+          "value": 18.7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.2 \\times 8.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "22 \\times 85 = 1870",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.2 \\times 8.5 = 18.70",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.9 \\times 1.2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.28",
+        "value": {
+          "kind": "decimal",
+          "value": 2.28
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "1.9 \\times 1.2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "19 \\times 12 = 228",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "1.9 \\times 1.2 = 2.28",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.9 \\times 4.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "29.67",
+        "value": {
+          "kind": "decimal",
+          "value": 29.67
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6.9 \\times 4.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "69 \\times 43 = 2967",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "6.9 \\times 4.3 = 29.67",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.1 \\times 2.7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "13.77",
+        "value": {
+          "kind": "decimal",
+          "value": 13.77
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.1 \\times 2.7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "51 \\times 27 = 1377",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.1 \\times 2.7 = 13.77",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.7 \\times 8.2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "46.74",
+        "value": {
+          "kind": "decimal",
+          "value": 46.74
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.7 \\times 8.2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "57 \\times 82 = 4674",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.7 \\times 8.2 = 46.74",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.2 \\times 2.1\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.62",
+        "value": {
+          "kind": "decimal",
+          "value": 4.62
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.2 \\times 2.1",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "22 \\times 21 = 462",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.2 \\times 2.1 = 4.62",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7 \\times 1.2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "8.40",
+        "value": {
+          "kind": "decimal",
+          "value": 8.4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7 \\times 1.2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "70 \\times 12 = 840",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7 \\times 1.2 = 8.40",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.8 \\times 8.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "39.84",
+        "value": {
+          "kind": "decimal",
+          "value": 39.84
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4.8 \\times 8.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "48 \\times 83 = 3984",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "4.8 \\times 8.3 = 39.84",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.7 \\times 2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "15.40",
+        "value": {
+          "kind": "decimal",
+          "value": 15.4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7.7 \\times 2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "77 \\times 20 = 1540",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7.7 \\times 2 = 15.40",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.2 \\times 3.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "27.88",
+        "value": {
+          "kind": "decimal",
+          "value": 27.88
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8.2 \\times 3.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "82 \\times 34 = 2788",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "8.2 \\times 3.4 = 27.88",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.5 \\times 8.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "38.25",
+        "value": {
+          "kind": "decimal",
+          "value": 38.25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4.5 \\times 8.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "45 \\times 85 = 3825",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "4.5 \\times 8.5 = 38.25",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.9 \\times 6.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "18.85",
+        "value": {
+          "kind": "decimal",
+          "value": 18.85
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.9 \\times 6.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "29 \\times 65 = 1885",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.9 \\times 6.5 = 18.85",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.1 \\times 8.1\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "65.61",
+        "value": {
+          "kind": "decimal",
+          "value": 65.61
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8.1 \\times 8.1",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "81 \\times 81 = 6561",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "8.1 \\times 8.1 = 65.61",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "What is \\(3.5 \\times 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "17.50",
+        "value": {
+          "kind": "decimal",
+          "value": 17.5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.5 \\times 5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "35 \\times 50 = 1750",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.5 \\times 5 = 17.50",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.8 \\times 9.1\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "43.68",
+        "value": {
+          "kind": "decimal",
+          "value": 43.68
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4.8 \\times 9.1",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "48 \\times 91 = 4368",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "4.8 \\times 9.1 = 43.68",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.4 \\times 4.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "28.16",
+        "value": {
+          "kind": "decimal",
+          "value": 28.16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6.4 \\times 4.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "64 \\times 44 = 2816",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "6.4 \\times 4.4 = 28.16",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.6 \\times 3.8\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "28.88",
+        "value": {
+          "kind": "decimal",
+          "value": 28.88
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7.6 \\times 3.8",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "76 \\times 38 = 2888",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7.6 \\times 3.8 = 28.88",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.1 \\times 1.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.03",
+        "value": {
+          "kind": "decimal",
+          "value": 4.03
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.1 \\times 1.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "31 \\times 13 = 403",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.1 \\times 1.3 = 4.03",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.1 \\times 7.1\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "29.11",
+        "value": {
+          "kind": "decimal",
+          "value": 29.11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4.1 \\times 7.1",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "41 \\times 71 = 2911",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "4.1 \\times 7.1 = 29.11",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.2 \\times 6\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "13.20",
+        "value": {
+          "kind": "decimal",
+          "value": 13.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.2 \\times 6",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "22 \\times 60 = 1320",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.2 \\times 6 = 13.20",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.5 \\times 7.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "71.25",
+        "value": {
+          "kind": "decimal",
+          "value": 71.25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9.5 \\times 7.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "95 \\times 75 = 7125",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "9.5 \\times 7.5 = 71.25",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.2 \\times 4.7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "24.44",
+        "value": {
+          "kind": "decimal",
+          "value": 24.44
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.2 \\times 4.7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "52 \\times 47 = 2444",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.2 \\times 4.7 = 24.44",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.8 \\times 2.8\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.84",
+        "value": {
+          "kind": "decimal",
+          "value": 7.84
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.8 \\times 2.8",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "28 \\times 28 = 784",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.8 \\times 2.8 = 7.84",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.9 \\times 2.2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "8.58",
+        "value": {
+          "kind": "decimal",
+          "value": 8.58
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.9 \\times 2.2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "39 \\times 22 = 858",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.9 \\times 2.2 = 8.58",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.2 \\times 9.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "20.68",
+        "value": {
+          "kind": "decimal",
+          "value": 20.68
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.2 \\times 9.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "22 \\times 94 = 2068",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.2 \\times 9.4 = 20.68",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.6 \\times 9.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "91.20",
+        "value": {
+          "kind": "decimal",
+          "value": 91.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9.6 \\times 9.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "96 \\times 95 = 9120",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "9.6 \\times 9.5 = 91.20",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.8 \\times 4.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "8.10",
+        "value": {
+          "kind": "decimal",
+          "value": 8.1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "1.8 \\times 4.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "18 \\times 45 = 810",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "1.8 \\times 4.5 = 8.10",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.8 \\times 9.1\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "25.48",
+        "value": {
+          "kind": "decimal",
+          "value": 25.48
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.8 \\times 9.1",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "28 \\times 91 = 2548",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.8 \\times 9.1 = 25.48",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.6 \\times 1.2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.52",
+        "value": {
+          "kind": "decimal",
+          "value": 11.52
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9.6 \\times 1.2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "96 \\times 12 = 1152",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "9.6 \\times 1.2 = 11.52",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.6 \\times 6.9\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "38.64",
+        "value": {
+          "kind": "decimal",
+          "value": 38.64
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.6 \\times 6.9",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "56 \\times 69 = 3864",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.6 \\times 6.9 = 38.64",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9 \\times 6.8\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "61.20",
+        "value": {
+          "kind": "decimal",
+          "value": 61.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9 \\times 6.8",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "90 \\times 68 = 6120",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "9 \\times 6.8 = 61.20",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.2 \\times 7.7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "70.84",
+        "value": {
+          "kind": "decimal",
+          "value": 70.84
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9.2 \\times 7.7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "92 \\times 77 = 7084",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "9.2 \\times 7.7 = 70.84",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.8 \\times 9.6\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "94.08",
+        "value": {
+          "kind": "decimal",
+          "value": 94.08
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9.8 \\times 9.6",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "98 \\times 96 = 9408",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "9.8 \\times 9.6 = 94.08",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.9 \\times 1.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.67",
+        "value": {
+          "kind": "decimal",
+          "value": 7.67
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.9 \\times 1.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "59 \\times 13 = 767",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.9 \\times 1.3 = 7.67",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.4 \\times 3.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "8.40",
+        "value": {
+          "kind": "decimal",
+          "value": 8.4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.4 \\times 3.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "24 \\times 35 = 840",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.4 \\times 3.5 = 8.40",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.6 \\times 6.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "10.40",
+        "value": {
+          "kind": "decimal",
+          "value": 10.4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "1.6 \\times 6.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "16 \\times 65 = 1040",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "1.6 \\times 6.5 = 10.40",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.6 \\times 3.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.60",
+        "value": {
+          "kind": "decimal",
+          "value": 5.6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "1.6 \\times 3.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "16 \\times 35 = 560",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "1.6 \\times 3.5 = 5.60",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.3 \\times 6.6\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "28.38",
+        "value": {
+          "kind": "decimal",
+          "value": 28.38
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4.3 \\times 6.6",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "43 \\times 66 = 2838",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "4.3 \\times 6.6 = 28.38",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5 \\times 6.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "32.50",
+        "value": {
+          "kind": "decimal",
+          "value": 32.5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5 \\times 6.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "50 \\times 65 = 3250",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5 \\times 6.5 = 32.50",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.1 \\times 2.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.73",
+        "value": {
+          "kind": "decimal",
+          "value": 11.73
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.1 \\times 2.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "51 \\times 23 = 1173",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.1 \\times 2.3 = 11.73",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.3 \\times 7.9\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "33.97",
+        "value": {
+          "kind": "decimal",
+          "value": 33.97
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4.3 \\times 7.9",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "43 \\times 79 = 3397",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "4.3 \\times 7.9 = 33.97",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.6 \\times 7.6\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "42.56",
+        "value": {
+          "kind": "decimal",
+          "value": 42.56
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.6 \\times 7.6",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "56 \\times 76 = 4256",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.6 \\times 7.6 = 42.56",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.3 \\times 2.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "15.75",
+        "value": {
+          "kind": "decimal",
+          "value": 15.75
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6.3 \\times 2.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "63 \\times 25 = 1575",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "6.3 \\times 2.5 = 15.75",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5 \\times 4.9\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "24.50",
+        "value": {
+          "kind": "decimal",
+          "value": 24.5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5 \\times 4.9",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "50 \\times 49 = 2450",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5 \\times 4.9 = 24.50",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.6 \\times 2\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "11.20",
+        "value": {
+          "kind": "decimal",
+          "value": 11.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.6 \\times 2",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "56 \\times 20 = 1120",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.6 \\times 2 = 11.20",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.6 \\times 7.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "34.04",
+        "value": {
+          "kind": "decimal",
+          "value": 34.04
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4.6 \\times 7.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "46 \\times 74 = 3404",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "4.6 \\times 7.4 = 34.04",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.5 \\times 9.8\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "63.70",
+        "value": {
+          "kind": "decimal",
+          "value": 63.7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6.5 \\times 9.8",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "65 \\times 98 = 6370",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "6.5 \\times 9.8 = 63.70",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.1 \\times 5.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "43.74",
+        "value": {
+          "kind": "decimal",
+          "value": 43.74
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8.1 \\times 5.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "81 \\times 54 = 4374",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "8.1 \\times 5.4 = 43.74",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7 \\times 5.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "37.80",
+        "value": {
+          "kind": "decimal",
+          "value": 37.8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7 \\times 5.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "70 \\times 54 = 3780",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7 \\times 5.4 = 37.80",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.3 \\times 8\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "10.40",
+        "value": {
+          "kind": "decimal",
+          "value": 10.4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "1.3 \\times 8",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "13 \\times 80 = 1040",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "1.3 \\times 8 = 10.40",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1.6 \\times 4.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.20",
+        "value": {
+          "kind": "decimal",
+          "value": 7.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "1.6 \\times 4.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "16 \\times 45 = 720",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "1.6 \\times 4.5 = 7.20",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.9 \\times 7.7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "22.33",
+        "value": {
+          "kind": "decimal",
+          "value": 22.33
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.9 \\times 7.7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "29 \\times 77 = 2233",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.9 \\times 7.7 = 22.33",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.7 \\times 7.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "27.01",
+        "value": {
+          "kind": "decimal",
+          "value": 27.01
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.7 \\times 7.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "37 \\times 73 = 2701",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.7 \\times 7.3 = 27.01",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2.4 \\times 9.6\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "23.04",
+        "value": {
+          "kind": "decimal",
+          "value": 23.04
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2.4 \\times 9.6",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "24 \\times 96 = 2304",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "2.4 \\times 9.6 = 23.04",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.3 \\times 7.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "47.25",
+        "value": {
+          "kind": "decimal",
+          "value": 47.25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6.3 \\times 7.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "63 \\times 75 = 4725",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "6.3 \\times 7.5 = 47.25",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.1 \\times 6.3\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "44.73",
+        "value": {
+          "kind": "decimal",
+          "value": 44.73
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7.1 \\times 6.3",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "71 \\times 63 = 4473",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "7.1 \\times 6.3 = 44.73",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.6 \\times 8\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "28.80",
+        "value": {
+          "kind": "decimal",
+          "value": 28.8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.6 \\times 8",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "36 \\times 80 = 2880",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.6 \\times 8 = 28.80",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(4.1 \\times 3.5\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "14.35",
+        "value": {
+          "kind": "decimal",
+          "value": 14.35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4.1 \\times 3.5",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "41 \\times 35 = 1435",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "4.1 \\times 3.5 = 14.35",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.9 \\times 6.4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "37.76",
+        "value": {
+          "kind": "decimal",
+          "value": 37.76
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5.9 \\times 6.4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "59 \\times 64 = 3776",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "5.9 \\times 6.4 = 37.76",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.9 \\times 7.1\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "48.99",
+        "value": {
+          "kind": "decimal",
+          "value": 48.99
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6.9 \\times 7.1",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "69 \\times 71 = 4899",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "6.9 \\times 7.1 = 48.99",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.7 \\times 4\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "38.80",
+        "value": {
+          "kind": "decimal",
+          "value": 38.8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9.7 \\times 4",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "97 \\times 40 = 3880",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "9.7 \\times 4 = 38.80",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.5 \\times 9.1\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "31.85",
+        "value": {
+          "kind": "decimal",
+          "value": 31.85
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.5 \\times 9.1",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "35 \\times 91 = 3185",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.5 \\times 9.1 = 31.85",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3.8 \\times 7.7\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "29.26",
+        "value": {
+          "kind": "decimal",
+          "value": 29.26
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3.8 \\times 7.7",
+            "caption": "first multiply as if there were no decimal points"
+          },
+          {
+            "math": "38 \\times 77 = 2926",
+            "caption": "drop the decimals and multiply the integers"
+          },
+          {
+            "math": "3.8 \\times 7.7 = 29.26",
+            "caption": "each factor has 1 decimal place, so the product has 2"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we count the decimal places in the answer?",
+          "options": [
+            {
+              "label": "because each factor adds its decimal places to the product",
+              "isCorrect": true
+            },
+            {
+              "label": "so the answer looks neat",
+              "isCorrect": false
+            },
+            {
+              "label": "to avoid carrying digits",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    }
+  ]
+}

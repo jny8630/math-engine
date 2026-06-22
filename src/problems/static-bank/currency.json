@@ -1,0 +1,143 @@
+[
+  {
+    "id": "currency-001",
+    "text": "Beatrix has $20. The exchange rate is 6.85 DKK per US dollar. How many Danish kroner does she have?",
+    "answer": {
+      "form": { "kind": "decimal", "places": 2, "tolerance": 0.01 },
+      "canonical": "137.00",
+      "value": { "kind": "decimal", "value": 137 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "20 \\times 6.85 = 137 \\text{ DKK}", "caption": "multiply dollars by the rate (DKK per dollar) to get kroner" }
+      ],
+      "selfExplanation": {
+        "question": "Why multiply, not divide?",
+        "options": [
+          { "label": "the rate is DKK PER dollar, so each dollar gives you 6.85 DKK", "isCorrect": true },
+          { "label": "DKK is bigger than USD so we multiply", "isCorrect": false },
+          { "label": "you always multiply when converting", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#currency", "#decimals"],
+    "source": "static"
+  },
+  {
+    "id": "currency-002",
+    "text": "Beatrix has 150 Danish kroner. At a rate of 6.85 DKK per US dollar, how many US dollars is that (to the nearest cent)?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$21.90",
+      "value": { "kind": "currency", "cents": 2190 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\frac{150}{6.85} = 21.8978...", "caption": "kroner ÷ (kroner per dollar) gives dollars" },
+        { "math": "\\$21.8978 \\approx \\$21.90", "caption": "round to the nearest cent" }
+      ],
+      "selfExplanation": {
+        "question": "Why divide this time instead of multiplying?",
+        "options": [
+          { "label": "we're going the OPPOSITE direction — DKK to USD undoes USD to DKK", "isCorrect": true },
+          { "label": "DKK is smaller than USD", "isCorrect": false },
+          { "label": "division always gives money", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#currency", "#decimals"],
+    "source": "static"
+  },
+  {
+    "id": "currency-003",
+    "text": "Beatrix wants to buy a Danish pastry that costs 200 DKK. She has $20 (worth 137 DKK at today's rate of 6.85 DKK/USD). How many MORE Danish kroner does she need?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "63",
+      "value": { "kind": "integer", "value": 63 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "200 - 137 = 63 \\text{ DKK}", "caption": "subtract what she has (in DKK) from what she needs" }
+      ],
+      "selfExplanation": {
+        "question": "Why convert her dollars to DKK before subtracting?",
+        "options": [
+          { "label": "you can only add or subtract amounts in the same unit", "isCorrect": true },
+          { "label": "DKK is the currency the store wants", "isCorrect": false },
+          { "label": "USD doesn't subtract from DKK", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#currency"],
+    "source": "static"
+  },
+  {
+    "id": "currency-004",
+    "text": "A sweater costs 80 DKK in Copenhagen, or $12 in New York for the same item. The rate is 6.85 DKK per US dollar. Which is cheaper, and by how much in US dollars (to the nearest cent)?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$0.32",
+      "value": { "kind": "currency", "cents": 32 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\frac{80}{6.85} = \\$11.68", "caption": "convert the DKK price to USD so we can compare" },
+        { "math": "\\$12.00 - \\$11.68 = \\$0.32", "caption": "Copenhagen is cheaper by 32 cents" }
+      ]
+    },
+    "tags": ["#word-problem", "#currency", "#decimals"],
+    "source": "static"
+  },
+  {
+    "id": "currency-005",
+    "text": "Beatrix budgets $50 per day for 5 days in Denmark. At 6.85 DKK per US dollar, what is her total budget in DKK?",
+    "answer": {
+      "form": { "kind": "decimal", "places": 2, "tolerance": 0.01 },
+      "canonical": "1712.50",
+      "value": { "kind": "decimal", "value": 1712.5 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$50 \\times 5 = \\$250", "caption": "find the total in USD first" },
+        { "math": "250 \\times 6.85 = 1712.50 \\text{ DKK}", "caption": "convert the total to DKK" }
+      ],
+      "selfExplanation": {
+        "question": "Could you also multiply $50 × 6.85 first, then × 5?",
+        "options": [
+          { "label": "yes — multiplication can be reordered, same answer", "isCorrect": true },
+          { "label": "no — you must always sum first", "isCorrect": false },
+          { "label": "yes but only if the answer is in DKK", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#currency", "#decimals"],
+    "source": "static"
+  },
+  {
+    "id": "currency-006",
+    "text": "Last month the exchange rate was 6.85 DKK per US dollar. Now it is 6.50 DKK per US dollar. What is the percent decrease in the rate, rounded to the nearest whole percent?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "5%",
+      "value": { "kind": "integer", "value": 5 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "6.85 - 6.50 = 0.35", "caption": "find the size of the change" },
+        { "math": "\\frac{0.35}{6.85} \\approx 0.0511", "caption": "divide by the ORIGINAL rate to get the proportion" },
+        { "math": "0.0511 \\times 100 \\approx 5\\%", "caption": "convert to a percent and round" }
+      ],
+      "selfExplanation": {
+        "question": "Why divide by 6.85, not 6.50?",
+        "options": [
+          { "label": "percent change always compares to the STARTING value", "isCorrect": true },
+          { "label": "dividing by the smaller number gives a bigger answer", "isCorrect": false },
+          { "label": "either denominator works", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#currency", "#percent"],
+    "source": "static"
+  }
+]

@@ -1,0 +1,4710 @@
+{
+  "templateId": "percent-markup",
+  "tags": [
+    "#percent"
+  ],
+  "tidyMode": [
+    {
+      "text": "A jacket cost \\($15\\) wholesale. With a \\(75\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$26.25",
+        "value": {
+          "kind": "currency",
+          "cents": 2625
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{75}{100} = 1.75",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "15 \\times 1.75 = 26.25",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($15\\) wholesale. With a \\(10\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$16.50",
+        "value": {
+          "kind": "currency",
+          "cents": 1650
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{10}{100} = 1.10",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "15 \\times 1.10 = 16.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($80\\) wholesale. With a \\(40\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$112.00",
+        "value": {
+          "kind": "currency",
+          "cents": 11200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{40}{100} = 1.40",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "80 \\times 1.40 = 112.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($100\\) wholesale. With a \\(75\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$175.00",
+        "value": {
+          "kind": "currency",
+          "cents": 17500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{75}{100} = 1.75",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "100 \\times 1.75 = 175.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($50\\) wholesale. With a \\(25\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$62.50",
+        "value": {
+          "kind": "currency",
+          "cents": 6250
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{25}{100} = 1.25",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "50 \\times 1.25 = 62.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($60\\) wholesale. With a \\(20\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$72.00",
+        "value": {
+          "kind": "currency",
+          "cents": 7200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{20}{100} = 1.20",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "60 \\times 1.20 = 72.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($80\\) wholesale. With a \\(60\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$128.00",
+        "value": {
+          "kind": "currency",
+          "cents": 12800
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{60}{100} = 1.60",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "80 \\times 1.60 = 128.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($20\\) wholesale. With a \\(40\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$28.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2800
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{40}{100} = 1.40",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "20 \\times 1.40 = 28.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($80\\) wholesale. With a \\(40\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$112.00",
+        "value": {
+          "kind": "currency",
+          "cents": 11200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{40}{100} = 1.40",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "80 \\times 1.40 = 112.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($24\\) wholesale. With a \\(50\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$36.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3600
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{50}{100} = 1.50",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "24 \\times 1.50 = 36.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($12\\) wholesale. With a \\(25\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$15.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{25}{100} = 1.25",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "12 \\times 1.25 = 15.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($15\\) wholesale. With a \\(20\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$18.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1800
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{20}{100} = 1.20",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "15 \\times 1.20 = 18.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($10\\) wholesale. With a \\(10\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$11.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1100
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{10}{100} = 1.10",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "10 \\times 1.10 = 11.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($20\\) wholesale. With a \\(5\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$21.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2100
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{5}{100} = 1.05",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "20 \\times 1.05 = 21.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($40\\) wholesale. With a \\(75\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$70.00",
+        "value": {
+          "kind": "currency",
+          "cents": 7000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{75}{100} = 1.75",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "40 \\times 1.75 = 70.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($100\\) wholesale. With a \\(5\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$105.00",
+        "value": {
+          "kind": "currency",
+          "cents": 10500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{5}{100} = 1.05",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "100 \\times 1.05 = 105.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($100\\) wholesale. With a \\(30\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$130.00",
+        "value": {
+          "kind": "currency",
+          "cents": 13000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{30}{100} = 1.30",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "100 \\times 1.30 = 130.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($100\\) wholesale. With a \\(80\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$180.00",
+        "value": {
+          "kind": "currency",
+          "cents": 18000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{80}{100} = 1.80",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "100 \\times 1.80 = 180.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($30\\) wholesale. With a \\(50\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$45.00",
+        "value": {
+          "kind": "currency",
+          "cents": 4500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{50}{100} = 1.50",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "30 \\times 1.50 = 45.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($25\\) wholesale. With a \\(10\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$27.50",
+        "value": {
+          "kind": "currency",
+          "cents": 2750
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{10}{100} = 1.10",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "25 \\times 1.10 = 27.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($100\\) wholesale. With a \\(40\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$140.00",
+        "value": {
+          "kind": "currency",
+          "cents": 14000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{40}{100} = 1.40",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "100 \\times 1.40 = 140.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($10\\) wholesale. With a \\(5\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$10.50",
+        "value": {
+          "kind": "currency",
+          "cents": 1050
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{5}{100} = 1.05",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "10 \\times 1.05 = 10.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($24\\) wholesale. With a \\(10\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$26.40",
+        "value": {
+          "kind": "currency",
+          "cents": 2640
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{10}{100} = 1.10",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "24 \\times 1.10 = 26.40",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($40\\) wholesale. With a \\(75\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$70.00",
+        "value": {
+          "kind": "currency",
+          "cents": 7000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{75}{100} = 1.75",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "40 \\times 1.75 = 70.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($40\\) wholesale. With a \\(5\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$42.00",
+        "value": {
+          "kind": "currency",
+          "cents": 4200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{5}{100} = 1.05",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "40 \\times 1.05 = 42.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($25\\) wholesale. With a \\(25\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$31.25",
+        "value": {
+          "kind": "currency",
+          "cents": 3125
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{25}{100} = 1.25",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "25 \\times 1.25 = 31.25",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($30\\) wholesale. With a \\(25\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$37.50",
+        "value": {
+          "kind": "currency",
+          "cents": 3750
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{25}{100} = 1.25",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "30 \\times 1.25 = 37.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($25\\) wholesale. With a \\(60\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$40.00",
+        "value": {
+          "kind": "currency",
+          "cents": 4000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{60}{100} = 1.60",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "25 \\times 1.60 = 40.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($100\\) wholesale. With a \\(20\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$120.00",
+        "value": {
+          "kind": "currency",
+          "cents": 12000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{20}{100} = 1.20",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "100 \\times 1.20 = 120.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($15\\) wholesale. With a \\(30\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$19.50",
+        "value": {
+          "kind": "currency",
+          "cents": 1950
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{30}{100} = 1.30",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "15 \\times 1.30 = 19.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($60\\) wholesale. With a \\(5\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$63.00",
+        "value": {
+          "kind": "currency",
+          "cents": 6300
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{5}{100} = 1.05",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "60 \\times 1.05 = 63.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($30\\) wholesale. With a \\(30\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$39.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3900
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{30}{100} = 1.30",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "30 \\times 1.30 = 39.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($10\\) wholesale. With a \\(40\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$14.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1400
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{40}{100} = 1.40",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "10 \\times 1.40 = 14.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($20\\) wholesale. With a \\(20\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$24.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2400
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{20}{100} = 1.20",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "20 \\times 1.20 = 24.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($20\\) wholesale. With a \\(75\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$35.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{75}{100} = 1.75",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "20 \\times 1.75 = 35.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($80\\) wholesale. With a \\(15\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$92.00",
+        "value": {
+          "kind": "currency",
+          "cents": 9200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{15}{100} = 1.15",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "80 \\times 1.15 = 92.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($25\\) wholesale. With a \\(30\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$32.50",
+        "value": {
+          "kind": "currency",
+          "cents": 3250
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{30}{100} = 1.30",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "25 \\times 1.30 = 32.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($60\\) wholesale. With a \\(5\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$63.00",
+        "value": {
+          "kind": "currency",
+          "cents": 6300
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{5}{100} = 1.05",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "60 \\times 1.05 = 63.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($50\\) wholesale. With a \\(60\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$80.00",
+        "value": {
+          "kind": "currency",
+          "cents": 8000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{60}{100} = 1.60",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "50 \\times 1.60 = 80.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($10\\) wholesale. With a \\(50\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$15.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{50}{100} = 1.50",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "10 \\times 1.50 = 15.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($12\\) wholesale. With a \\(15\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$13.80",
+        "value": {
+          "kind": "currency",
+          "cents": 1380
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{15}{100} = 1.15",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "12 \\times 1.15 = 13.80",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($25\\) wholesale. With a \\(30\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$32.50",
+        "value": {
+          "kind": "currency",
+          "cents": 3250
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{30}{100} = 1.30",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "25 \\times 1.30 = 32.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($10\\) wholesale. With a \\(30\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$13.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1300
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{30}{100} = 1.30",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "10 \\times 1.30 = 13.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($12\\) wholesale. With a \\(75\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$21.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2100
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{75}{100} = 1.75",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "12 \\times 1.75 = 21.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($60\\) wholesale. With a \\(40\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$84.00",
+        "value": {
+          "kind": "currency",
+          "cents": 8400
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{40}{100} = 1.40",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "60 \\times 1.40 = 84.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($30\\) wholesale. With a \\(30\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$39.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3900
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{30}{100} = 1.30",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "30 \\times 1.30 = 39.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($25\\) wholesale. With a \\(40\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$35.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{40}{100} = 1.40",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "25 \\times 1.40 = 35.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($10\\) wholesale. With a \\(60\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$16.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1600
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{60}{100} = 1.60",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "10 \\times 1.60 = 16.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($30\\) wholesale. With a \\(80\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$54.00",
+        "value": {
+          "kind": "currency",
+          "cents": 5400
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{80}{100} = 1.80",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "30 \\times 1.80 = 54.00",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($10\\) wholesale. With a \\(25\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$12.50",
+        "value": {
+          "kind": "currency",
+          "cents": 1250
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{25}{100} = 1.25",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "10 \\times 1.25 = 12.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "A jacket cost \\($50\\) wholesale. With a \\(47\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$73.50",
+        "value": {
+          "kind": "currency",
+          "cents": 7350
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{47}{100} = 1.47",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "50 \\times 1.47 = 73.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($84\\) wholesale. With a \\(73\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$145.32",
+        "value": {
+          "kind": "currency",
+          "cents": 14532
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{73}{100} = 1.73",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "84 \\times 1.73 = 145.32",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($13\\) wholesale. With a \\(37\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$17.81",
+        "value": {
+          "kind": "currency",
+          "cents": 1781
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{37}{100} = 1.37",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "13 \\times 1.37 = 17.81",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($66\\) wholesale. With a \\(23\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$81.18",
+        "value": {
+          "kind": "currency",
+          "cents": 8118
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{23}{100} = 1.23",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "66 \\times 1.23 = 81.18",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($61\\) wholesale. With a \\(55\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$94.55",
+        "value": {
+          "kind": "currency",
+          "cents": 9455
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{55}{100} = 1.55",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "61 \\times 1.55 = 94.55",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($19\\) wholesale. With a \\(92\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$36.48",
+        "value": {
+          "kind": "currency",
+          "cents": 3648
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{92}{100} = 1.92",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "19 \\times 1.92 = 36.48",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($20\\) wholesale. With a \\(68\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$33.60",
+        "value": {
+          "kind": "currency",
+          "cents": 3360
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{68}{100} = 1.68",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "20 \\times 1.68 = 33.60",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($81\\) wholesale. With a \\(7\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$86.67",
+        "value": {
+          "kind": "currency",
+          "cents": 8667
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{7}{100} = 1.07",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "81 \\times 1.07 = 86.67",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($77\\) wholesale. With a \\(33\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$102.41",
+        "value": {
+          "kind": "currency",
+          "cents": 10241
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{33}{100} = 1.33",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "77 \\times 1.33 = 102.41",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($30\\) wholesale. With a \\(73\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$51.90",
+        "value": {
+          "kind": "currency",
+          "cents": 5190
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{73}{100} = 1.73",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "30 \\times 1.73 = 51.90",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($38\\) wholesale. With a \\(7\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$40.66",
+        "value": {
+          "kind": "currency",
+          "cents": 4066
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{7}{100} = 1.07",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "38 \\times 1.07 = 40.66",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($69\\) wholesale. With a \\(85\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$127.65",
+        "value": {
+          "kind": "currency",
+          "cents": 12765
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{85}{100} = 1.85",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "69 \\times 1.85 = 127.65",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($68\\) wholesale. With a \\(73\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$117.64",
+        "value": {
+          "kind": "currency",
+          "cents": 11764
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{73}{100} = 1.73",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "68 \\times 1.73 = 117.64",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($47\\) wholesale. With a \\(7\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$50.29",
+        "value": {
+          "kind": "currency",
+          "cents": 5029
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{7}{100} = 1.07",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "47 \\times 1.07 = 50.29",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($57\\) wholesale. With a \\(85\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$105.45",
+        "value": {
+          "kind": "currency",
+          "cents": 10545
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{85}{100} = 1.85",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "57 \\times 1.85 = 105.45",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($51\\) wholesale. With a \\(7\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$54.57",
+        "value": {
+          "kind": "currency",
+          "cents": 5457
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{7}{100} = 1.07",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "51 \\times 1.07 = 54.57",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($16\\) wholesale. With a \\(12\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$17.92",
+        "value": {
+          "kind": "currency",
+          "cents": 1792
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{12}{100} = 1.12",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "16 \\times 1.12 = 17.92",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($84\\) wholesale. With a \\(47\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$123.48",
+        "value": {
+          "kind": "currency",
+          "cents": 12348
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{47}{100} = 1.47",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "84 \\times 1.47 = 123.48",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($36\\) wholesale. With a \\(18\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$42.48",
+        "value": {
+          "kind": "currency",
+          "cents": 4248
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{18}{100} = 1.18",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "36 \\times 1.18 = 42.48",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($73\\) wholesale. With a \\(33\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$97.09",
+        "value": {
+          "kind": "currency",
+          "cents": 9709
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{33}{100} = 1.33",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "73 \\times 1.33 = 97.09",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($43\\) wholesale. With a \\(23\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$52.89",
+        "value": {
+          "kind": "currency",
+          "cents": 5289
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{23}{100} = 1.23",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "43 \\times 1.23 = 52.89",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($87\\) wholesale. With a \\(42\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$123.54",
+        "value": {
+          "kind": "currency",
+          "cents": 12354
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{42}{100} = 1.42",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "87 \\times 1.42 = 123.54",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($14\\) wholesale. With a \\(68\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$23.52",
+        "value": {
+          "kind": "currency",
+          "cents": 2352
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{68}{100} = 1.68",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "14 \\times 1.68 = 23.52",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($83\\) wholesale. With a \\(42\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$117.86",
+        "value": {
+          "kind": "currency",
+          "cents": 11786
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{42}{100} = 1.42",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "83 \\times 1.42 = 117.86",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($25\\) wholesale. With a \\(62\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$40.50",
+        "value": {
+          "kind": "currency",
+          "cents": 4050
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{62}{100} = 1.62",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "25 \\times 1.62 = 40.50",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($58\\) wholesale. With a \\(18\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$68.44",
+        "value": {
+          "kind": "currency",
+          "cents": 6844
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{18}{100} = 1.18",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "58 \\times 1.18 = 68.44",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($17\\) wholesale. With a \\(85\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$31.45",
+        "value": {
+          "kind": "currency",
+          "cents": 3145
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{85}{100} = 1.85",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "17 \\times 1.85 = 31.45",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($36\\) wholesale. With a \\(7\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$38.52",
+        "value": {
+          "kind": "currency",
+          "cents": 3852
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{7}{100} = 1.07",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "36 \\times 1.07 = 38.52",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($38\\) wholesale. With a \\(33\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$50.54",
+        "value": {
+          "kind": "currency",
+          "cents": 5054
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{33}{100} = 1.33",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "38 \\times 1.33 = 50.54",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($17\\) wholesale. With a \\(85\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$31.45",
+        "value": {
+          "kind": "currency",
+          "cents": 3145
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{85}{100} = 1.85",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "17 \\times 1.85 = 31.45",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($53\\) wholesale. With a \\(12\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$59.36",
+        "value": {
+          "kind": "currency",
+          "cents": 5936
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{12}{100} = 1.12",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "53 \\times 1.12 = 59.36",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($21\\) wholesale. With a \\(47\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$30.87",
+        "value": {
+          "kind": "currency",
+          "cents": 3087
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{47}{100} = 1.47",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "21 \\times 1.47 = 30.87",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($46\\) wholesale. With a \\(62\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$74.52",
+        "value": {
+          "kind": "currency",
+          "cents": 7452
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{62}{100} = 1.62",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "46 \\times 1.62 = 74.52",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($61\\) wholesale. With a \\(73\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$105.53",
+        "value": {
+          "kind": "currency",
+          "cents": 10553
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{73}{100} = 1.73",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "61 \\times 1.73 = 105.53",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($16\\) wholesale. With a \\(12\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$17.92",
+        "value": {
+          "kind": "currency",
+          "cents": 1792
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{12}{100} = 1.12",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "16 \\times 1.12 = 17.92",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($64\\) wholesale. With a \\(33\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$85.12",
+        "value": {
+          "kind": "currency",
+          "cents": 8512
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{33}{100} = 1.33",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "64 \\times 1.33 = 85.12",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($29\\) wholesale. With a \\(27\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$36.83",
+        "value": {
+          "kind": "currency",
+          "cents": 3683
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{27}{100} = 1.27",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "29 \\times 1.27 = 36.83",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($27\\) wholesale. With a \\(37\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$36.99",
+        "value": {
+          "kind": "currency",
+          "cents": 3699
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{37}{100} = 1.37",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "27 \\times 1.37 = 36.99",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($29\\) wholesale. With a \\(42\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$41.18",
+        "value": {
+          "kind": "currency",
+          "cents": 4118
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{42}{100} = 1.42",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "29 \\times 1.42 = 41.18",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($79\\) wholesale. With a \\(23\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$97.17",
+        "value": {
+          "kind": "currency",
+          "cents": 9717
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{23}{100} = 1.23",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "79 \\times 1.23 = 97.17",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($63\\) wholesale. With a \\(7\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$67.41",
+        "value": {
+          "kind": "currency",
+          "cents": 6741
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{7}{100} = 1.07",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "63 \\times 1.07 = 67.41",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($42\\) wholesale. With a \\(27\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$53.34",
+        "value": {
+          "kind": "currency",
+          "cents": 5334
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{27}{100} = 1.27",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "42 \\times 1.27 = 53.34",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($49\\) wholesale. With a \\(85\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$90.65",
+        "value": {
+          "kind": "currency",
+          "cents": 9065
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{85}{100} = 1.85",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "49 \\times 1.85 = 90.65",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($55\\) wholesale. With a \\(18\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$64.90",
+        "value": {
+          "kind": "currency",
+          "cents": 6490
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{18}{100} = 1.18",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "55 \\times 1.18 = 64.90",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($25\\) wholesale. With a \\(37\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$34.25",
+        "value": {
+          "kind": "currency",
+          "cents": 3425
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{37}{100} = 1.37",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "25 \\times 1.37 = 34.25",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($62\\) wholesale. With a \\(47\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$91.14",
+        "value": {
+          "kind": "currency",
+          "cents": 9114
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{47}{100} = 1.47",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "62 \\times 1.47 = 91.14",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($82\\) wholesale. With a \\(7\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$87.74",
+        "value": {
+          "kind": "currency",
+          "cents": 8774
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{7}{100} = 1.07",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "82 \\times 1.07 = 87.74",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($17\\) wholesale. With a \\(7\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$18.19",
+        "value": {
+          "kind": "currency",
+          "cents": 1819
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{7}{100} = 1.07",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "17 \\times 1.07 = 18.19",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($66\\) wholesale. With a \\(7\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$70.62",
+        "value": {
+          "kind": "currency",
+          "cents": 7062
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{7}{100} = 1.07",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "66 \\times 1.07 = 70.62",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "A jacket cost \\($51\\) wholesale. With a \\(27\\%\\) markup, what is the selling price?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$64.77",
+        "value": {
+          "kind": "currency",
+          "cents": 6477
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\text{multiplier} = 1 + \\frac{27}{100} = 1.27",
+            "caption": "add the markup to 100% so the original price is included",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "51 \\times 1.27 = 64.77",
+            "caption": "multiply the cost by the markup multiplier"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we add the markup percent BACK to 100% before multiplying?",
+          "options": [
+            {
+              "label": "because the selling price is the original PLUS the markup",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the multiplication easier",
+              "isCorrect": false
+            },
+            {
+              "label": "because 100% is a magic number",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "sewing-001",
+    "text": "Beatrix uses 3 yards of fabric to make 2 shirts. How many yards does she need for one shirt?",
+    "answer": {
+      "form": { "kind": "decimal", "places": 1, "tolerance": 0.05 },
+      "canonical": "1.5",
+      "value": { "kind": "decimal", "value": 1.5 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\frac{3 \\text{ yards}}{2 \\text{ shirts}} = 1.5 \\text{ yards per shirt}", "caption": "divide total fabric by number of shirts to get fabric per shirt" }
+      ]
+    },
+    "tags": ["#word-problem", "#sewing"],
+    "source": "static"
+  },
+  {
+    "id": "sewing-002",
+    "text": "For one shirt, Beatrix uses $24 of fabric, a $0.50 button, and $1.50 of thread. What is her material cost per shirt?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$26.00",
+      "value": { "kind": "currency", "cents": 2600 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$24.00 + \\$0.50 + \\$1.50 = \\$26.00", "caption": "add all material costs together" }
+      ]
+    },
+    "tags": ["#word-problem", "#sewing"],
+    "source": "static"
+  },
+  {
+    "id": "sewing-003",
+    "text": "Beatrix has 15 yards of fabric. Each skirt takes 2.5 yards. What is the maximum number of WHOLE skirts she can make?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "6",
+      "value": { "kind": "integer", "value": 6 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\frac{15 \\text{ yards}}{2.5 \\text{ yards per skirt}} = 6 \\text{ skirts}", "caption": "divide total fabric by fabric needed per skirt" },
+        { "math": "6 \\times 2.5 = 15 \\text{ yards used, } 0 \\text{ left over}", "caption": "check: she uses all 15 yards exactly" }
+      ],
+      "selfExplanation": {
+        "question": "Why does the problem say 'WHOLE skirts'?",
+        "options": [
+          { "label": "you can't make a fractional skirt — round DOWN if there's a remainder", "isCorrect": true },
+          { "label": "fabric is sold in whole yards", "isCorrect": false },
+          { "label": "rounding up gives more skirts", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#sewing"],
+    "source": "static"
+  },
+  {
+    "id": "sewing-004",
+    "text": "It takes Beatrix 45 minutes to sew one shirt. How many shirts can she make in 3 hours?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "4",
+      "value": { "kind": "integer", "value": 4 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "3 \\text{ hours} \\times 60 = 180 \\text{ minutes}", "caption": "convert to the same units before dividing" },
+        { "math": "\\frac{180}{45} = 4 \\text{ shirts}", "caption": "divide total time by time per shirt" }
+      ],
+      "selfExplanation": {
+        "question": "Why convert hours to minutes first?",
+        "options": [
+          { "label": "both numbers must be in the same units before dividing", "isCorrect": true },
+          { "label": "minutes are easier to multiply", "isCorrect": false },
+          { "label": "to avoid getting a decimal answer", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#sewing"],
+    "source": "static"
+  },
+  {
+    "id": "sewing-005",
+    "text": "An order is 6 shirts. Each shirt needs 1.5 yards of fabric. How many total yards does Beatrix need?",
+    "answer": {
+      "form": { "kind": "decimal", "places": 1, "tolerance": 0.05 },
+      "canonical": "9.0",
+      "value": { "kind": "decimal", "value": 9 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "6 \\text{ shirts} \\times 1.5 \\text{ yd/shirt} = 9 \\text{ yards}", "caption": "multiply quantity by fabric per unit" }
+      ]
+    },
+    "tags": ["#word-problem", "#sewing"],
+    "source": "static"
+  },
+  {
+    "id": "sewing-006",
+    "text": "Beatrix's material cost for a dress is $12. She wants a 50% profit margin on the cost. What should she charge?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$18.00",
+      "value": { "kind": "currency", "cents": 1800 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "50\\% \\text{ of } \\$12 = \\$6", "caption": "find the profit she wants to add" },
+        { "math": "\\$12 + \\$6 = \\$18", "caption": "add profit to cost to get the selling price" }
+      ],
+      "selfExplanation": {
+        "question": "If she wanted a 100% margin instead, what would she charge?",
+        "options": [
+          { "label": "$24 — double the cost", "isCorrect": true },
+          { "label": "$12 — same as cost", "isCorrect": false },
+          { "label": "$36 — triple the cost", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#sewing", "#percent"],
+    "source": "static"
+  }
+]

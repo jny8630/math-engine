@@ -1,0 +1,134 @@
+[
+  {
+    "id": "spending-slope-001",
+    "text": "Beatrix starts the week with $50 and spends $5 each day. After how many days will she have $20 left?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "6",
+      "value": { "kind": "integer", "value": 6 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$50 - \\$20 = \\$30 \\text{ spent}", "caption": "find how much she'll have spent by then" },
+        { "math": "\\frac{\\$30}{\\$5 / \\text{day}} = 6 \\text{ days}", "caption": "divide total spent by spending rate" }
+      ],
+      "selfExplanation": {
+        "question": "This is a slope/linear problem: balance = starting amount − rate × days. What's the y-intercept?",
+        "options": [
+          { "label": "$50 — the starting balance (when days = 0)", "isCorrect": true },
+          { "label": "$20 — the ending balance", "isCorrect": false },
+          { "label": "$5 — the daily spend", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#spending-slope", "#pre-algebra", "#linear-equations"],
+    "source": "static"
+  },
+  {
+    "id": "spending-slope-002",
+    "text": "Beatrix started with $50. After 4 days she has $30 left. How much is she spending per day (assuming the same amount each day)?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$5.00",
+      "value": { "kind": "currency", "cents": 500 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$50 - \\$30 = \\$20 \\text{ spent over 4 days}", "caption": "find total spending in that window" },
+        { "math": "\\frac{\\$20}{4 \\text{ days}} = \\$5 \\text{ per day}", "caption": "divide by the number of days for the daily rate (the slope)" }
+      ],
+      "selfExplanation": {
+        "question": "The 'slope' of a spending line is what you just calculated. What does it tell you?",
+        "options": [
+          { "label": "how fast the balance is changing per unit of time", "isCorrect": true },
+          { "label": "the total amount spent", "isCorrect": false },
+          { "label": "the starting amount", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#spending-slope", "#pre-algebra", "#linear-equations"],
+    "source": "static"
+  },
+  {
+    "id": "spending-slope-003",
+    "text": "Beatrix has $40 and spends $4 each day. After how many days will she run out of money?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "10",
+      "value": { "kind": "integer", "value": 10 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\frac{\\$40}{\\$4 / \\text{day}} = 10 \\text{ days}", "caption": "divide total money by daily spending to find when she hits $0" }
+      ]
+    },
+    "tags": ["#word-problem", "#spending-slope", "#pre-algebra", "#linear-equations"],
+    "source": "static"
+  },
+  {
+    "id": "spending-slope-004",
+    "text": "Beatrix has $25 today. She spends $3 each day. How much did she have 5 days ago (assuming the same spending rate)?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$40.00",
+      "value": { "kind": "currency", "cents": 4000 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "5 \\text{ days} \\times \\$3 / \\text{day} = \\$15 \\text{ spent}", "caption": "find how much she spent over those 5 days" },
+        { "math": "\\$25 + \\$15 = \\$40", "caption": "go BACKWARDS in time — add back what was spent" }
+      ],
+      "selfExplanation": {
+        "question": "Why add the spending instead of subtracting?",
+        "options": [
+          { "label": "we're rewinding time — the money she has now was bigger 5 days ago", "isCorrect": true },
+          { "label": "addition is the only way to find past amounts", "isCorrect": false },
+          { "label": "she spent it twice", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#spending-slope", "#pre-algebra", "#linear-equations"],
+    "source": "static"
+  },
+  {
+    "id": "spending-slope-005",
+    "text": "Beatrix starts with $60 and spends $4 each day. How much will she have after 8 days?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$28.00",
+      "value": { "kind": "currency", "cents": 2800 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "8 \\times \\$4 = \\$32 \\text{ total spent}", "caption": "find total spending across 8 days" },
+        { "math": "\\$60 - \\$32 = \\$28", "caption": "subtract from her starting balance" }
+      ],
+      "selfExplanation": {
+        "question": "As an equation: balance(d) = 60 − 4d. What is balance(8)?",
+        "options": [
+          { "label": "60 − 4(8) = 60 − 32 = 28", "isCorrect": true },
+          { "label": "60 + 4(8) = 92", "isCorrect": false },
+          { "label": "8 − 4(60) = -232", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#spending-slope", "#pre-algebra", "#linear-equations"],
+    "source": "static"
+  },
+  {
+    "id": "spending-slope-006",
+    "text": "Beatrix has spent $20 total so far this week and has $35 left. How much did she start the week with?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$55.00",
+      "value": { "kind": "currency", "cents": 5500 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$35 + \\$20 = \\$55", "caption": "starting amount = what's left + what's been spent" }
+      ]
+    },
+    "tags": ["#word-problem", "#spending-slope"],
+    "source": "static"
+  }
+]

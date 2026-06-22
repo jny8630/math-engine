@@ -1,0 +1,6014 @@
+{
+  "templateId": "fraction-div",
+  "tags": [
+    "#fractions"
+  ],
+  "tidyMode": [
+    {
+      "text": "What is \\(\\frac{3}{4} \\div \\frac{3}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/4",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\div \\frac{3}{5} = \\frac{3}{4} \\times \\frac{5}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 5}{4 \\times 3} = \\frac{15}{12}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{15}{12} = \\frac{5}{4}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 9,
+            "d": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{5} \\div \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/5",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{5} \\div \\frac{1}{4} = \\frac{1}{5} \\times \\frac{4}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 4}{5 \\times 1} = \\frac{4}{5}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} \\div \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/2",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\div \\frac{2}{3} = \\frac{1}{3} \\times \\frac{3}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 3}{3 \\times 2} = \\frac{3}{6}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{3}{6} = \\frac{1}{2}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 9
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/2",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{1}{3} = \\frac{1}{2} \\times \\frac{3}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 3}{2 \\times 1} = \\frac{3}{2}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{6} \\div \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/9",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{6} \\div \\frac{3}{4} = \\frac{1}{6} \\times \\frac{4}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 4}{6 \\times 3} = \\frac{4}{18}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{4}{18} = \\frac{2}{9}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 3,
+            "d": 24
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{7}{8} \\div \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/2",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{8} \\div \\frac{1}{4} = \\frac{7}{8} \\times \\frac{4}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{7 \\times 4}{8 \\times 1} = \\frac{28}{8}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{28}{8} = \\frac{7}{2}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 7,
+            "d": 32
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{1}{2} = \\frac{1}{2} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 2}{2 \\times 1} = \\frac{2}{2}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{2}{2} = 1",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 4
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} \\div \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "25/6",
+        "value": {
+          "kind": "fraction",
+          "n": 25,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{6} \\div \\frac{1}{5} = \\frac{5}{6} \\times \\frac{5}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{5 \\times 5}{6 \\times 1} = \\frac{25}{6}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 5,
+            "d": 30
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/3",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{3}{4} = \\frac{1}{2} \\times \\frac{4}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 4}{2 \\times 3} = \\frac{4}{6}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{4}{6} = \\frac{2}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 3,
+            "d": 8
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/3",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\div \\frac{1}{2} = \\frac{1}{3} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 2}{3 \\times 1} = \\frac{2}{3}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/3",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\div \\frac{1}{2} = \\frac{1}{3} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 2}{3 \\times 1} = \\frac{2}{3}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\div \\frac{7}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/7",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\div \\frac{7}{8} = \\frac{1}{4} \\times \\frac{8}{7}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 8}{4 \\times 7} = \\frac{8}{28}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{8}{28} = \\frac{2}{7}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 7,
+            "d": 32
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/4",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{2}{5} = \\frac{1}{2} \\times \\frac{5}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 5}{2 \\times 2} = \\frac{5}{4}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 10
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{10} \\div \\frac{3}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/5",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{10} \\div \\frac{3}{8} = \\frac{3}{10} \\times \\frac{8}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 8}{10 \\times 3} = \\frac{24}{30}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{24}{30} = \\frac{4}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 9,
+            "d": 80
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{7}{10}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/7",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{7}{10} = \\frac{1}{2} \\times \\frac{10}{7}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 10}{2 \\times 7} = \\frac{10}{14}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{10}{14} = \\frac{5}{7}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 7,
+            "d": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\div \\frac{5}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "16/15",
+        "value": {
+          "kind": "fraction",
+          "n": 16,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\div \\frac{5}{8} = \\frac{2}{3} \\times \\frac{8}{5}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 8}{3 \\times 5} = \\frac{16}{15}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 10,
+            "d": 24
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\div \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\div \\frac{1}{3} = \\frac{2}{3} \\times \\frac{3}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 3}{3 \\times 1} = \\frac{6}{3}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{6}{3} = 2",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 9
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{1}{2} = \\frac{1}{2} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 2}{2 \\times 1} = \\frac{2}{2}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{2}{2} = 1",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 4
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{5} \\div \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "8/5",
+        "value": {
+          "kind": "fraction",
+          "n": 8,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{5} \\div \\frac{1}{4} = \\frac{2}{5} \\times \\frac{4}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 4}{5 \\times 1} = \\frac{8}{5}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/2",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\div \\frac{1}{2} = \\frac{1}{4} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 2}{4 \\times 1} = \\frac{2}{4}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{2}{4} = \\frac{1}{2}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 8
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} \\div \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "15/8",
+        "value": {
+          "kind": "fraction",
+          "n": 15,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\div \\frac{2}{5} = \\frac{3}{4} \\times \\frac{5}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 5}{4 \\times 2} = \\frac{15}{8}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 6,
+            "d": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} \\div \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/5",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{5} \\div \\frac{3}{4} = \\frac{3}{5} \\times \\frac{4}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 4}{5 \\times 3} = \\frac{12}{15}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{12}{15} = \\frac{4}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 9,
+            "d": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/3",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\div \\frac{1}{2} = \\frac{2}{3} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 2}{3 \\times 1} = \\frac{4}{3}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{9}{10} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/5",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{9}{10} \\div \\frac{1}{2} = \\frac{9}{10} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{9 \\times 2}{10 \\times 1} = \\frac{18}{10}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{18}{10} = \\frac{9}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 9,
+            "d": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{6} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{6} \\div \\frac{1}{2} = \\frac{1}{6} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 2}{6 \\times 1} = \\frac{2}{6}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 12
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{5} \\div \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/5",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{5} \\div \\frac{2}{3} = \\frac{2}{5} \\times \\frac{3}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 3}{5 \\times 2} = \\frac{6}{10}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{6}{10} = \\frac{3}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 4,
+            "d": 15
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\div \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "8/3",
+        "value": {
+          "kind": "fraction",
+          "n": 8,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\div \\frac{1}{4} = \\frac{2}{3} \\times \\frac{4}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 4}{3 \\times 1} = \\frac{8}{3}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 12
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\div \\frac{5}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "16/15",
+        "value": {
+          "kind": "fraction",
+          "n": 16,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\div \\frac{5}{8} = \\frac{2}{3} \\times \\frac{8}{5}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 8}{3 \\times 5} = \\frac{16}{15}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 10,
+            "d": 24
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} \\div \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\div \\frac{1}{4} = \\frac{3}{4} \\times \\frac{4}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 4}{4 \\times 1} = \\frac{12}{4}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{12}{4} = 3",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 3,
+            "d": 16
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{11}{12} \\div \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "55/12",
+        "value": {
+          "kind": "fraction",
+          "n": 55,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{11}{12} \\div \\frac{1}{5} = \\frac{11}{12} \\times \\frac{5}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{11 \\times 5}{12 \\times 1} = \\frac{55}{12}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 11,
+            "d": 60
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{5}{12}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "6/5",
+        "value": {
+          "kind": "fraction",
+          "n": 6,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{5}{12} = \\frac{1}{2} \\times \\frac{12}{5}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 12}{2 \\times 5} = \\frac{12}{10}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{12}{10} = \\frac{6}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 5,
+            "d": 24
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{8} \\div \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{8} \\div \\frac{3}{4} = \\frac{1}{8} \\times \\frac{4}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 4}{8 \\times 3} = \\frac{4}{24}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{4}{24} = \\frac{1}{6}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 3,
+            "d": 32
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{5} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/5",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{5} \\div \\frac{1}{2} = \\frac{1}{5} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 2}{5 \\times 1} = \\frac{2}{5}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 10
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} \\div \\frac{3}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/3",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{4}{5} \\div \\frac{3}{5} = \\frac{4}{5} \\times \\frac{5}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{4 \\times 5}{5 \\times 3} = \\frac{20}{15}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{20}{15} = \\frac{4}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 12,
+            "d": 25
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{5} \\div \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "6/5",
+        "value": {
+          "kind": "fraction",
+          "n": 6,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{5} \\div \\frac{1}{3} = \\frac{2}{5} \\times \\frac{3}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 3}{5 \\times 1} = \\frac{6}{5}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 15
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{7}{8} \\div \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/6",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{8} \\div \\frac{3}{4} = \\frac{7}{8} \\times \\frac{4}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{7 \\times 4}{8 \\times 3} = \\frac{28}{24}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{28}{24} = \\frac{7}{6}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 21,
+            "d": 32
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{3}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/6",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{3}{5} = \\frac{1}{2} \\times \\frac{5}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 5}{2 \\times 3} = \\frac{5}{6}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 3,
+            "d": 10
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{5} \\div \\frac{3}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/3",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{5} \\div \\frac{3}{5} = \\frac{2}{5} \\times \\frac{5}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 5}{5 \\times 3} = \\frac{10}{15}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{10}{15} = \\frac{2}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 6,
+            "d": 25
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/4",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{2}{3} = \\frac{1}{2} \\times \\frac{3}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 3}{2 \\times 2} = \\frac{3}{4}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} \\div \\frac{11}{12}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "10/11",
+        "value": {
+          "kind": "fraction",
+          "n": 10,
+          "d": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{6} \\div \\frac{11}{12} = \\frac{5}{6} \\times \\frac{12}{11}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{5 \\times 12}{6 \\times 11} = \\frac{60}{66}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{60}{66} = \\frac{10}{11}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 55,
+            "d": 72
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{10} \\div \\frac{5}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "12/25",
+        "value": {
+          "kind": "fraction",
+          "n": 12,
+          "d": 25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{10} \\div \\frac{5}{8} = \\frac{3}{10} \\times \\frac{8}{5}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 8}{10 \\times 5} = \\frac{24}{50}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{24}{50} = \\frac{12}{25}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 15,
+            "d": 80
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\div \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "8/3",
+        "value": {
+          "kind": "fraction",
+          "n": 8,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\div \\frac{1}{4} = \\frac{2}{3} \\times \\frac{4}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 4}{3 \\times 1} = \\frac{8}{3}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 12
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/3",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{6} \\div \\frac{1}{2} = \\frac{5}{6} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{5 \\times 2}{6 \\times 1} = \\frac{10}{6}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{10}{6} = \\frac{5}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 5,
+            "d": 12
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} \\div \\frac{3}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\div \\frac{3}{8} = \\frac{3}{4} \\times \\frac{8}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 8}{4 \\times 3} = \\frac{24}{12}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{24}{12} = 2",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 9,
+            "d": 32
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{5} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/5",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{5} \\div \\frac{1}{2} = \\frac{2}{5} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 2}{5 \\times 1} = \\frac{4}{5}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 10
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} \\div \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "6/5",
+        "value": {
+          "kind": "fraction",
+          "n": 6,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{4}{5} \\div \\frac{2}{3} = \\frac{4}{5} \\times \\frac{3}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{4 \\times 3}{5 \\times 2} = \\frac{12}{10}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{12}{10} = \\frac{6}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 8,
+            "d": 15
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{5} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/5",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{5} \\div \\frac{1}{2} = \\frac{1}{5} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 2}{5 \\times 1} = \\frac{2}{5}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 10
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} \\div \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/3",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\div \\frac{1}{4} = \\frac{1}{3} \\times \\frac{4}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 4}{3 \\times 1} = \\frac{4}{3}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 12
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{5}{12} \\div \\frac{4}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "25/48",
+        "value": {
+          "kind": "fraction",
+          "n": 25,
+          "d": 48
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{12} \\div \\frac{4}{5} = \\frac{5}{12} \\times \\frac{5}{4}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{5 \\times 5}{12 \\times 4} = \\frac{25}{48}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 20,
+            "d": 60
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{7}{8} \\div \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/6",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{8} \\div \\frac{3}{4} = \\frac{7}{8} \\times \\frac{4}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{7 \\times 4}{8 \\times 3} = \\frac{28}{24}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{28}{24} = \\frac{7}{6}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 21,
+            "d": 32
+          }
+        }
+      ]
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "What is \\(\\frac{1}{3} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/3",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\div \\frac{1}{2} = \\frac{1}{3} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 2}{3 \\times 1} = \\frac{2}{3}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{5} \\div \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/5",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{5} \\div \\frac{2}{3} = \\frac{2}{5} \\times \\frac{3}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 3}{5 \\times 2} = \\frac{6}{10}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{6}{10} = \\frac{3}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 4,
+            "d": 15
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\div \\frac{3}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/3",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\div \\frac{3}{8} = \\frac{1}{4} \\times \\frac{8}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 8}{4 \\times 3} = \\frac{8}{12}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{8}{12} = \\frac{2}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 3,
+            "d": 32
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{13}{14} \\div \\frac{3}{10}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "65/21",
+        "value": {
+          "kind": "fraction",
+          "n": 65,
+          "d": 21
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{13}{14} \\div \\frac{3}{10} = \\frac{13}{14} \\times \\frac{10}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{13 \\times 10}{14 \\times 3} = \\frac{130}{42}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{130}{42} = \\frac{65}{21}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 39,
+            "d": 140
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\div \\frac{3}{11}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "22/9",
+        "value": {
+          "kind": "fraction",
+          "n": 22,
+          "d": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\div \\frac{3}{11} = \\frac{2}{3} \\times \\frac{11}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 11}{3 \\times 3} = \\frac{22}{9}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 6,
+            "d": 33
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} \\div \\frac{10}{11}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "33/40",
+        "value": {
+          "kind": "fraction",
+          "n": 33,
+          "d": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\div \\frac{10}{11} = \\frac{3}{4} \\times \\frac{11}{10}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 11}{4 \\times 10} = \\frac{33}{40}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 30,
+            "d": 44
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{10} \\div \\frac{5}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/25",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{10} \\div \\frac{5}{6} = \\frac{3}{10} \\times \\frac{6}{5}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 6}{10 \\times 5} = \\frac{18}{50}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{18}{50} = \\frac{9}{25}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 15,
+            "d": 60
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{9}{11} \\div \\frac{1}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "72/11",
+        "value": {
+          "kind": "fraction",
+          "n": 72,
+          "d": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{9}{11} \\div \\frac{1}{8} = \\frac{9}{11} \\times \\frac{8}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{9 \\times 8}{11 \\times 1} = \\frac{72}{11}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 9,
+            "d": 88
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{5} \\div \\frac{5}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "6/25",
+        "value": {
+          "kind": "fraction",
+          "n": 6,
+          "d": 25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{5} \\div \\frac{5}{6} = \\frac{1}{5} \\times \\frac{6}{5}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 6}{5 \\times 5} = \\frac{6}{25}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 5,
+            "d": 30
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{7} \\div \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/14",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{7} \\div \\frac{2}{5} = \\frac{1}{7} \\times \\frac{5}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 5}{7 \\times 2} = \\frac{5}{14}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 35
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{5}{12} \\div \\frac{5}{13}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "13/12",
+        "value": {
+          "kind": "fraction",
+          "n": 13,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{12} \\div \\frac{5}{13} = \\frac{5}{12} \\times \\frac{13}{5}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{5 \\times 13}{12 \\times 5} = \\frac{65}{60}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{65}{60} = \\frac{13}{12}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 25,
+            "d": 156
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} \\div \\frac{1}{20}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "15",
+        "value": {
+          "kind": "fraction",
+          "n": 15,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\div \\frac{1}{20} = \\frac{3}{4} \\times \\frac{20}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 20}{4 \\times 1} = \\frac{60}{4}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{60}{4} = 15",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 3,
+            "d": 80
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{7}{12} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/6",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{12} \\div \\frac{1}{2} = \\frac{7}{12} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{7 \\times 2}{12 \\times 1} = \\frac{14}{12}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{14}{12} = \\frac{7}{6}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 7,
+            "d": 24
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{4}{21}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "21/8",
+        "value": {
+          "kind": "fraction",
+          "n": 21,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{4}{21} = \\frac{1}{2} \\times \\frac{21}{4}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 21}{2 \\times 4} = \\frac{21}{8}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 4,
+            "d": 42
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{5} \\div \\frac{1}{15}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "fraction",
+          "n": 6,
+          "d": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{5} \\div \\frac{1}{15} = \\frac{2}{5} \\times \\frac{15}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 15}{5 \\times 1} = \\frac{30}{5}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{30}{5} = 6",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 75
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{12}{13} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "24/13",
+        "value": {
+          "kind": "fraction",
+          "n": 24,
+          "d": 13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{12}{13} \\div \\frac{1}{2} = \\frac{12}{13} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{12 \\times 2}{13 \\times 1} = \\frac{24}{13}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 12,
+            "d": 26
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{7} \\div \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/7",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{7} \\div \\frac{3}{4} = \\frac{3}{7} \\times \\frac{4}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 4}{7 \\times 3} = \\frac{12}{21}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{12}{21} = \\frac{4}{7}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 9,
+            "d": 28
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{7}{9} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "14/9",
+        "value": {
+          "kind": "fraction",
+          "n": 14,
+          "d": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{9} \\div \\frac{1}{2} = \\frac{7}{9} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{7 \\times 2}{9 \\times 1} = \\frac{14}{9}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 7,
+            "d": 18
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{4}{7} \\div \\frac{1}{10}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "40/7",
+        "value": {
+          "kind": "fraction",
+          "n": 40,
+          "d": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{4}{7} \\div \\frac{1}{10} = \\frac{4}{7} \\times \\frac{10}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{4 \\times 10}{7 \\times 1} = \\frac{40}{7}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 4,
+            "d": 70
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{17}{20}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "10/17",
+        "value": {
+          "kind": "fraction",
+          "n": 10,
+          "d": 17
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{17}{20} = \\frac{1}{2} \\times \\frac{20}{17}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 20}{2 \\times 17} = \\frac{20}{34}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{20}{34} = \\frac{10}{17}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 17,
+            "d": 40
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{7}{18} \\div \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/6",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{18} \\div \\frac{1}{3} = \\frac{7}{18} \\times \\frac{3}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{7 \\times 3}{18 \\times 1} = \\frac{21}{18}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{21}{18} = \\frac{7}{6}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 7,
+            "d": 54
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{6}{7} \\div \\frac{11}{15}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "90/77",
+        "value": {
+          "kind": "fraction",
+          "n": 90,
+          "d": 77
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{6}{7} \\div \\frac{11}{15} = \\frac{6}{7} \\times \\frac{15}{11}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{6 \\times 15}{7 \\times 11} = \\frac{90}{77}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 66,
+            "d": 105
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{11}{12}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "6/11",
+        "value": {
+          "kind": "fraction",
+          "n": 6,
+          "d": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{11}{12} = \\frac{1}{2} \\times \\frac{12}{11}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 12}{2 \\times 11} = \\frac{12}{22}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{12}{22} = \\frac{6}{11}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 11,
+            "d": 24
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{7}{20} \\div \\frac{4}{13}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "91/80",
+        "value": {
+          "kind": "fraction",
+          "n": 91,
+          "d": 80
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{20} \\div \\frac{4}{13} = \\frac{7}{20} \\times \\frac{13}{4}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{7 \\times 13}{20 \\times 4} = \\frac{91}{80}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 28,
+            "d": 260
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{10} \\div \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/5",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{10} \\div \\frac{1}{6} = \\frac{1}{10} \\times \\frac{6}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 6}{10 \\times 1} = \\frac{6}{10}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{6}{10} = \\frac{3}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 60
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{8}{11} \\div \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "24/11",
+        "value": {
+          "kind": "fraction",
+          "n": 24,
+          "d": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{8}{11} \\div \\frac{1}{3} = \\frac{8}{11} \\times \\frac{3}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{8 \\times 3}{11 \\times 1} = \\frac{24}{11}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 8,
+            "d": 33
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{8} \\div \\frac{3}{11}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "11/8",
+        "value": {
+          "kind": "fraction",
+          "n": 11,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{8} \\div \\frac{3}{11} = \\frac{3}{8} \\times \\frac{11}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 11}{8 \\times 3} = \\frac{33}{24}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{33}{24} = \\frac{11}{8}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 9,
+            "d": 88
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\div \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/8",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\div \\frac{2}{5} = \\frac{1}{4} \\times \\frac{5}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 5}{4 \\times 2} = \\frac{5}{8}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{3}{7} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "6/7",
+        "value": {
+          "kind": "fraction",
+          "n": 6,
+          "d": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{7} \\div \\frac{1}{2} = \\frac{3}{7} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{3 \\times 2}{7 \\times 1} = \\frac{6}{7}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 3,
+            "d": 14
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{8} \\div \\frac{5}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/40",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{8} \\div \\frac{5}{9} = \\frac{1}{8} \\times \\frac{9}{5}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 9}{8 \\times 5} = \\frac{9}{40}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 5,
+            "d": 72
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{5} \\div \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/5",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{5} \\div \\frac{1}{2} = \\frac{2}{5} \\times \\frac{2}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 2}{5 \\times 1} = \\frac{4}{5}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 10
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{5}{7} \\div \\frac{3}{10}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "50/21",
+        "value": {
+          "kind": "fraction",
+          "n": 50,
+          "d": 21
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{7} \\div \\frac{3}{10} = \\frac{5}{7} \\times \\frac{10}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{5 \\times 10}{7 \\times 3} = \\frac{50}{21}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 15,
+            "d": 70
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} \\div \\frac{5}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/6",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{6} \\div \\frac{5}{7} = \\frac{5}{6} \\times \\frac{7}{5}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{5 \\times 7}{6 \\times 5} = \\frac{35}{30}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{35}{30} = \\frac{7}{6}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 25,
+            "d": 42
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{2}{21} \\div \\frac{3}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "16/63",
+        "value": {
+          "kind": "fraction",
+          "n": 16,
+          "d": 63
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{21} \\div \\frac{3}{8} = \\frac{2}{21} \\times \\frac{8}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{2 \\times 8}{21 \\times 3} = \\frac{16}{63}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 6,
+            "d": 168
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{11}{21} \\div \\frac{5}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "11/15",
+        "value": {
+          "kind": "fraction",
+          "n": 11,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{11}{21} \\div \\frac{5}{7} = \\frac{11}{21} \\times \\frac{7}{5}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{11 \\times 7}{21 \\times 5} = \\frac{77}{105}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{77}{105} = \\frac{11}{15}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 55,
+            "d": 147
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{5} \\div \\frac{8}{21}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "21/40",
+        "value": {
+          "kind": "fraction",
+          "n": 21,
+          "d": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{5} \\div \\frac{8}{21} = \\frac{1}{5} \\times \\frac{21}{8}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 21}{5 \\times 8} = \\frac{21}{40}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 8,
+            "d": 105
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{7}{24} \\div \\frac{4}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "35/96",
+        "value": {
+          "kind": "fraction",
+          "n": 35,
+          "d": 96
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{24} \\div \\frac{4}{5} = \\frac{7}{24} \\times \\frac{5}{4}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{7 \\times 5}{24 \\times 4} = \\frac{35}{96}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 28,
+            "d": 120
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{5} \\div \\frac{2}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/10",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{5} \\div \\frac{2}{9} = \\frac{1}{5} \\times \\frac{9}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 9}{5 \\times 2} = \\frac{9}{10}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 45
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{5}{24} \\div \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "25/24",
+        "value": {
+          "kind": "fraction",
+          "n": 25,
+          "d": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{24} \\div \\frac{1}{5} = \\frac{5}{24} \\times \\frac{5}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{5 \\times 5}{24 \\times 1} = \\frac{25}{24}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 5,
+            "d": 120
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} \\div \\frac{7}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "15/14",
+        "value": {
+          "kind": "fraction",
+          "n": 15,
+          "d": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{6} \\div \\frac{7}{9} = \\frac{5}{6} \\times \\frac{9}{7}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{5 \\times 9}{6 \\times 7} = \\frac{45}{42}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{45}{42} = \\frac{15}{14}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 35,
+            "d": 54
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{4}{7} \\div \\frac{3}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/3",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{4}{7} \\div \\frac{3}{7} = \\frac{4}{7} \\times \\frac{7}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{4 \\times 7}{7 \\times 3} = \\frac{28}{21}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{28}{21} = \\frac{4}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 12,
+            "d": 49
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\div \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/2",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\div \\frac{1}{3} = \\frac{1}{2} \\times \\frac{3}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 3}{2 \\times 1} = \\frac{3}{2}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 1,
+            "d": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} \\div \\frac{2}{21}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "42/5",
+        "value": {
+          "kind": "fraction",
+          "n": 42,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{4}{5} \\div \\frac{2}{21} = \\frac{4}{5} \\times \\frac{21}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{4 \\times 21}{5 \\times 2} = \\frac{84}{10}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{84}{10} = \\frac{42}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 8,
+            "d": 105
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} \\div \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/2",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\div \\frac{2}{3} = \\frac{1}{3} \\times \\frac{3}{2}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 3}{3 \\times 2} = \\frac{3}{6}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{3}{6} = \\frac{1}{2}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 2,
+            "d": 9
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{7}{16} \\div \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "35/16",
+        "value": {
+          "kind": "fraction",
+          "n": 35,
+          "d": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{16} \\div \\frac{1}{5} = \\frac{7}{16} \\times \\frac{5}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{7 \\times 5}{16 \\times 1} = \\frac{35}{16}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 7,
+            "d": 80
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{13}{24} \\div \\frac{9}{14}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "91/108",
+        "value": {
+          "kind": "fraction",
+          "n": 91,
+          "d": 108
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{13}{24} \\div \\frac{9}{14} = \\frac{13}{24} \\times \\frac{14}{9}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{13 \\times 14}{24 \\times 9} = \\frac{182}{216}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{182}{216} = \\frac{91}{108}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 117,
+            "d": 336
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{11}{24} \\div \\frac{1}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "77/24",
+        "value": {
+          "kind": "fraction",
+          "n": 77,
+          "d": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{11}{24} \\div \\frac{1}{7} = \\frac{11}{24} \\times \\frac{7}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{11 \\times 7}{24 \\times 1} = \\frac{77}{24}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 11,
+            "d": 168
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\div \\frac{3}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/3",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\div \\frac{3}{8} = \\frac{1}{4} \\times \\frac{8}{3}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{1 \\times 8}{4 \\times 3} = \\frac{8}{12}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{8}{12} = \\frac{2}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 3,
+            "d": 32
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{9}{10} \\div \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "18/5",
+        "value": {
+          "kind": "fraction",
+          "n": 18,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{9}{10} \\div \\frac{1}{4} = \\frac{9}{10} \\times \\frac{4}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{9 \\times 4}{10 \\times 1} = \\frac{36}{10}",
+            "caption": "now multiply across"
+          },
+          {
+            "math": "\\frac{36}{10} = \\frac{18}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 9,
+            "d": 40
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(\\frac{5}{13} \\div \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "20/13",
+        "value": {
+          "kind": "fraction",
+          "n": 20,
+          "d": 13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{13} \\div \\frac{1}{4} = \\frac{5}{13} \\times \\frac{4}{1}",
+            "caption": "dividing by a fraction is the same as multiplying by its reciprocal"
+          },
+          {
+            "math": "= \\frac{5 \\times 4}{13 \\times 1} = \\frac{20}{13}",
+            "caption": "now multiply across"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did we flip the second fraction?",
+          "options": [
+            {
+              "label": "dividing by a fraction = multiplying by its reciprocal",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the math easier",
+              "isCorrect": false
+            },
+            {
+              "label": "fractions always need to be flipped before dividing",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#didnt-invert-on-divide",
+          "wrongValue": {
+            "kind": "fraction",
+            "n": 5,
+            "d": 52
+          }
+        }
+      ]
+    }
+  ]
+}

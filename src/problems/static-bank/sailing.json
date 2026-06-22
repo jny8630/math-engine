@@ -1,0 +1,128 @@
+[
+  {
+    "id": "sailing-001",
+    "text": "Beatrix's boat sails at 4 knots for 3 hours. How many nautical miles does she travel?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "12",
+      "value": { "kind": "integer", "value": 12 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\text{distance} = \\text{rate} \\times \\text{time}", "caption": "remember the rate formula", "visual": "number-line" },
+        { "math": "4 \\text{ knots} \\times 3 \\text{ hours} = 12 \\text{ nautical miles}", "caption": "knots already means nautical miles per hour, so the units work out cleanly" }
+      ],
+      "selfExplanation": {
+        "question": "Why didn't we need to convert units?",
+        "options": [
+          { "label": "a knot is already 'nautical miles per hour' — units cancel naturally", "isCorrect": true },
+          { "label": "knots and miles per hour are the same thing", "isCorrect": false },
+          { "label": "the problem just worked out by luck", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#sailing"],
+    "source": "static"
+  },
+  {
+    "id": "sailing-002",
+    "text": "Beatrix needs to sail 12 nautical miles to her destination. Her boat sails at 6 knots. How many hours will the trip take?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "2",
+      "value": { "kind": "integer", "value": 2 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\text{time} = \\frac{\\text{distance}}{\\text{rate}}", "caption": "rearrange distance = rate × time to solve for time" },
+        { "math": "\\frac{12 \\text{ nm}}{6 \\text{ knots}} = 2 \\text{ hours}", "caption": "nautical miles ÷ (nm per hour) leaves hours" }
+      ]
+    },
+    "tags": ["#word-problem", "#sailing"],
+    "source": "static"
+  },
+  {
+    "id": "sailing-003",
+    "text": "Beatrix was sailing at 5 knots, then the wind picked up and her speed increased by 20%. What is her new speed?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "6",
+      "value": { "kind": "integer", "value": 6 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "20\\% \\text{ of } 5 = 1", "caption": "find the increase in knots" },
+        { "math": "5 + 1 = 6 \\text{ knots}", "caption": "add the increase to the original speed" }
+      ],
+      "selfExplanation": {
+        "question": "Could you compute this in one step?",
+        "options": [
+          { "label": "yes — 5 × 1.20 = 6 directly", "isCorrect": true },
+          { "label": "no — percent change always needs two steps", "isCorrect": false },
+          { "label": "only with division", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#sailing", "#percent"],
+    "source": "static"
+  },
+  {
+    "id": "sailing-004",
+    "text": "The wind is blowing at 15 knots. Beatrix's sail can capture 60% of the wind speed. How fast can her boat go?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "9",
+      "value": { "kind": "integer", "value": 9 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "60\\% = 0.60", "caption": "convert the percent to a decimal" },
+        { "math": "15 \\times 0.60 = 9 \\text{ knots}", "caption": "multiply wind speed by the capture ratio" }
+      ]
+    },
+    "tags": ["#word-problem", "#sailing", "#percent"],
+    "source": "static"
+  },
+  {
+    "id": "sailing-005",
+    "text": "Beatrix's boat sails at 6 knots through the water. The tidal current is pushing AGAINST her at 1.5 knots. What is her speed over the ground?",
+    "answer": {
+      "form": { "kind": "decimal", "places": 1, "tolerance": 0.05 },
+      "canonical": "4.5",
+      "value": { "kind": "decimal", "value": 4.5 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "6 - 1.5 = 4.5 \\text{ knots}", "caption": "current against you subtracts from your speed through the water" }
+      ],
+      "selfExplanation": {
+        "question": "What if the current was WITH her instead?",
+        "options": [
+          { "label": "she'd add: 6 + 1.5 = 7.5 knots over the ground", "isCorrect": true },
+          { "label": "it would still subtract — current always slows boats", "isCorrect": false },
+          { "label": "the speed would stay the same", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#sailing"],
+    "source": "static"
+  },
+  {
+    "id": "sailing-006",
+    "text": "Beatrix sails 3 hours at 5 knots, then 2 hours at 7 knots. How far has she gone in total?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "29",
+      "value": { "kind": "integer", "value": 29 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "5 \\times 3 = 15 \\text{ nm}", "caption": "first leg of the trip" },
+        { "math": "7 \\times 2 = 14 \\text{ nm}", "caption": "second leg of the trip" },
+        { "math": "15 + 14 = 29 \\text{ nm}", "caption": "add the legs for total distance" }
+      ]
+    },
+    "tags": ["#word-problem", "#sailing"],
+    "source": "static"
+  }
+]

@@ -1,0 +1,5497 @@
+{
+  "templateId": "integer-sub",
+  "tags": [
+    "#negative-integers"
+  ],
+  "tidyMode": [
+    {
+      "text": "What is \\(18 - 7\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "11",
+        "value": {
+          "kind": "integer",
+          "value": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "18 - 7",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 18 + (-7)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 11",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-17) - (-20)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "3",
+        "value": {
+          "kind": "integer",
+          "value": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-17) - (-20)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-17) + 20",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 3",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -37
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(16 - 6\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "16 - 6",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 16 + (-6)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 10",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-11) - (-1)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-10",
+        "value": {
+          "kind": "integer",
+          "value": -10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-11) - (-1)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-11) + 1",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -10",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -12
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(0 - (-19)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "19",
+        "value": {
+          "kind": "integer",
+          "value": 19
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "0 - (-19)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 0 + 19",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 19",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -19
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-8) - (-9)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-8) - (-9)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-8) + 9",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 1",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -17
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(9 - (-3)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "12",
+        "value": {
+          "kind": "integer",
+          "value": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9 - (-3)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 9 + 3",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 12",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(5 - 1\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5 - 1",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 5 + (-1)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 4",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-9) - 4\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-13",
+        "value": {
+          "kind": "integer",
+          "value": -13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-9) - 4",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-9) + (-4)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -13",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-3) - (-2)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-3) - (-2)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-3) + 2",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -1",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -5
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(2 - 14\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-12",
+        "value": {
+          "kind": "integer",
+          "value": -12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2 - 14",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 2 + (-14)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -12",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(20 - 11\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "9",
+        "value": {
+          "kind": "integer",
+          "value": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "20 - 11",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 20 + (-11)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 9",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(15 - (-16)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "31",
+        "value": {
+          "kind": "integer",
+          "value": 31
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "15 - (-16)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 15 + 16",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 31",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(0 - 18\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-18",
+        "value": {
+          "kind": "integer",
+          "value": -18
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "0 - 18",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 0 + (-18)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -18",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-15) - 13\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-28",
+        "value": {
+          "kind": "integer",
+          "value": -28
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-15) - 13",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-15) + (-13)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -28",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-10) - 3\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-13",
+        "value": {
+          "kind": "integer",
+          "value": -13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-10) - 3",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-10) + (-3)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -13",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(13 - (-13)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "26",
+        "value": {
+          "kind": "integer",
+          "value": 26
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "13 - (-13)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 13 + 13",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 26",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(20 - (-9)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "29",
+        "value": {
+          "kind": "integer",
+          "value": 29
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "20 - (-9)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 20 + 9",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 29",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 11
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-8) - (-2)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-8) - (-2)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-8) + 2",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -6",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -10
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-18) - 9\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-27",
+        "value": {
+          "kind": "integer",
+          "value": -27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-18) - 9",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-18) + (-9)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -27",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-8) - 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-13",
+        "value": {
+          "kind": "integer",
+          "value": -13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-8) - 5",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-8) + (-5)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -13",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-3) - 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-8",
+        "value": {
+          "kind": "integer",
+          "value": -8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-3) - 5",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-3) + (-5)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -8",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-16) - 8\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-24",
+        "value": {
+          "kind": "integer",
+          "value": -24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-16) - 8",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-16) + (-8)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -24",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3 - (-1)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3 - (-1)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 3 + 1",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 4",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 2
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(1 - 13\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-12",
+        "value": {
+          "kind": "integer",
+          "value": -12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "1 - 13",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 1 + (-13)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -12",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3 - 3\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "0",
+        "value": {
+          "kind": "integer",
+          "value": 0
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3 - 3",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 3 + (-3)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 0",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-13) - 12\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-25",
+        "value": {
+          "kind": "integer",
+          "value": -25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-13) - 12",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-13) + (-12)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -25",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-17) - (-4)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-13",
+        "value": {
+          "kind": "integer",
+          "value": -13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-17) - (-4)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-17) + 4",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -13",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -21
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-8) - (-5)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-3",
+        "value": {
+          "kind": "integer",
+          "value": -3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-8) - (-5)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-8) + 5",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -3",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -13
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-2) - 8\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-10",
+        "value": {
+          "kind": "integer",
+          "value": -10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-2) - 8",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-2) + (-8)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -10",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(11 - 17\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11 - 17",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 11 + (-17)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -6",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-19) - 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-24",
+        "value": {
+          "kind": "integer",
+          "value": -24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-19) - 5",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-19) + (-5)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -24",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(3 - 3\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "0",
+        "value": {
+          "kind": "integer",
+          "value": 0
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3 - 3",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 3 + (-3)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 0",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5 - 10\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5 - 10",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 5 + (-10)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -5",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(13 - 13\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "0",
+        "value": {
+          "kind": "integer",
+          "value": 0
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "13 - 13",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 13 + (-13)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 0",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(11 - (-3)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "14",
+        "value": {
+          "kind": "integer",
+          "value": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11 - (-3)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 11 + 3",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 14",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 8
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(4 - (-9)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "13",
+        "value": {
+          "kind": "integer",
+          "value": 13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4 - (-9)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 4 + 9",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 13",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -5
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(3 - (-14)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "17",
+        "value": {
+          "kind": "integer",
+          "value": 17
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3 - (-14)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 3 + 14",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 17",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -11
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(7 - 3\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7 - 3",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 7 + (-3)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 4",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-4) - (-17)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "13",
+        "value": {
+          "kind": "integer",
+          "value": 13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-4) - (-17)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-4) + 17",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 13",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -21
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-9) - 7\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-16",
+        "value": {
+          "kind": "integer",
+          "value": -16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-9) - 7",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-9) + (-7)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -16",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-17) - 13\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-30",
+        "value": {
+          "kind": "integer",
+          "value": -30
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-17) - 13",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-17) + (-13)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -30",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(10 - (-3)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "13",
+        "value": {
+          "kind": "integer",
+          "value": 13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10 - (-3)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 10 + 3",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 13",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 7
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(20 - 10\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "20 - 10",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 20 + (-10)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 10",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-7) - 20\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-27",
+        "value": {
+          "kind": "integer",
+          "value": -27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-7) - 20",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-7) + (-20)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -27",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(18 - (-16)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "34",
+        "value": {
+          "kind": "integer",
+          "value": 34
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "18 - (-16)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 18 + 16",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 34",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 2
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-13) - (-6)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-7",
+        "value": {
+          "kind": "integer",
+          "value": -7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-13) - (-6)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-13) + 6",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -7",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -19
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(14 - 16\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-2",
+        "value": {
+          "kind": "integer",
+          "value": -2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "14 - 16",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 14 + (-16)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -2",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-17) - 7\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-24",
+        "value": {
+          "kind": "integer",
+          "value": -24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-17) - 7",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-17) + (-7)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -24",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(11 - 17\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-6",
+        "value": {
+          "kind": "integer",
+          "value": -6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11 - 17",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 11 + (-17)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -6",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "What is \\(45 - 14\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "31",
+        "value": {
+          "kind": "integer",
+          "value": 31
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "45 - 14",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 45 + (-14)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 31",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-21) - (-23)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-21) - (-23)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-21) + 23",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 2",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -44
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-49) - 23\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-72",
+        "value": {
+          "kind": "integer",
+          "value": -72
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-49) - 23",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-49) + (-23)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -72",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(34 - (-4)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "38",
+        "value": {
+          "kind": "integer",
+          "value": 38
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "34 - (-4)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 34 + 4",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 38",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 30
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(45 - (-5)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "50",
+        "value": {
+          "kind": "integer",
+          "value": 50
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "45 - (-5)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 45 + 5",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 50",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 40
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-22) - (-36)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "14",
+        "value": {
+          "kind": "integer",
+          "value": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-22) - (-36)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-22) + 36",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 14",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -58
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(37 - 12\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "25",
+        "value": {
+          "kind": "integer",
+          "value": 25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "37 - 12",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 37 + (-12)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 25",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-15) - (-23)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "8",
+        "value": {
+          "kind": "integer",
+          "value": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-15) - (-23)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-15) + 23",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 8",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -38
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-43) - (-22)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-21",
+        "value": {
+          "kind": "integer",
+          "value": -21
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-43) - (-22)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-43) + 22",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -21",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -65
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(50 - (-33)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "83",
+        "value": {
+          "kind": "integer",
+          "value": 83
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "50 - (-33)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 50 + 33",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 83",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 17
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(38 - 22\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "16",
+        "value": {
+          "kind": "integer",
+          "value": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "38 - 22",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 38 + (-22)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 16",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(19 - (-15)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "34",
+        "value": {
+          "kind": "integer",
+          "value": 34
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "19 - (-15)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 19 + 15",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 34",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 4
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(11 - 33\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-22",
+        "value": {
+          "kind": "integer",
+          "value": -22
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11 - 33",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 11 + (-33)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -22",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-8) - (-15)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-8) - (-15)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-8) + 15",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 7",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -23
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-10) - (-29)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "19",
+        "value": {
+          "kind": "integer",
+          "value": 19
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-10) - (-29)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-10) + 29",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 19",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -39
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(19 - (-27)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "46",
+        "value": {
+          "kind": "integer",
+          "value": 46
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "19 - (-27)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 19 + 27",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 46",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -8
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(5 - 24\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-19",
+        "value": {
+          "kind": "integer",
+          "value": -19
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5 - 24",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 5 + (-24)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -19",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(39 - 13\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "26",
+        "value": {
+          "kind": "integer",
+          "value": 26
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "39 - 13",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 39 + (-13)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 26",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(0 - 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "0 - 5",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 0 + (-5)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -5",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(34 - 17\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "17",
+        "value": {
+          "kind": "integer",
+          "value": 17
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "34 - 17",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 34 + (-17)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 17",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-7) - (-42)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "35",
+        "value": {
+          "kind": "integer",
+          "value": 35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-7) - (-42)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-7) + 42",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 35",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -49
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(16 - (-16)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "32",
+        "value": {
+          "kind": "integer",
+          "value": 32
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "16 - (-16)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 16 + 16",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 32",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(44 - 20\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "24",
+        "value": {
+          "kind": "integer",
+          "value": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "44 - 20",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 44 + (-20)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 24",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-44) - (-50)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-44) - (-50)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-44) + 50",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 6",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -94
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(24 - 19\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "24 - 19",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 24 + (-19)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 5",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-9) - 34\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-43",
+        "value": {
+          "kind": "integer",
+          "value": -43
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-9) - 34",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-9) + (-34)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -43",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-34) - (-7)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-27",
+        "value": {
+          "kind": "integer",
+          "value": -27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-34) - (-7)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-34) + 7",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -27",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -41
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(37 - 38\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "37 - 38",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 37 + (-38)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -1",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-2) - (-11)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "9",
+        "value": {
+          "kind": "integer",
+          "value": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-2) - (-11)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-2) + 11",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 9",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -13
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-26) - 5\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-31",
+        "value": {
+          "kind": "integer",
+          "value": -31
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-26) - 5",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-26) + (-5)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -31",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-4) - 38\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-42",
+        "value": {
+          "kind": "integer",
+          "value": -42
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-4) - 38",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-4) + (-38)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -42",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-34) - 40\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-74",
+        "value": {
+          "kind": "integer",
+          "value": -74
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-34) - 40",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-34) + (-40)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -74",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(14 - 26\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-12",
+        "value": {
+          "kind": "integer",
+          "value": -12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "14 - 26",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 14 + (-26)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -12",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-41) - 33\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-74",
+        "value": {
+          "kind": "integer",
+          "value": -74
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-41) - 33",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-41) + (-33)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -74",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(1 - 6\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "1 - 6",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 1 + (-6)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -5",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(2 - (-23)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "25",
+        "value": {
+          "kind": "integer",
+          "value": 25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2 - (-23)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 2 + 23",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 25",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -21
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-47) - 38\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-85",
+        "value": {
+          "kind": "integer",
+          "value": -85
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-47) - 38",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-47) + (-38)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -85",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-2) - 37\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-39",
+        "value": {
+          "kind": "integer",
+          "value": -39
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-2) - 37",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-2) + (-37)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -39",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-39) - 11\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-50",
+        "value": {
+          "kind": "integer",
+          "value": -50
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-39) - 11",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-39) + (-11)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -50",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(34 - 29\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "34 - 29",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 34 + (-29)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 5",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(16 - (-16)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "32",
+        "value": {
+          "kind": "integer",
+          "value": 32
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "16 - (-16)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 16 + 16",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 32",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(47 - (-40)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "87",
+        "value": {
+          "kind": "integer",
+          "value": 87
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "47 - (-40)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 47 + 40",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 87",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 7
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(24 - (-28)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "52",
+        "value": {
+          "kind": "integer",
+          "value": 52
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "24 - (-28)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 24 + 28",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 52",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -4
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\((-31) - (-22)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-9",
+        "value": {
+          "kind": "integer",
+          "value": -9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-31) - (-22)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-31) + 22",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -9",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -53
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(15 - 48\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-33",
+        "value": {
+          "kind": "integer",
+          "value": -33
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "15 - 48",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 15 + (-48)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -33",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-27) - 0\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-27",
+        "value": {
+          "kind": "integer",
+          "value": -27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-27) - 0",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-27) + 0",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -27",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(21 - 38\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-17",
+        "value": {
+          "kind": "integer",
+          "value": -17
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "21 - 38",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 21 + (-38)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -17",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-31) - 17\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-48",
+        "value": {
+          "kind": "integer",
+          "value": -48
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-31) - 17",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-31) + (-17)",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -48",
+            "caption": "now add as usual"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\((-37) - (-34)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-3",
+        "value": {
+          "kind": "integer",
+          "value": -3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "(-37) - (-34)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= (-37) + 34",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= -3",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -71
+          }
+        }
+      ]
+    },
+    {
+      "text": "What is \\(38 - (-42)\\)?",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "80",
+        "value": {
+          "kind": "integer",
+          "value": 80
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "38 - (-42)",
+            "caption": "subtraction; watch for the minus-then-negative pattern",
+            "visual": "number-line"
+          },
+          {
+            "math": "= 38 + 42",
+            "caption": "flip the subtraction into addition of the opposite"
+          },
+          {
+            "math": "= 80",
+            "caption": "two minuses became a plus — the result moved up the number line"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why did the sign flip when we subtracted a negative?",
+          "options": [
+            {
+              "label": "subtracting a negative cancels two minuses into a plus",
+              "isCorrect": true
+            },
+            {
+              "label": "because negatives always flip",
+              "isCorrect": false
+            },
+            {
+              "label": "because absolute value made them positive",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#negative-integers"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -4
+          }
+        }
+      ]
+    }
+  ]
+}

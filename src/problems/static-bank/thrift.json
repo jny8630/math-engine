@@ -1,0 +1,155 @@
+[
+  {
+    "id": "thrift-001",
+    "text": "Beatrix finds a vintage denim jacket priced at $18 at a thrift store. She makes small repairs and lists it with a 35% markup. What is her selling price?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$24.30",
+      "value": { "kind": "currency", "cents": 2430 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "35\\% = 0.35", "caption": "convert the percent to a decimal so we can multiply" },
+        { "math": "\\$18 \\times 0.35 = \\$6.30", "caption": "find the dollar amount of the markup" },
+        { "math": "\\$18 + \\$6.30 = \\$24.30", "caption": "add the markup to the original price" }
+      ],
+      "selfExplanation": {
+        "question": "Why add the markup back to the original price?",
+        "options": [
+          { "label": "the selling price is the cost plus the profit", "isCorrect": true },
+          { "label": "to make the multiplication easier", "isCorrect": false },
+          { "label": "because markup always means 'increase by'", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#thrift", "#percent"],
+    "source": "static"
+  },
+  {
+    "id": "thrift-002",
+    "text": "Beatrix sold a leather bag for $30 that she bought for $20. What was her profit margin as a percent of her cost?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "50%",
+      "value": { "kind": "integer", "value": 50 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\text{profit} = \\$30 - \\$20 = \\$10", "caption": "find the dollar profit first" },
+        { "math": "\\frac{\\$10}{\\$20} = 0.50", "caption": "divide profit by COST (not selling price) to get the margin", "visual": "percent-grid" },
+        { "math": "0.50 \\times 100 = 50\\%", "caption": "convert to a percent" }
+      ],
+      "selfExplanation": {
+        "question": "Why divide by the cost, not the selling price?",
+        "options": [
+          { "label": "profit margin tells you the return on what you paid", "isCorrect": true },
+          { "label": "the selling price is always bigger so it would give a smaller number", "isCorrect": false },
+          { "label": "it doesn't matter — both work", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#thrift", "#percent"],
+    "source": "static"
+  },
+  {
+    "id": "thrift-003",
+    "text": "A pair of vintage boots is listed at $50. The store is running a 20% off sale. What is the sale price?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$40.00",
+      "value": { "kind": "currency", "cents": 4000 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "100\\% - 20\\% = 80\\%", "caption": "instead of finding the discount and subtracting, find what fraction remains" },
+        { "math": "80\\% = 0.80", "caption": "convert to a decimal" },
+        { "math": "\\$50 \\times 0.80 = \\$40.00", "caption": "multiply to get the sale price directly" }
+      ],
+      "selfExplanation": {
+        "question": "Why is multiplying by 0.80 faster than calculating the discount and subtracting?",
+        "options": [
+          { "label": "one operation instead of two — same result", "isCorrect": true },
+          { "label": "it gives a more accurate answer", "isCorrect": false },
+          { "label": "discounts can only be calculated this way", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#thrift", "#percent"],
+    "source": "static"
+  },
+  {
+    "id": "thrift-004",
+    "text": "Beatrix buys a bundle of 5 vintage t-shirts for $40 total. What is the cost per t-shirt?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$8.00",
+      "value": { "kind": "currency", "cents": 800 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\frac{\\$40}{5 \\text{ shirts}} = \\$8 \\text{ per shirt}", "caption": "to find the price per unit, divide total cost by quantity" }
+      ],
+      "selfExplanation": {
+        "question": "Why divide instead of subtract?",
+        "options": [
+          { "label": "to split the total cost equally across the shirts", "isCorrect": true },
+          { "label": "subtraction would give a negative number", "isCorrect": false },
+          { "label": "division always gives unit pricing", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#thrift"],
+    "source": "static"
+  },
+  {
+    "id": "thrift-005",
+    "text": "Beatrix bought a coat for $15 and spent $5 on repairs. She wants to sell it with a 40% markup on her TOTAL cost. What is her selling price?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$28.00",
+      "value": { "kind": "currency", "cents": 2800 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\$15 + \\$5 = \\$20", "caption": "first find her total investment in the coat" },
+        { "math": "\\$20 \\times 1.40 = \\$28.00", "caption": "multiply by 1 + the markup percent to add the profit in one step" }
+      ],
+      "selfExplanation": {
+        "question": "Why include the repair cost in the markup base?",
+        "options": [
+          { "label": "she needs to recover ALL her costs before profit", "isCorrect": true },
+          { "label": "repairs always count as profit", "isCorrect": false },
+          { "label": "it makes the multiplication easier", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#thrift", "#percent"],
+    "source": "static"
+  },
+  {
+    "id": "thrift-006",
+    "text": "Beatrix bought a $32 sweater. New York City sales tax is 8.875%. What does she pay at the register, rounded to the nearest cent?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$34.84",
+      "value": { "kind": "currency", "cents": 3484 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "8.875\\% = 0.08875", "caption": "convert the tax rate to a decimal" },
+        { "math": "\\$32 \\times 0.08875 = \\$2.84", "caption": "calculate the tax on the sweater (rounds to $2.84)" },
+        { "math": "\\$32 + \\$2.84 = \\$34.84", "caption": "add the tax to the price" }
+      ],
+      "selfExplanation": {
+        "question": "Why does the answer need rounding?",
+        "options": [
+          { "label": "money only goes to two decimal places (cents)", "isCorrect": true },
+          { "label": "tax is always rounded up", "isCorrect": false },
+          { "label": "to make it easier to count", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#thrift", "#percent"],
+    "source": "static"
+  }
+]

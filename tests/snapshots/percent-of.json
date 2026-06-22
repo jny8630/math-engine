@@ -1,0 +1,4710 @@
+{
+  "templateId": "percent-of",
+  "tags": [
+    "#percent"
+  ],
+  "tidyMode": [
+    {
+      "text": "What is \\(10\\%\\) of \\($100\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$10.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10\\% = \\frac{10}{100} = 0.10",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.10 \\times 100 = 10.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(15\\%\\) of \\($120\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$18.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1800
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "15\\% = \\frac{15}{100} = 0.15",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.15 \\times 120 = 18.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(15\\%\\) of \\($120\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$18.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1800
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "15\\% = \\frac{15}{100} = 0.15",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.15 \\times 120 = 18.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(75\\%\\) of \\($120\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$90.00",
+        "value": {
+          "kind": "currency",
+          "cents": 9000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "75\\% = \\frac{75}{100} = 0.75",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.75 \\times 120 = 90.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(10\\%\\) of \\($120\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$12.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10\\% = \\frac{10}{100} = 0.10",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.10 \\times 120 = 12.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(40\\%\\) of \\($200\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$80.00",
+        "value": {
+          "kind": "currency",
+          "cents": 8000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "40\\% = \\frac{40}{100} = 0.40",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.40 \\times 200 = 80.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(30\\%\\) of \\($120\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$36.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3600
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "30\\% = \\frac{30}{100} = 0.30",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.30 \\times 120 = 36.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(20\\%\\) of \\($50\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$10.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "20\\% = \\frac{20}{100} = 0.20",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.20 \\times 50 = 10.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(75\\%\\) of \\($40\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$30.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "75\\% = \\frac{75}{100} = 0.75",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.75 \\times 40 = 30.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(25\\%\\) of \\($100\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$25.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "25\\% = \\frac{25}{100} = 0.25",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.25 \\times 100 = 25.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(15\\%\\) of \\($80\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$12.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "15\\% = \\frac{15}{100} = 0.15",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.15 \\times 80 = 12.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(75\\%\\) of \\($20\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$15.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "75\\% = \\frac{75}{100} = 0.75",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.75 \\times 20 = 15.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(60\\%\\) of \\($20\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$12.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "60\\% = \\frac{60}{100} = 0.60",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.60 \\times 20 = 12.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(50\\%\\) of \\($120\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$60.00",
+        "value": {
+          "kind": "currency",
+          "cents": 6000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "50\\% = \\frac{50}{100} = 0.50",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.50 \\times 120 = 60.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(50\\%\\) of \\($60\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$30.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "50\\% = \\frac{50}{100} = 0.50",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.50 \\times 60 = 30.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(30\\%\\) of \\($60\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$18.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1800
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "30\\% = \\frac{30}{100} = 0.30",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.30 \\times 60 = 18.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(15\\%\\) of \\($20\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$3.00",
+        "value": {
+          "kind": "currency",
+          "cents": 300
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "15\\% = \\frac{15}{100} = 0.15",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.15 \\times 20 = 3.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(25\\%\\) of \\($60\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$15.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "25\\% = \\frac{25}{100} = 0.25",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.25 \\times 60 = 15.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(80\\%\\) of \\($50\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$40.00",
+        "value": {
+          "kind": "currency",
+          "cents": 4000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "80\\% = \\frac{80}{100} = 0.80",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.80 \\times 50 = 40.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(50\\%\\) of \\($20\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$10.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "50\\% = \\frac{50}{100} = 0.50",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.50 \\times 20 = 10.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(30\\%\\) of \\($120\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$36.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3600
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "30\\% = \\frac{30}{100} = 0.30",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.30 \\times 120 = 36.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(50\\%\\) of \\($100\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$50.00",
+        "value": {
+          "kind": "currency",
+          "cents": 5000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "50\\% = \\frac{50}{100} = 0.50",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.50 \\times 100 = 50.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(25\\%\\) of \\($80\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$20.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "25\\% = \\frac{25}{100} = 0.25",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.25 \\times 80 = 20.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(10\\%\\) of \\($20\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$2.00",
+        "value": {
+          "kind": "currency",
+          "cents": 200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10\\% = \\frac{10}{100} = 0.10",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.10 \\times 20 = 2.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(80\\%\\) of \\($50\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$40.00",
+        "value": {
+          "kind": "currency",
+          "cents": 4000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "80\\% = \\frac{80}{100} = 0.80",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.80 \\times 50 = 40.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(60\\%\\) of \\($60\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$36.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3600
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "60\\% = \\frac{60}{100} = 0.60",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.60 \\times 60 = 36.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(60\\%\\) of \\($200\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$120.00",
+        "value": {
+          "kind": "currency",
+          "cents": 12000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "60\\% = \\frac{60}{100} = 0.60",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.60 \\times 200 = 120.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(25\\%\\) of \\($40\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$10.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "25\\% = \\frac{25}{100} = 0.25",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.25 \\times 40 = 10.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(80\\%\\) of \\($20\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$16.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1600
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "80\\% = \\frac{80}{100} = 0.80",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.80 \\times 20 = 16.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5\\%\\) of \\($40\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$2.00",
+        "value": {
+          "kind": "currency",
+          "cents": 200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5\\% = \\frac{5}{100} = 0.05",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.05 \\times 40 = 2.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(75\\%\\) of \\($80\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$60.00",
+        "value": {
+          "kind": "currency",
+          "cents": 6000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "75\\% = \\frac{75}{100} = 0.75",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.75 \\times 80 = 60.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(20\\%\\) of \\($100\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$20.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "20\\% = \\frac{20}{100} = 0.20",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.20 \\times 100 = 20.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(80\\%\\) of \\($40\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$32.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "80\\% = \\frac{80}{100} = 0.80",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.80 \\times 40 = 32.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5\\%\\) of \\($80\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$4.00",
+        "value": {
+          "kind": "currency",
+          "cents": 400
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5\\% = \\frac{5}{100} = 0.05",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.05 \\times 80 = 4.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(10\\%\\) of \\($40\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$4.00",
+        "value": {
+          "kind": "currency",
+          "cents": 400
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10\\% = \\frac{10}{100} = 0.10",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.10 \\times 40 = 4.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(75\\%\\) of \\($50\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$37.50",
+        "value": {
+          "kind": "currency",
+          "cents": 3750
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "75\\% = \\frac{75}{100} = 0.75",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.75 \\times 50 = 37.50",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(25\\%\\) of \\($120\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$30.00",
+        "value": {
+          "kind": "currency",
+          "cents": 3000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "25\\% = \\frac{25}{100} = 0.25",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.25 \\times 120 = 30.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(10\\%\\) of \\($200\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$20.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10\\% = \\frac{10}{100} = 0.10",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.10 \\times 200 = 20.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(15\\%\\) of \\($50\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$7.50",
+        "value": {
+          "kind": "currency",
+          "cents": 750
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "15\\% = \\frac{15}{100} = 0.15",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.15 \\times 50 = 7.50",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(10\\%\\) of \\($200\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$20.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10\\% = \\frac{10}{100} = 0.10",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.10 \\times 200 = 20.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(30\\%\\) of \\($60\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$18.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1800
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "30\\% = \\frac{30}{100} = 0.30",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.30 \\times 60 = 18.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(20\\%\\) of \\($20\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$4.00",
+        "value": {
+          "kind": "currency",
+          "cents": 400
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "20\\% = \\frac{20}{100} = 0.20",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.20 \\times 20 = 4.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(60\\%\\) of \\($20\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$12.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1200
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "60\\% = \\frac{60}{100} = 0.60",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.60 \\times 20 = 12.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(80\\%\\) of \\($120\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$96.00",
+        "value": {
+          "kind": "currency",
+          "cents": 9600
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "80\\% = \\frac{80}{100} = 0.80",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.80 \\times 120 = 96.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(50\\%\\) of \\($50\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$25.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "50\\% = \\frac{50}{100} = 0.50",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.50 \\times 50 = 25.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(80\\%\\) of \\($20\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$16.00",
+        "value": {
+          "kind": "currency",
+          "cents": 1600
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "80\\% = \\frac{80}{100} = 0.80",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.80 \\times 20 = 16.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(25\\%\\) of \\($80\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$20.00",
+        "value": {
+          "kind": "currency",
+          "cents": 2000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "25\\% = \\frac{25}{100} = 0.25",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.25 \\times 80 = 20.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(75\\%\\) of \\($60\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$45.00",
+        "value": {
+          "kind": "currency",
+          "cents": 4500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "75\\% = \\frac{75}{100} = 0.75",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.75 \\times 60 = 45.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(80\\%\\) of \\($100\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$80.00",
+        "value": {
+          "kind": "currency",
+          "cents": 8000
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "80\\% = \\frac{80}{100} = 0.80",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.80 \\times 100 = 80.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(50\\%\\) of \\($150\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$75.00",
+        "value": {
+          "kind": "currency",
+          "cents": 7500
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "50\\% = \\frac{50}{100} = 0.50",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.50 \\times 150 = 75.00",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "What is \\(73\\%\\) of \\($199\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$145.27",
+        "value": {
+          "kind": "currency",
+          "cents": 14527
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "73\\% = \\frac{73}{100} = 0.73",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.73 \\times 199 = 145.27",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(33\\%\\) of \\($36\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$11.88",
+        "value": {
+          "kind": "currency",
+          "cents": 1188
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "33\\% = \\frac{33}{100} = 0.33",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.33 \\times 36 = 11.88",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(68\\%\\) of \\($97\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$65.96",
+        "value": {
+          "kind": "currency",
+          "cents": 6596
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "68\\% = \\frac{68}{100} = 0.68",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.68 \\times 97 = 65.96",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(92\\%\\) of \\($139\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$127.88",
+        "value": {
+          "kind": "currency",
+          "cents": 12788
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "92\\% = \\frac{92}{100} = 0.92",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.92 \\times 139 = 127.88",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(73\\%\\) of \\($122\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$89.06",
+        "value": {
+          "kind": "currency",
+          "cents": 8906
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "73\\% = \\frac{73}{100} = 0.73",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.73 \\times 122 = 89.06",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(33\\%\\) of \\($15\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$4.95",
+        "value": {
+          "kind": "currency",
+          "cents": 495
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "33\\% = \\frac{33}{100} = 0.33",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.33 \\times 15 = 4.95",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(73\\%\\) of \\($147\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$107.31",
+        "value": {
+          "kind": "currency",
+          "cents": 10731
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "73\\% = \\frac{73}{100} = 0.73",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.73 \\times 147 = 107.31",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(55\\%\\) of \\($138\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$75.90",
+        "value": {
+          "kind": "currency",
+          "cents": 7590
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "55\\% = \\frac{55}{100} = 0.55",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.55 \\times 138 = 75.90",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(62\\%\\) of \\($36\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$22.32",
+        "value": {
+          "kind": "currency",
+          "cents": 2232
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "62\\% = \\frac{62}{100} = 0.62",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.62 \\times 36 = 22.32",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(47\\%\\) of \\($151\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$70.97",
+        "value": {
+          "kind": "currency",
+          "cents": 7097
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "47\\% = \\frac{47}{100} = 0.47",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.47 \\times 151 = 70.97",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(62\\%\\) of \\($128\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$79.36",
+        "value": {
+          "kind": "currency",
+          "cents": 7936
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "62\\% = \\frac{62}{100} = 0.62",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.62 \\times 128 = 79.36",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(33\\%\\) of \\($121\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$39.93",
+        "value": {
+          "kind": "currency",
+          "cents": 3993
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "33\\% = \\frac{33}{100} = 0.33",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.33 \\times 121 = 39.93",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(37\\%\\) of \\($44\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$16.28",
+        "value": {
+          "kind": "currency",
+          "cents": 1628
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "37\\% = \\frac{37}{100} = 0.37",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.37 \\times 44 = 16.28",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7\\%\\) of \\($109\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$7.63",
+        "value": {
+          "kind": "currency",
+          "cents": 763
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7\\% = \\frac{7}{100} = 0.07",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.07 \\times 109 = 7.63",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(47\\%\\) of \\($161\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$75.67",
+        "value": {
+          "kind": "currency",
+          "cents": 7567
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "47\\% = \\frac{47}{100} = 0.47",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.47 \\times 161 = 75.67",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(18\\%\\) of \\($181\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$32.58",
+        "value": {
+          "kind": "currency",
+          "cents": 3258
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "18\\% = \\frac{18}{100} = 0.18",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.18 \\times 181 = 32.58",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(68\\%\\) of \\($86\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$58.48",
+        "value": {
+          "kind": "currency",
+          "cents": 5848
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "68\\% = \\frac{68}{100} = 0.68",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.68 \\times 86 = 58.48",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(33\\%\\) of \\($106\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$34.98",
+        "value": {
+          "kind": "currency",
+          "cents": 3498
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "33\\% = \\frac{33}{100} = 0.33",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.33 \\times 106 = 34.98",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(42\\%\\) of \\($30\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$12.60",
+        "value": {
+          "kind": "currency",
+          "cents": 1260
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "42\\% = \\frac{42}{100} = 0.42",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.42 \\times 30 = 12.60",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(73\\%\\) of \\($121\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$88.33",
+        "value": {
+          "kind": "currency",
+          "cents": 8833
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "73\\% = \\frac{73}{100} = 0.73",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.73 \\times 121 = 88.33",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(92\\%\\) of \\($192\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$176.64",
+        "value": {
+          "kind": "currency",
+          "cents": 17664
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "92\\% = \\frac{92}{100} = 0.92",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.92 \\times 192 = 176.64",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(55\\%\\) of \\($44\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$24.20",
+        "value": {
+          "kind": "currency",
+          "cents": 2420
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "55\\% = \\frac{55}{100} = 0.55",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.55 \\times 44 = 24.20",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(12\\%\\) of \\($98\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$11.76",
+        "value": {
+          "kind": "currency",
+          "cents": 1176
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12\\% = \\frac{12}{100} = 0.12",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.12 \\times 98 = 11.76",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(73\\%\\) of \\($51\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$37.23",
+        "value": {
+          "kind": "currency",
+          "cents": 3723
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "73\\% = \\frac{73}{100} = 0.73",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.73 \\times 51 = 37.23",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(33\\%\\) of \\($158\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$52.14",
+        "value": {
+          "kind": "currency",
+          "cents": 5214
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "33\\% = \\frac{33}{100} = 0.33",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.33 \\times 158 = 52.14",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(85\\%\\) of \\($50\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$42.50",
+        "value": {
+          "kind": "currency",
+          "cents": 4250
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "85\\% = \\frac{85}{100} = 0.85",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.85 \\times 50 = 42.50",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7\\%\\) of \\($27\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$1.89",
+        "value": {
+          "kind": "currency",
+          "cents": 189
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7\\% = \\frac{7}{100} = 0.07",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.07 \\times 27 = 1.89",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(85\\%\\) of \\($111\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$94.35",
+        "value": {
+          "kind": "currency",
+          "cents": 9435
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "85\\% = \\frac{85}{100} = 0.85",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.85 \\times 111 = 94.35",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(23\\%\\) of \\($65\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$14.95",
+        "value": {
+          "kind": "currency",
+          "cents": 1495
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "23\\% = \\frac{23}{100} = 0.23",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.23 \\times 65 = 14.95",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(55\\%\\) of \\($13\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$7.15",
+        "value": {
+          "kind": "currency",
+          "cents": 715
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "55\\% = \\frac{55}{100} = 0.55",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.55 \\times 13 = 7.15",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(62\\%\\) of \\($158\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$97.96",
+        "value": {
+          "kind": "currency",
+          "cents": 9796
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "62\\% = \\frac{62}{100} = 0.62",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.62 \\times 158 = 97.96",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(47\\%\\) of \\($82\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$38.54",
+        "value": {
+          "kind": "currency",
+          "cents": 3854
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "47\\% = \\frac{47}{100} = 0.47",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.47 \\times 82 = 38.54",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(33\\%\\) of \\($159\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$52.47",
+        "value": {
+          "kind": "currency",
+          "cents": 5247
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "33\\% = \\frac{33}{100} = 0.33",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.33 \\times 159 = 52.47",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(62\\%\\) of \\($69\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$42.78",
+        "value": {
+          "kind": "currency",
+          "cents": 4278
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "62\\% = \\frac{62}{100} = 0.62",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.62 \\times 69 = 42.78",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(42\\%\\) of \\($84\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$35.28",
+        "value": {
+          "kind": "currency",
+          "cents": 3528
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "42\\% = \\frac{42}{100} = 0.42",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.42 \\times 84 = 35.28",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(42\\%\\) of \\($71\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$29.82",
+        "value": {
+          "kind": "currency",
+          "cents": 2982
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "42\\% = \\frac{42}{100} = 0.42",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.42 \\times 71 = 29.82",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(55\\%\\) of \\($108\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$59.40",
+        "value": {
+          "kind": "currency",
+          "cents": 5940
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "55\\% = \\frac{55}{100} = 0.55",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.55 \\times 108 = 59.40",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(12\\%\\) of \\($177\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$21.24",
+        "value": {
+          "kind": "currency",
+          "cents": 2124
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12\\% = \\frac{12}{100} = 0.12",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.12 \\times 177 = 21.24",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(55\\%\\) of \\($172\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$94.60",
+        "value": {
+          "kind": "currency",
+          "cents": 9460
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "55\\% = \\frac{55}{100} = 0.55",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.55 \\times 172 = 94.60",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(12\\%\\) of \\($152\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$18.24",
+        "value": {
+          "kind": "currency",
+          "cents": 1824
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12\\% = \\frac{12}{100} = 0.12",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.12 \\times 152 = 18.24",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(23\\%\\) of \\($19\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$4.37",
+        "value": {
+          "kind": "currency",
+          "cents": 437
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "23\\% = \\frac{23}{100} = 0.23",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.23 \\times 19 = 4.37",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(12\\%\\) of \\($14\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$1.68",
+        "value": {
+          "kind": "currency",
+          "cents": 168
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12\\% = \\frac{12}{100} = 0.12",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.12 \\times 14 = 1.68",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(42\\%\\) of \\($127\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$53.34",
+        "value": {
+          "kind": "currency",
+          "cents": 5334
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "42\\% = \\frac{42}{100} = 0.42",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.42 \\times 127 = 53.34",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(12\\%\\) of \\($37\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$4.44",
+        "value": {
+          "kind": "currency",
+          "cents": 444
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12\\% = \\frac{12}{100} = 0.12",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.12 \\times 37 = 4.44",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(85\\%\\) of \\($75\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$63.75",
+        "value": {
+          "kind": "currency",
+          "cents": 6375
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "85\\% = \\frac{85}{100} = 0.85",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.85 \\times 75 = 63.75",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(92\\%\\) of \\($39\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$35.88",
+        "value": {
+          "kind": "currency",
+          "cents": 3588
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "92\\% = \\frac{92}{100} = 0.92",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.92 \\times 39 = 35.88",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(37\\%\\) of \\($194\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$71.78",
+        "value": {
+          "kind": "currency",
+          "cents": 7178
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "37\\% = \\frac{37}{100} = 0.37",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.37 \\times 194 = 71.78",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(18\\%\\) of \\($17\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$3.06",
+        "value": {
+          "kind": "currency",
+          "cents": 306
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "18\\% = \\frac{18}{100} = 0.18",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.18 \\times 17 = 3.06",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(33\\%\\) of \\($30\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$9.90",
+        "value": {
+          "kind": "currency",
+          "cents": 990
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "33\\% = \\frac{33}{100} = 0.33",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.33 \\times 30 = 9.90",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(92\\%\\) of \\($99\\)?",
+      "answer": {
+        "form": {
+          "kind": "currency"
+        },
+        "canonical": "$91.08",
+        "value": {
+          "kind": "currency",
+          "cents": 9108
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "92\\% = \\frac{92}{100} = 0.92",
+            "caption": "a percent is a fraction over 100; convert to a decimal",
+            "visual": "percent-grid"
+          },
+          {
+            "math": "0.92 \\times 99 = 91.08",
+            "caption": "\"of\" means multiply"
+          }
+        ],
+        "selfExplanation": {
+          "question": "What does 35% really mean?",
+          "options": [
+            {
+              "label": "35 per 100 — a ratio you multiply",
+              "isCorrect": true
+            },
+            {
+              "label": "35 of something — a count",
+              "isCorrect": false
+            },
+            {
+              "label": "35 added to 100",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#percent"
+      ],
+      "source": "generator"
+    }
+  ]
+}

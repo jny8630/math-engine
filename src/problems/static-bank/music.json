@@ -1,0 +1,136 @@
+[
+  {
+    "id": "music-001",
+    "text": "A song is 3 minutes 45 seconds long. The intro is 1/5 of the total runtime. How many SECONDS is the intro?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "45",
+      "value": { "kind": "integer", "value": 45 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "3 \\text{ min} \\times 60 + 45 = 225 \\text{ seconds}", "caption": "convert the song length entirely to seconds first" },
+        { "math": "\\frac{1}{5} \\times 225 = 45 \\text{ seconds}", "caption": "take 1/5 of the total" }
+      ],
+      "selfExplanation": {
+        "question": "Why convert to seconds before multiplying?",
+        "options": [
+          { "label": "fractions of mixed units are messy — pick one unit and stay there", "isCorrect": true },
+          { "label": "you can't multiply a fraction by minutes", "isCorrect": false },
+          { "label": "seconds are smaller so easier", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#music", "#fractions"],
+    "source": "static"
+  },
+  {
+    "id": "music-002",
+    "text": "An artist earns $0.004 per stream. If a song gets 12,500 streams, how much does the artist earn?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$50.00",
+      "value": { "kind": "currency", "cents": 5000 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "12{,}500 \\times \\$0.004 = \\$50.00", "caption": "multiply streams by earnings per stream" }
+      ],
+      "selfExplanation": {
+        "question": "Roughly how many streams to earn $1,000?",
+        "options": [
+          { "label": "250,000 streams ($1,000 ÷ $0.004)", "isCorrect": true },
+          { "label": "100,000 streams", "isCorrect": false },
+          { "label": "1,000,000 streams", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#music", "#decimals"],
+    "source": "static"
+  },
+  {
+    "id": "music-003",
+    "text": "An artist has 1,000 monthly listeners. Their audience grows by 10% each month for 3 months. How many monthly listeners do they have after 3 months?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "1331",
+      "value": { "kind": "integer", "value": 1331 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "\\text{month 1: } 1000 \\times 1.10 = 1100", "caption": "10% growth means multiply by 1.10" },
+        { "math": "\\text{month 2: } 1100 \\times 1.10 = 1210", "caption": "growth compounds — each month builds on the previous total" },
+        { "math": "\\text{month 3: } 1210 \\times 1.10 = 1331", "caption": "compounding is why it ends higher than 1300" }
+      ],
+      "selfExplanation": {
+        "question": "Why isn't the answer just 1,000 + 30% = 1,300?",
+        "options": [
+          { "label": "compound growth means each month's gain is bigger than the last", "isCorrect": true },
+          { "label": "the percent must be applied only once", "isCorrect": false },
+          { "label": "the answer is wrong — 1,300 is correct", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#music", "#percent"],
+    "source": "static"
+  },
+  {
+    "id": "music-004",
+    "text": "An album has 20 songs. 40% are pop, 25% are jazz, and the rest are indie. How many INDIE songs are on the album?",
+    "answer": {
+      "form": { "kind": "integer" },
+      "canonical": "7",
+      "value": { "kind": "integer", "value": 7 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "100\\% - 40\\% - 25\\% = 35\\%", "caption": "the rest is whatever's left after pop and jazz", "visual": "percent-grid" },
+        { "math": "35\\% \\times 20 = 7 \\text{ songs}", "caption": "apply the percent to the total" }
+      ],
+      "selfExplanation": {
+        "question": "Why subtract from 100% rather than add up percents and check?",
+        "options": [
+          { "label": "the indie share is 'everything not already counted'", "isCorrect": true },
+          { "label": "addition is harder than subtraction", "isCorrect": false },
+          { "label": "percents always go to 100", "isCorrect": false }
+        ]
+      }
+    },
+    "tags": ["#word-problem", "#music", "#percent"],
+    "source": "static"
+  },
+  {
+    "id": "music-005",
+    "text": "A song earns $500 from streaming. The artist gets 70% and the platform keeps 30%. How much does the artist receive?",
+    "answer": {
+      "form": { "kind": "currency" },
+      "canonical": "$350.00",
+      "value": { "kind": "currency", "cents": 35000 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "70\\% = 0.70", "caption": "convert percent to decimal" },
+        { "math": "\\$500 \\times 0.70 = \\$350", "caption": "multiply the total by the artist's share" }
+      ]
+    },
+    "tags": ["#word-problem", "#music", "#percent"],
+    "source": "static"
+  },
+  {
+    "id": "music-006",
+    "text": "Beatrix listens to music for 90 minutes a day. How many HOURS does she listen across a 7-day week?",
+    "answer": {
+      "form": { "kind": "decimal", "places": 1, "tolerance": 0.05 },
+      "canonical": "10.5",
+      "value": { "kind": "decimal", "value": 10.5 }
+    },
+    "walkthrough": {
+      "steps": [
+        { "math": "90 \\text{ min} \\times 7 = 630 \\text{ minutes}", "caption": "first find total minutes for the week" },
+        { "math": "\\frac{630}{60} = 10.5 \\text{ hours}", "caption": "divide by 60 to convert minutes to hours" }
+      ]
+    },
+    "tags": ["#word-problem", "#music"],
+    "source": "static"
+  }
+]

@@ -1,0 +1,6011 @@
+{
+  "templateId": "algebra-one-step-mul",
+  "tags": [
+    "#algebra",
+    "#pre-algebra"
+  ],
+  "tidyMode": [
+    {
+      "text": "Solve for x: \\(2x = 4\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = 4",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{4}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 2",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 2
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(7x = 7\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x = 7",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{7}{7}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(9x = -9\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x = -9",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{-9}{9}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -18
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(9x = -9\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x = -9",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{-9}{9}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -18
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = 10\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = 10",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{10}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 5",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 8
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = -40\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-10",
+        "value": {
+          "kind": "integer",
+          "value": -10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = -40",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-40}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -10",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -44
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(8x = -16\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-2",
+        "value": {
+          "kind": "integer",
+          "value": -2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x = -16",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{-16}{8}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -2",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -24
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = 60\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = 60",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{60}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 6",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 50
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(3x = 21\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x = 21",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{21}{3}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 7",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 18
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(9x = 54\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x = 54",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{54}{9}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 6",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 45
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(3x = -12\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-4",
+        "value": {
+          "kind": "integer",
+          "value": -4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x = -12",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{-12}{3}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -4",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -15
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(5x = 30\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x = 30",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{30}{5}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 6",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 25
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = 8\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = 8",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{8}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 2",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 4
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = -18\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-9",
+        "value": {
+          "kind": "integer",
+          "value": -9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = -18",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{-18}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -9",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -20
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = -36\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-9",
+        "value": {
+          "kind": "integer",
+          "value": -9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = -36",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-36}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -9",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -40
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = -18\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-9",
+        "value": {
+          "kind": "integer",
+          "value": -9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = -18",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{-18}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -9",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -20
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = 14\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = 14",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{14}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 7",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 12
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(6x = 36\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x = 36",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{36}{6}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 6",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 30
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(7x = -49\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-7",
+        "value": {
+          "kind": "integer",
+          "value": -7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x = -49",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{-49}{7}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -7",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -56
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = 12\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = 12",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{12}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 6",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 10
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(5x = -25\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x = -25",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{-25}{5}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -5",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -30
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(6x = 36\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x = 36",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{36}{6}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 6",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 30
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = -10\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = -10",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{-10}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -5",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -12
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = 8\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = 8",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{8}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 4",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 6
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = 20\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = 20",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{20}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 2",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 10
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = 10\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = 10",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{10}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = -4\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-2",
+        "value": {
+          "kind": "integer",
+          "value": -2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = -4",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{-4}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -2",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -6
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = 28\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = 28",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{28}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 7",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 24
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(8x = 72\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "9",
+        "value": {
+          "kind": "integer",
+          "value": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x = 72",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{72}{8}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 9",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 64
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = 20\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = 20",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{20}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 5",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 16
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(3x = 3\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x = 3",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{3}{3}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = 10\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = 10",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{10}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(3x = 3\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x = 3",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{3}{3}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(3x = 27\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "9",
+        "value": {
+          "kind": "integer",
+          "value": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x = 27",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{27}{3}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 9",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 24
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = 14\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = 14",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{14}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 7",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 12
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(7x = 42\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x = 42",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{42}{7}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 6",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 35
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(5x = -50\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-10",
+        "value": {
+          "kind": "integer",
+          "value": -10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x = -50",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{-50}{5}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -10",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -55
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(3x = -9\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-3",
+        "value": {
+          "kind": "integer",
+          "value": -3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x = -9",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{-9}{3}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -3",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -12
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(3x = -6\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-2",
+        "value": {
+          "kind": "integer",
+          "value": -2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x = -6",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{-6}{3}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -2",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -9
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = -40\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-4",
+        "value": {
+          "kind": "integer",
+          "value": -4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = -40",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{-40}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -4",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -50
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = 8\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = 8",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{8}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 2",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 4
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(7x = -7\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x = -7",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{-7}{7}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -14
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(6x = 48\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "8",
+        "value": {
+          "kind": "integer",
+          "value": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x = 48",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{48}{6}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 8",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 42
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(6x = 54\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "9",
+        "value": {
+          "kind": "integer",
+          "value": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x = 54",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{54}{6}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 9",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 48
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = 10\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = 10",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{10}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(8x = 80\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x = 80",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{80}{8}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 10",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 72
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(7x = -28\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-4",
+        "value": {
+          "kind": "integer",
+          "value": -4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x = -28",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{-28}{7}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -4",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -35
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = 16\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "4",
+        "value": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = 16",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{16}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 4",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 12
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(5x = 5\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x = 5",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{5}{5}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(3x = 18\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x = 18",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{18}{3}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 6",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 15
+          }
+        }
+      ]
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "Solve for x: \\(8x = -8\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x = -8",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{-8}{8}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -16
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(9x = 99\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "11",
+        "value": {
+          "kind": "integer",
+          "value": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x = 99",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{99}{9}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 11",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(9x = 126\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "14",
+        "value": {
+          "kind": "integer",
+          "value": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x = 126",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{126}{9}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 14",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 117
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(7x = 84\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "12",
+        "value": {
+          "kind": "integer",
+          "value": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x = 84",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{84}{7}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 12",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 77
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(8x = 8\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x = 8",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{8}{8}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = -4\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-1",
+        "value": {
+          "kind": "integer",
+          "value": -1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = -4",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-4}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -8
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(12x = -60\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12x = -60",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{12x}{12} = \\frac{-60}{12}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -5",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -72
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = -22\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-11",
+        "value": {
+          "kind": "integer",
+          "value": -11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = -22",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{-22}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -11",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -24
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(5x = -70\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-14",
+        "value": {
+          "kind": "integer",
+          "value": -14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x = -70",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{-70}{5}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -14",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -75
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = 14\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = 14",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{14}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 7",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 12
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = 24\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "6",
+        "value": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = 24",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{24}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 6",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = 140\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "14",
+        "value": {
+          "kind": "integer",
+          "value": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = 140",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{140}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 14",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 130
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(5x = -25\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-5",
+        "value": {
+          "kind": "integer",
+          "value": -5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x = -25",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{-25}{5}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -5",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -30
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = 60\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "15",
+        "value": {
+          "kind": "integer",
+          "value": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = 60",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{60}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 15",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 56
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(11x = -77\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-7",
+        "value": {
+          "kind": "integer",
+          "value": -7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x = -77",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{-77}{11}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -7",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -88
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = 4\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = 4",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{4}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(15x = 45\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "3",
+        "value": {
+          "kind": "integer",
+          "value": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "15x = 45",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{15x}{15} = \\frac{45}{15}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 3",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 30
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(6x = 66\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "11",
+        "value": {
+          "kind": "integer",
+          "value": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x = 66",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{66}{6}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 11",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 60
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(11x = 121\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "11",
+        "value": {
+          "kind": "integer",
+          "value": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x = 121",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{121}{11}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 11",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 110
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(7x = 70\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x = 70",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{70}{7}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 10",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 63
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(5x = 25\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x = 25",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{25}{5}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 5",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 20
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(7x = -98\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-14",
+        "value": {
+          "kind": "integer",
+          "value": -14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x = -98",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{-98}{7}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -14",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -105
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(14x = 28\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "2",
+        "value": {
+          "kind": "integer",
+          "value": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "14x = 28",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{14x}{14} = \\frac{28}{14}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 2",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 14
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(8x = -80\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-10",
+        "value": {
+          "kind": "integer",
+          "value": -10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x = -80",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{-80}{8}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -10",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -88
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(6x = -12\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-2",
+        "value": {
+          "kind": "integer",
+          "value": -2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x = -12",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{-12}{6}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -2",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -18
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(3x = 3\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x = 3",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{3}{3}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = 100\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = 100",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{100}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 10",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(12x = 36\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "3",
+        "value": {
+          "kind": "integer",
+          "value": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12x = 36",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{12x}{12} = \\frac{36}{12}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 3",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 24
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(6x = 84\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "14",
+        "value": {
+          "kind": "integer",
+          "value": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x = 84",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{84}{6}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 14",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 78
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(7x = 91\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "13",
+        "value": {
+          "kind": "integer",
+          "value": 13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "7x = 91",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{7x}{7} = \\frac{91}{7}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 13",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 84
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(8x = -72\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-9",
+        "value": {
+          "kind": "integer",
+          "value": -9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "8x = -72",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{8x}{8} = \\frac{-72}{8}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -9",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -80
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(12x = 12\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "1",
+        "value": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12x = 12",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{12x}{12} = \\frac{12}{12}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 1",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(11x = -33\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-3",
+        "value": {
+          "kind": "integer",
+          "value": -3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "11x = -33",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{11x}{11} = \\frac{-33}{11}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -3",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -44
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = -70\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-7",
+        "value": {
+          "kind": "integer",
+          "value": -7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = -70",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{-70}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -7",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -80
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(6x = 78\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "13",
+        "value": {
+          "kind": "integer",
+          "value": 13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "6x = 78",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{6x}{6} = \\frac{78}{6}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 13",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 72
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(14x = 182\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "13",
+        "value": {
+          "kind": "integer",
+          "value": 13
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "14x = 182",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{14x}{14} = \\frac{182}{14}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 13",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 168
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = 70\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = 70",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{70}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 7",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 60
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(12x = -120\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-10",
+        "value": {
+          "kind": "integer",
+          "value": -10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "12x = -120",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{12x}{12} = \\frac{-120}{12}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -10",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -132
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = -16\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-8",
+        "value": {
+          "kind": "integer",
+          "value": -8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = -16",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{-16}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -8",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -18
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = 120\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "12",
+        "value": {
+          "kind": "integer",
+          "value": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = 120",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{120}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 12",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 110
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(9x = 108\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "12",
+        "value": {
+          "kind": "integer",
+          "value": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x = 108",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{108}{9}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 12",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 99
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = 56\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "14",
+        "value": {
+          "kind": "integer",
+          "value": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = 56",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{56}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 14",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 52
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(2x = -8\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-4",
+        "value": {
+          "kind": "integer",
+          "value": -4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "2x = -8",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{2x}{2} = \\frac{-8}{2}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -4",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -10
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(4x = -36\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-9",
+        "value": {
+          "kind": "integer",
+          "value": -9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "4x = -36",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{4x}{4} = \\frac{-36}{4}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -9",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -40
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(13x = 65\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "5",
+        "value": {
+          "kind": "integer",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "13x = 65",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{13x}{13} = \\frac{65}{13}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 5",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 52
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(10x = -30\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "-3",
+        "value": {
+          "kind": "integer",
+          "value": -3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "10x = -30",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{10x}{10} = \\frac{-30}{10}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = -3",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": -40
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(9x = 90\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "10",
+        "value": {
+          "kind": "integer",
+          "value": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x = 90",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{90}{9}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 10",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 81
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(5x = 35\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "7",
+        "value": {
+          "kind": "integer",
+          "value": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "5x = 35",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{5x}{5} = \\frac{35}{5}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 7",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 30
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(9x = 108\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "12",
+        "value": {
+          "kind": "integer",
+          "value": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "9x = 108",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{9x}{9} = \\frac{108}{9}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 12",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 99
+          }
+        }
+      ]
+    },
+    {
+      "text": "Solve for x: \\(3x = 27\\)",
+      "answer": {
+        "form": {
+          "kind": "integer"
+        },
+        "canonical": "9",
+        "value": {
+          "kind": "integer",
+          "value": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "3x = 27",
+            "caption": "start with the equation as given"
+          },
+          {
+            "math": "\\frac{3x}{3} = \\frac{27}{3}",
+            "caption": "divide both sides by the coefficient to undo the multiplication"
+          },
+          {
+            "math": "x = 9",
+            "caption": "the coefficient cancels on the left, leaving x alone"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we have to apply the same step to BOTH sides?",
+          "options": [
+            {
+              "label": "an equation is a balance — both sides must change the same way",
+              "isCorrect": true
+            },
+            {
+              "label": "so the variable always ends up on the left",
+              "isCorrect": false
+            },
+            {
+              "label": "to make the numbers easier",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#algebra",
+        "#pre-algebra"
+      ],
+      "source": "generator",
+      "misconceptionPatterns": [
+        {
+          "tag": "#sign-error-on-move",
+          "wrongValue": {
+            "kind": "integer",
+            "value": 24
+          }
+        }
+      ]
+    }
+  ]
+}

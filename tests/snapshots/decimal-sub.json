@@ -1,0 +1,5010 @@
+{
+  "templateId": "decimal-sub",
+  "tags": [
+    "#decimals"
+  ],
+  "tidyMode": [
+    {
+      "text": "What is \\(6.77 - 4.19\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.58",
+        "value": {
+          "kind": "decimal",
+          "value": 2.579999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.77 \\\\ - 4.19 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.77 - 4.19 = 2.58",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.73 - 1.97\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.76",
+        "value": {
+          "kind": "decimal",
+          "value": 4.760000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.73 \\\\ - 1.97 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.73 - 1.97 = 4.76",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.66 - 3.31\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "3.35",
+        "value": {
+          "kind": "decimal",
+          "value": 3.35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.66 \\\\ - 3.31 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.66 - 3.31 = 3.35",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.92 - 2.99\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.93",
+        "value": {
+          "kind": "decimal",
+          "value": 5.93
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.92 \\\\ - 2.99 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.92 - 2.99 = 5.93",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.67 - 4.77\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "0.90",
+        "value": {
+          "kind": "decimal",
+          "value": 0.9000000000000004
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.67 \\\\ - 4.77 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.67 - 4.77 = 0.90",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.07 - 1.80\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.27",
+        "value": {
+          "kind": "decimal",
+          "value": 6.2700000000000005
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.07 \\\\ - 1.80 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.07 - 1.80 = 6.27",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.65 - 4.58\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.07",
+        "value": {
+          "kind": "decimal",
+          "value": 4.07
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.65 \\\\ - 4.58 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.65 - 4.58 = 4.07",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.38 - 4.53\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.85",
+        "value": {
+          "kind": "decimal",
+          "value": 2.8499999999999996
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.38 \\\\ - 4.53 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.38 - 4.53 = 2.85",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.26 - 3.77\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "3.49",
+        "value": {
+          "kind": "decimal",
+          "value": 3.4899999999999998
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.26 \\\\ - 3.77 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.26 - 3.77 = 3.49",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.26 - 2.90\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.36",
+        "value": {
+          "kind": "decimal",
+          "value": 4.359999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.26 \\\\ - 2.90 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.26 - 2.90 = 4.36",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.44 - 4.85\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "0.59",
+        "value": {
+          "kind": "decimal",
+          "value": 0.5900000000000007
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.44 \\\\ - 4.85 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.44 - 4.85 = 0.59",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.75 - 1.67\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.08",
+        "value": {
+          "kind": "decimal",
+          "value": 6.08
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.75 \\\\ - 1.67 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.75 - 1.67 = 6.08",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.38 - 4.75\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "0.63",
+        "value": {
+          "kind": "decimal",
+          "value": 0.6299999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.38 \\\\ - 4.75 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.38 - 4.75 = 0.63",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.06 - 3.50\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.56",
+        "value": {
+          "kind": "decimal",
+          "value": 5.5600000000000005
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.06 \\\\ - 3.50 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.06 - 3.50 = 5.56",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.37 - 2.17\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.20",
+        "value": {
+          "kind": "decimal",
+          "value": 4.2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.37 \\\\ - 2.17 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.37 - 2.17 = 4.20",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.20 - 1.24\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.96",
+        "value": {
+          "kind": "decimal",
+          "value": 4.96
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.20 \\\\ - 1.24 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.20 - 1.24 = 4.96",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.30 - 4.41\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "1.89",
+        "value": {
+          "kind": "decimal",
+          "value": 1.8899999999999997
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.30 \\\\ - 4.41 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.30 - 4.41 = 1.89",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.98 - 3.95\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "3.03",
+        "value": {
+          "kind": "decimal",
+          "value": 3.0300000000000002
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.98 \\\\ - 3.95 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.98 - 3.95 = 3.03",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.84 - 4.59\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.25",
+        "value": {
+          "kind": "decimal",
+          "value": 2.25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.84 \\\\ - 4.59 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.84 - 4.59 = 2.25",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.58 - 4.22\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.36",
+        "value": {
+          "kind": "decimal",
+          "value": 4.36
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.58 \\\\ - 4.22 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.58 - 4.22 = 4.36",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.88 - 2.37\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "3.51",
+        "value": {
+          "kind": "decimal",
+          "value": 3.51
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.88 \\\\ - 2.37 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.88 - 2.37 = 3.51",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.62 - 1.71\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.91",
+        "value": {
+          "kind": "decimal",
+          "value": 5.91
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.62 \\\\ - 1.71 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.62 - 1.71 = 5.91",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.91 - 3.75\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.16",
+        "value": {
+          "kind": "decimal",
+          "value": 5.16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.91 \\\\ - 3.75 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.91 - 3.75 = 5.16",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.50 - 1.32\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.18",
+        "value": {
+          "kind": "decimal",
+          "value": 4.18
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.50 \\\\ - 1.32 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.50 - 1.32 = 4.18",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.18 - 2.22\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.96",
+        "value": {
+          "kind": "decimal",
+          "value": 5.959999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.18 \\\\ - 2.22 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.18 - 2.22 = 5.96",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.00 - 2.92\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.08",
+        "value": {
+          "kind": "decimal",
+          "value": 2.08
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.00 \\\\ - 2.92 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.00 - 2.92 = 2.08",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.48 - 3.63\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "1.85",
+        "value": {
+          "kind": "decimal",
+          "value": 1.8500000000000005
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.48 \\\\ - 3.63 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.48 - 3.63 = 1.85",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.51 - 4.08\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.43",
+        "value": {
+          "kind": "decimal",
+          "value": 4.43
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.51 \\\\ - 4.08 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.51 - 4.08 = 4.43",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.33 - 3.73\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.60",
+        "value": {
+          "kind": "decimal",
+          "value": 2.6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.33 \\\\ - 3.73 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.33 - 3.73 = 2.60",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.41 - 3.47\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.94",
+        "value": {
+          "kind": "decimal",
+          "value": 4.9399999999999995
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.41 \\\\ - 3.47 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.41 - 3.47 = 4.94",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.63 - 4.00\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "3.63",
+        "value": {
+          "kind": "decimal",
+          "value": 3.63
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.63 \\\\ - 4.00 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.63 - 4.00 = 3.63",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.85 - 3.86\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.99",
+        "value": {
+          "kind": "decimal",
+          "value": 5.99
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.85 \\\\ - 3.86 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.85 - 3.86 = 5.99",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.61 - 2.88\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.73",
+        "value": {
+          "kind": "decimal",
+          "value": 4.73
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.61 \\\\ - 2.88 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.61 - 2.88 = 4.73",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.62 - 3.81\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "1.81",
+        "value": {
+          "kind": "decimal",
+          "value": 1.81
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.62 \\\\ - 3.81 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.62 - 3.81 = 1.81",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.53 - 2.58\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.95",
+        "value": {
+          "kind": "decimal",
+          "value": 6.949999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.53 \\\\ - 2.58 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.53 - 2.58 = 6.95",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.87 - 4.45\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.42",
+        "value": {
+          "kind": "decimal",
+          "value": 4.419999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.87 \\\\ - 4.45 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.87 - 4.45 = 4.42",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.07 - 1.63\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.44",
+        "value": {
+          "kind": "decimal",
+          "value": 7.44
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.07 \\\\ - 1.63 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.07 - 1.63 = 7.44",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.84 - 3.90\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "1.94",
+        "value": {
+          "kind": "decimal",
+          "value": 1.94
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.84 \\\\ - 3.90 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.84 - 3.90 = 1.94",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.61 - 3.22\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.39",
+        "value": {
+          "kind": "decimal",
+          "value": 4.390000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.61 \\\\ - 3.22 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.61 - 3.22 = 4.39",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.93 - 4.71\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.22",
+        "value": {
+          "kind": "decimal",
+          "value": 2.2199999999999998
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.93 \\\\ - 4.71 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.93 - 4.71 = 2.22",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.68 - 3.62\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.06",
+        "value": {
+          "kind": "decimal",
+          "value": 2.0599999999999996
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.68 \\\\ - 3.62 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.68 - 3.62 = 2.06",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.26 - 4.82\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.44",
+        "value": {
+          "kind": "decimal",
+          "value": 4.4399999999999995
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.26 \\\\ - 4.82 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.26 - 4.82 = 4.44",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.73 - 2.77\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.96",
+        "value": {
+          "kind": "decimal",
+          "value": 2.9600000000000004
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.73 \\\\ - 2.77 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.73 - 2.77 = 2.96",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.28 - 4.03\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "1.25",
+        "value": {
+          "kind": "decimal",
+          "value": 1.25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.28 \\\\ - 4.03 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.28 - 4.03 = 1.25",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.21 - 2.70\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.51",
+        "value": {
+          "kind": "decimal",
+          "value": 5.510000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.21 \\\\ - 2.70 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.21 - 2.70 = 5.51",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.05 - 3.96\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.09",
+        "value": {
+          "kind": "decimal",
+          "value": 4.090000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.05 \\\\ - 3.96 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.05 - 3.96 = 4.09",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.07 - 3.82\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "1.25",
+        "value": {
+          "kind": "decimal",
+          "value": 1.2500000000000004
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.07 \\\\ - 3.82 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.07 - 3.82 = 1.25",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.68 - 4.95\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "0.73",
+        "value": {
+          "kind": "decimal",
+          "value": 0.7299999999999995
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.68 \\\\ - 4.95 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.68 - 4.95 = 0.73",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.10 - 1.68\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.42",
+        "value": {
+          "kind": "decimal",
+          "value": 7.42
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.10 \\\\ - 1.68 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.10 - 1.68 = 7.42",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.06 - 4.63\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "3.43",
+        "value": {
+          "kind": "decimal",
+          "value": 3.4300000000000006
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.06 \\\\ - 4.63 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.06 - 4.63 = 3.43",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "What is \\(8.64 - 2.00\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.64",
+        "value": {
+          "kind": "decimal",
+          "value": 6.640000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.64 \\\\ - 2.00 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.64 - 2.00 = 6.64",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "6.64 \\approx 6.64",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.12 - 3.82\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "2.300",
+        "value": {
+          "kind": "decimal",
+          "value": 2.3000000000000003
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.12 \\\\ - 3.82 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.12 - 3.82 = 2.30",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.30 \\approx 2.300",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.79 - 3.67\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.12",
+        "value": {
+          "kind": "decimal",
+          "value": 5.119999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.79 \\\\ - 3.67 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.79 - 3.67 = 5.12",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "5.12 \\approx 5.12",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.43 - 2.55\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "4.880",
+        "value": {
+          "kind": "decimal",
+          "value": 4.88
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.43 \\\\ - 2.55 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.43 - 2.55 = 4.88",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.88 \\approx 4.880",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.53 - 3.53\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "5.000",
+        "value": {
+          "kind": "decimal",
+          "value": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.53 \\\\ - 3.53 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.53 - 3.53 = 5.00",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "5.00 \\approx 5.000",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.71 - 1.61\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.10",
+        "value": {
+          "kind": "decimal",
+          "value": 6.1
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.71 \\\\ - 1.61 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.71 - 1.61 = 6.10",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "6.10 \\approx 6.10",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.52 - 3.18\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "6.34",
+        "value": {
+          "kind": "decimal",
+          "value": 6.34
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.52 \\\\ - 3.18 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.52 - 3.18 = 6.34",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "6.34 \\approx 6.34",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.06 - 1.72\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.34",
+        "value": {
+          "kind": "decimal",
+          "value": 5.34
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.06 \\\\ - 1.72 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.06 - 1.72 = 5.34",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "5.34 \\approx 5.34",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.87 - 4.87\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "4.000",
+        "value": {
+          "kind": "decimal",
+          "value": 3.999999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.87 \\\\ - 4.87 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.87 - 4.87 = 4.00",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.00 \\approx 4.000",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.44 - 1.60\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "6.840",
+        "value": {
+          "kind": "decimal",
+          "value": 6.84
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.44 \\\\ - 1.60 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.44 - 1.60 = 6.84",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "6.84 \\approx 6.840",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.28 - 2.92\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.36",
+        "value": {
+          "kind": "decimal",
+          "value": 2.3600000000000003
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.28 \\\\ - 2.92 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.28 - 2.92 = 2.36",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.36 \\approx 2.36",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.57 - 1.21\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.36",
+        "value": {
+          "kind": "decimal",
+          "value": 5.36
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.57 \\\\ - 1.21 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.57 - 1.21 = 5.36",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "5.36 \\approx 5.36",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.40 - 1.33\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "7.070",
+        "value": {
+          "kind": "decimal",
+          "value": 7.07
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.40 \\\\ - 1.33 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.40 - 1.33 = 7.07",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "7.07 \\approx 7.070",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.37 - 3.66\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "2.710",
+        "value": {
+          "kind": "decimal",
+          "value": 2.71
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.37 \\\\ - 3.66 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.37 - 3.66 = 2.71",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.71 \\approx 2.710",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.64 - 4.83\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "0.810",
+        "value": {
+          "kind": "decimal",
+          "value": 0.8099999999999996
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.64 \\\\ - 4.83 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.64 - 4.83 = 0.81",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "0.81 \\approx 0.810",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.10 - 3.11\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "5.990",
+        "value": {
+          "kind": "decimal",
+          "value": 5.99
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.10 \\\\ - 3.11 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.10 - 3.11 = 5.99",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "5.99 \\approx 5.990",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.58 - 3.27\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "5.310",
+        "value": {
+          "kind": "decimal",
+          "value": 5.3100000000000005
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.58 \\\\ - 3.27 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.58 - 3.27 = 5.31",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "5.31 \\approx 5.310",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.37 - 1.16\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "8.210",
+        "value": {
+          "kind": "decimal",
+          "value": 8.209999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.37 \\\\ - 1.16 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.37 - 1.16 = 8.21",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "8.21 \\approx 8.210",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.40 - 3.78\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.62",
+        "value": {
+          "kind": "decimal",
+          "value": 4.620000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.40 \\\\ - 3.78 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.40 - 3.78 = 4.62",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.62 \\approx 4.62",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.55 - 4.87\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "1.680",
+        "value": {
+          "kind": "decimal",
+          "value": 1.6799999999999997
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.55 \\\\ - 4.87 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.55 - 4.87 = 1.68",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "1.68 \\approx 1.680",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.47 - 3.39\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "2.080",
+        "value": {
+          "kind": "decimal",
+          "value": 2.0799999999999996
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.47 \\\\ - 3.39 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.47 - 3.39 = 2.08",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.08 \\approx 2.080",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.23 - 3.07\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.16",
+        "value": {
+          "kind": "decimal",
+          "value": 4.16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.23 \\\\ - 3.07 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.23 - 3.07 = 4.16",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.16 \\approx 4.16",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.08 - 1.51\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.57",
+        "value": {
+          "kind": "decimal",
+          "value": 7.57
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.08 \\\\ - 1.51 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.08 - 1.51 = 7.57",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "7.57 \\approx 7.57",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.85 - 4.81\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.04",
+        "value": {
+          "kind": "decimal",
+          "value": 4.04
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.85 \\\\ - 4.81 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.85 - 4.81 = 4.04",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.04 \\approx 4.04",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.77 - 4.63\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "2.140",
+        "value": {
+          "kind": "decimal",
+          "value": 2.1399999999999997
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.77 \\\\ - 4.63 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.77 - 4.63 = 2.14",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.14 \\approx 2.140",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.74 - 3.69\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "4.050",
+        "value": {
+          "kind": "decimal",
+          "value": 4.050000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.74 \\\\ - 3.69 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.74 - 3.69 = 4.05",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.05 \\approx 4.050",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.10 - 4.81\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "1.29",
+        "value": {
+          "kind": "decimal",
+          "value": 1.29
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.10 \\\\ - 4.81 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.10 - 4.81 = 1.29",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "1.29 \\approx 1.29",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.20 - 2.49\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "3.710",
+        "value": {
+          "kind": "decimal",
+          "value": 3.71
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.20 \\\\ - 2.49 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.20 - 2.49 = 3.71",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "3.71 \\approx 3.710",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.77 - 3.90\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.87",
+        "value": {
+          "kind": "decimal",
+          "value": 2.8699999999999997
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.77 \\\\ - 3.90 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.77 - 3.90 = 2.87",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.87 \\approx 2.87",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.83 - 3.37\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.46",
+        "value": {
+          "kind": "decimal",
+          "value": 2.46
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.83 \\\\ - 3.37 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.83 - 3.37 = 2.46",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.46 \\approx 2.46",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.23 - 3.03\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "6.200",
+        "value": {
+          "kind": "decimal",
+          "value": 6.200000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.23 \\\\ - 3.03 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.23 - 3.03 = 6.20",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "6.20 \\approx 6.200",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.83 - 2.30\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "7.53",
+        "value": {
+          "kind": "decimal",
+          "value": 7.53
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.83 \\\\ - 2.30 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.83 - 2.30 = 7.53",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "7.53 \\approx 7.53",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.81 - 1.94\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "4.870",
+        "value": {
+          "kind": "decimal",
+          "value": 4.869999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.81 \\\\ - 1.94 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.81 - 1.94 = 4.87",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.87 \\approx 4.870",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.17 - 1.31\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.86",
+        "value": {
+          "kind": "decimal",
+          "value": 4.859999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.17 \\\\ - 1.31 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.17 - 1.31 = 4.86",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.86 \\approx 4.86",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.55 - 3.73\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.82",
+        "value": {
+          "kind": "decimal",
+          "value": 2.82
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.55 \\\\ - 3.73 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.55 - 3.73 = 2.82",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.82 \\approx 2.82",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.81 - 2.18\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "4.630",
+        "value": {
+          "kind": "decimal",
+          "value": 4.629999999999999
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.81 \\\\ - 2.18 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.81 - 2.18 = 4.63",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.63 \\approx 4.630",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.24 - 3.55\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "4.690",
+        "value": {
+          "kind": "decimal",
+          "value": 4.69
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.24 \\\\ - 3.55 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.24 - 3.55 = 4.69",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.69 \\approx 4.690",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.99 - 2.25\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "7.740",
+        "value": {
+          "kind": "decimal",
+          "value": 7.74
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.99 \\\\ - 2.25 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.99 - 2.25 = 7.74",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "7.74 \\approx 7.740",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.95 - 2.13\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "4.820",
+        "value": {
+          "kind": "decimal",
+          "value": 4.82
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.95 \\\\ - 2.13 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.95 - 2.13 = 4.82",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.82 \\approx 4.820",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(7.66 - 1.86\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "5.80",
+        "value": {
+          "kind": "decimal",
+          "value": 5.8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 7.66 \\\\ - 1.86 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "7.66 - 1.86 = 5.80",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "5.80 \\approx 5.80",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.10 - 2.83\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "3.270",
+        "value": {
+          "kind": "decimal",
+          "value": 3.2699999999999996
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.10 \\\\ - 2.83 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.10 - 2.83 = 3.27",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "3.27 \\approx 3.270",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.09 - 2.43\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.66",
+        "value": {
+          "kind": "decimal",
+          "value": 2.6599999999999997
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.09 \\\\ - 2.43 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.09 - 2.43 = 2.66",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.66 \\approx 2.66",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.77 - 4.29\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "2.480",
+        "value": {
+          "kind": "decimal",
+          "value": 2.4799999999999995
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.77 \\\\ - 4.29 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.77 - 4.29 = 2.48",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.48 \\approx 2.480",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.00 - 3.92\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "5.080",
+        "value": {
+          "kind": "decimal",
+          "value": 5.08
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.00 \\\\ - 3.92 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.00 - 3.92 = 5.08",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "5.08 \\approx 5.080",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(9.89 - 4.46\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "5.430",
+        "value": {
+          "kind": "decimal",
+          "value": 5.430000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 9.89 \\\\ - 4.46 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "9.89 - 4.46 = 5.43",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "5.43 \\approx 5.430",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.52 - 1.19\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "4.33",
+        "value": {
+          "kind": "decimal",
+          "value": 4.33
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.52 \\\\ - 1.19 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.52 - 1.19 = 4.33",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.33 \\approx 4.33",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.72 - 1.78\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "3.940",
+        "value": {
+          "kind": "decimal",
+          "value": 3.9399999999999995
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.72 \\\\ - 1.78 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.72 - 1.78 = 3.94",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "3.94 \\approx 3.940",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(5.21 - 2.66\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "2.55",
+        "value": {
+          "kind": "decimal",
+          "value": 2.55
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 5.21 \\\\ - 2.66 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "5.21 - 2.66 = 2.55",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "2.55 \\approx 2.55",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(8.21 - 3.37\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 3,
+          "tolerance": 0.0005
+        },
+        "canonical": "4.840",
+        "value": {
+          "kind": "decimal",
+          "value": 4.840000000000001
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 8.21 \\\\ - 3.37 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "8.21 - 3.37 = 4.84",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "4.84 \\approx 4.840",
+            "caption": "round to 3 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(6.89 - 3.34\\)?",
+      "answer": {
+        "form": {
+          "kind": "decimal",
+          "places": 2,
+          "tolerance": 0.005
+        },
+        "canonical": "3.55",
+        "value": {
+          "kind": "decimal",
+          "value": 3.55
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\begin{array}{r} 6.89 \\\\ - 3.34 \\\\ \\hline \\end{array}",
+            "caption": "line up the decimal points before subtracting"
+          },
+          {
+            "math": "6.89 - 3.34 = 3.55",
+            "caption": "subtract column by column, borrow when the top digit is smaller"
+          },
+          {
+            "math": "3.55 \\approx 3.55",
+            "caption": "round to 2 decimal places for the final answer"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why do we line up the decimal points?",
+          "options": [
+            {
+              "label": "so digits in the same place value add together",
+              "isCorrect": true
+            },
+            {
+              "label": "to make the answer line up neatly",
+              "isCorrect": false
+            },
+            {
+              "label": "it's just a convention",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#decimals"
+      ],
+      "source": "generator"
+    }
+  ]
+}

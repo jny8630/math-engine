@@ -1,0 +1,4986 @@
+{
+  "templateId": "fraction-mul",
+  "tags": [
+    "#fractions"
+  ],
+  "tidyMode": [
+    {
+      "text": "What is \\(\\frac{7}{8} \\times \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/32",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 32
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{8} \\times \\frac{1}{4} = \\frac{7 \\times 1}{8 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{7}{32}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{12} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/24",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{12} \\times \\frac{1}{2} = \\frac{5 \\times 1}{12 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{5}{24}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{8} \\times \\frac{5}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/48",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 48
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{8} \\times \\frac{5}{6} = \\frac{1 \\times 5}{8 \\times 6}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{5}{48}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/12",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{1}{6} = \\frac{1 \\times 1}{2 \\times 6}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{12}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/8",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3 \\times 1}{4 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{8}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/8",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{3}{4} = \\frac{1 \\times 3}{2 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{8}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{1}{2} = \\frac{2 \\times 1}{3 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{6}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{2}{3} = \\frac{1 \\times 2}{2 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{6}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/4",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1 \\times 1}{2 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{4}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{7}{10} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/20",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{10} \\times \\frac{1}{2} = \\frac{7 \\times 1}{10 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{7}{20}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/5",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{4}{5} \\times \\frac{1}{2} = \\frac{4 \\times 1}{5 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{4}{10}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{4}{10} = \\frac{2}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\times \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/16",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1 \\times 1}{4 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{16}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} \\times \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/25",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 25
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{4}{5} \\times \\frac{1}{5} = \\frac{4 \\times 1}{5 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{4}{25}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{12} \\times \\frac{3}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/4",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{12} \\times \\frac{3}{5} = \\frac{5 \\times 3}{12 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{15}{60}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{15}{60} = \\frac{1}{4}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{1}{3} = \\frac{1 \\times 1}{2 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{6}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{1}{3} = \\frac{1 \\times 1}{2 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{6}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/2",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{3}{4} = \\frac{2 \\times 3}{3 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{6}{12}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{6}{12} = \\frac{1}{2}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{6} \\times \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/36",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 36
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{6} \\times \\frac{1}{6} = \\frac{1 \\times 1}{6 \\times 6}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{36}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} \\times \\frac{3}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/32",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 32
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\times \\frac{3}{8} = \\frac{3 \\times 3}{4 \\times 8}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{9}{32}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} \\times \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/16",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\times \\frac{1}{4} = \\frac{3 \\times 1}{4 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{16}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/8",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{3}{4} = \\frac{1 \\times 3}{2 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{8}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/8",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\times \\frac{1}{2} = \\frac{1 \\times 1}{4 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{8}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} \\times \\frac{1}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/24",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\times \\frac{1}{8} = \\frac{1 \\times 1}{3 \\times 8}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{24}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\times \\frac{3}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/20",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\times \\frac{3}{5} = \\frac{1 \\times 3}{4 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{20}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{11}{12} \\times \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "11/36",
+        "value": {
+          "kind": "fraction",
+          "n": 11,
+          "d": 36
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{11}{12} \\times \\frac{1}{3} = \\frac{11 \\times 1}{12 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{11}{36}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/8",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{3}{4} = \\frac{1 \\times 3}{2 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{8}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\times \\frac{3}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/32",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 32
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\times \\frac{3}{8} = \\frac{1 \\times 3}{4 \\times 8}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{32}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/8",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{3}{4} = \\frac{1 \\times 3}{2 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{8}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{7}{10}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/15",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{7}{10} = \\frac{2 \\times 7}{3 \\times 10}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{14}{30}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{14}{30} = \\frac{7}{15}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{6} \\times \\frac{5}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/36",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 36
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{6} \\times \\frac{5}{6} = \\frac{1 \\times 5}{6 \\times 6}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{5}{36}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/20",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{5} \\times \\frac{3}{4} = \\frac{3 \\times 3}{5 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{9}{20}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{6} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/12",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{6} \\times \\frac{1}{2} = \\frac{5 \\times 1}{6 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{5}{12}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/8",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1 \\times 1}{2 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{8}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{1}{2} = \\frac{2 \\times 1}{3 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{6}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\times \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/12",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\times \\frac{1}{3} = \\frac{1 \\times 1}{4 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{12}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{2}{3} = \\frac{1 \\times 2}{2 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{6}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} \\times \\frac{7}{12}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/15",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{4}{5} \\times \\frac{7}{12} = \\frac{4 \\times 7}{5 \\times 12}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{28}{60}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{28}{60} = \\frac{7}{15}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{12} \\times \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/18",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 18
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{12} \\times \\frac{2}{3} = \\frac{1 \\times 2}{12 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{36}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{36} = \\frac{1}{18}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} \\times \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/15",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\times \\frac{1}{5} = \\frac{1 \\times 1}{3 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{15}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{5}{12}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/24",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 24
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{5}{12} = \\frac{1 \\times 5}{2 \\times 12}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{5}{24}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/15",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{2}{5} = \\frac{2 \\times 2}{3 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{4}{15}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{2}{3} = \\frac{1 \\times 2}{2 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{6}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{8} \\times \\frac{3}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/40",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{8} \\times \\frac{3}{5} = \\frac{3 \\times 3}{8 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{9}{40}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/2",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{3}{4} = \\frac{2 \\times 3}{3 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{6}{12}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{6}{12} = \\frac{1}{2}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{5} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/10",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{5} \\times \\frac{1}{2} = \\frac{1 \\times 1}{5 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{10}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{1}{2} = \\frac{2 \\times 1}{3 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{6}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/8",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3 \\times 1}{4 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{8}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} \\times \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/5",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{5} \\times \\frac{1}{3} = \\frac{3 \\times 1}{5 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{15}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{3}{15} = \\frac{1}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/8",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1 \\times 1}{2 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{8}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{4} \\times \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/2",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 2
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{4} \\times \\frac{2}{3} = \\frac{3 \\times 2}{4 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{6}{12}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{6}{12} = \\frac{1}{2}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    }
+  ],
+  "looseMode": [
+    {
+      "text": "What is \\(\\frac{7}{12} \\times \\frac{1}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/72",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 72
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{12} \\times \\frac{1}{6} = \\frac{7 \\times 1}{12 \\times 6}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{7}{72}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{8} \\times \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/4",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{8} \\times \\frac{2}{3} = \\frac{3 \\times 2}{8 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{6}{24}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{6}{24} = \\frac{1}{4}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{5} \\times \\frac{1}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/40",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 40
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{5} \\times \\frac{1}{8} = \\frac{1 \\times 1}{5 \\times 8}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{40}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{9} \\times \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/18",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 18
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{9} \\times \\frac{1}{4} = \\frac{2 \\times 1}{9 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{36}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{36} = \\frac{1}{18}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{10} \\times \\frac{20}{21}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/7",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 7
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{10} \\times \\frac{20}{21} = \\frac{3 \\times 20}{10 \\times 21}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{60}{210}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{60}{210} = \\frac{2}{7}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{7} \\times \\frac{11}{14}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "11/98",
+        "value": {
+          "kind": "fraction",
+          "n": 11,
+          "d": 98
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{7} \\times \\frac{11}{14} = \\frac{1 \\times 11}{7 \\times 14}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{11}{98}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{9} \\times \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/27",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{9} \\times \\frac{1}{3} = \\frac{1 \\times 1}{9 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{27}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{6}{7} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/14",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 14
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{6}{7} \\times \\frac{3}{4} = \\frac{6 \\times 3}{7 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{18}{28}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{18}{28} = \\frac{9}{14}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} \\times \\frac{7}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/15",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 15
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{5} \\times \\frac{7}{9} = \\frac{3 \\times 7}{5 \\times 9}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{21}{45}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{21}{45} = \\frac{7}{15}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{13}{24} \\times \\frac{3}{11}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "13/88",
+        "value": {
+          "kind": "fraction",
+          "n": 13,
+          "d": 88
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{13}{24} \\times \\frac{3}{11} = \\frac{13 \\times 3}{24 \\times 11}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{39}{264}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{39}{264} = \\frac{13}{88}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/16",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\times \\frac{3}{4} = \\frac{1 \\times 3}{4 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{16}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{12} \\times \\frac{3}{13}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/52",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 52
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{12} \\times \\frac{3}{13} = \\frac{5 \\times 3}{12 \\times 13}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{15}{156}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{15}{156} = \\frac{5}{52}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{8} \\times \\frac{5}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/48",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 48
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{8} \\times \\frac{5}{6} = \\frac{1 \\times 5}{8 \\times 6}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{5}{48}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{7}{8} \\times \\frac{7}{13}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "49/104",
+        "value": {
+          "kind": "fraction",
+          "n": 49,
+          "d": 104
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{8} \\times \\frac{7}{13} = \\frac{7 \\times 7}{8 \\times 13}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{49}{104}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{6} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/12",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{6} \\times \\frac{1}{2} = \\frac{1 \\times 1}{6 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{12}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{4}{5} \\times \\frac{7}{16}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/20",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 20
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{4}{5} \\times \\frac{7}{16} = \\frac{4 \\times 7}{5 \\times 16}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{28}{80}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{28}{80} = \\frac{7}{20}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{2}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/27",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{2}{9} = \\frac{2 \\times 2}{3 \\times 9}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{4}{27}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{10} \\times \\frac{5}{6}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/12",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{10} \\times \\frac{5}{6} = \\frac{1 \\times 5}{10 \\times 6}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{5}{60}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{5}{60} = \\frac{1}{12}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} \\times \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/5",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{5} \\times \\frac{2}{3} = \\frac{3 \\times 2}{5 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{6}{15}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{6}{15} = \\frac{2}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} \\times \\frac{1}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/12",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\times \\frac{1}{4} = \\frac{1 \\times 1}{3 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{12}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{5}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/16",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{5}{8} = \\frac{1 \\times 5}{2 \\times 8}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{5}{16}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{3}{20}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/10",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{3}{20} = \\frac{2 \\times 3}{3 \\times 20}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{6}{60}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{6}{60} = \\frac{1}{10}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{11} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/11",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{11} \\times \\frac{1}{2} = \\frac{2 \\times 1}{11 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{22}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{22} = \\frac{1}{11}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\times \\frac{10}{11}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/22",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 22
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\times \\frac{10}{11} = \\frac{1 \\times 10}{4 \\times 11}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{10}{44}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{10}{44} = \\frac{5}{22}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{2}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/5",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{2}{5} = \\frac{1 \\times 2}{2 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{10}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{10} = \\frac{1}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{7} \\times \\frac{3}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/35",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{7} \\times \\frac{3}{5} = \\frac{3 \\times 3}{7 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{9}{35}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} \\times \\frac{1}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "3/35",
+        "value": {
+          "kind": "fraction",
+          "n": 3,
+          "d": 35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{5} \\times \\frac{1}{7} = \\frac{3 \\times 1}{5 \\times 7}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{35}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{7}{8} \\times \\frac{11}{14}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "11/16",
+        "value": {
+          "kind": "fraction",
+          "n": 11,
+          "d": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{8} \\times \\frac{11}{14} = \\frac{7 \\times 11}{8 \\times 14}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{77}{112}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{77}{112} = \\frac{11}{16}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{5} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/10",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 10
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{5} \\times \\frac{1}{2} = \\frac{1 \\times 1}{5 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{10}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{11} \\times \\frac{4}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/11",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{11} \\times \\frac{4}{5} = \\frac{5 \\times 4}{11 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{20}{55}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{20}{55} = \\frac{4}{11}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\times \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\times \\frac{2}{3} = \\frac{1 \\times 2}{4 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{12}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{12} = \\frac{1}{6}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{2} \\times \\frac{1}{8}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/16",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 16
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{2} \\times \\frac{1}{8} = \\frac{1 \\times 1}{2 \\times 8}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{16}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{9} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/6",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 6
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{9} \\times \\frac{3}{4} = \\frac{2 \\times 3}{9 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{6}{36}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{6}{36} = \\frac{1}{6}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{7}{8} \\times \\frac{5}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "5/8",
+        "value": {
+          "kind": "fraction",
+          "n": 5,
+          "d": 8
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{8} \\times \\frac{5}{7} = \\frac{7 \\times 5}{8 \\times 7}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{35}{56}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{35}{56} = \\frac{5}{8}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} \\times \\frac{3}{4}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/4",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 4
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\times \\frac{3}{4} = \\frac{1 \\times 3}{3 \\times 4}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{3}{12}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{3}{12} = \\frac{1}{4}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{16} \\times \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/80",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 80
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{16} \\times \\frac{1}{5} = \\frac{1 \\times 1}{16 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{80}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} \\times \\frac{2}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "2/5",
+        "value": {
+          "kind": "fraction",
+          "n": 2,
+          "d": 5
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{5} \\times \\frac{2}{3} = \\frac{3 \\times 2}{5 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{6}{15}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{6}{15} = \\frac{2}{5}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{11}{12} \\times \\frac{8}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "22/27",
+        "value": {
+          "kind": "fraction",
+          "n": 22,
+          "d": 27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{11}{12} \\times \\frac{8}{9} = \\frac{11 \\times 8}{12 \\times 9}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{88}{108}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{88}{108} = \\frac{22}{27}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{9}{20} \\times \\frac{4}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "9/35",
+        "value": {
+          "kind": "fraction",
+          "n": 9,
+          "d": 35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{9}{20} \\times \\frac{4}{7} = \\frac{9 \\times 4}{20 \\times 7}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{36}{140}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{36}{140} = \\frac{9}{35}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{6}{11}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/11",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 11
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{6}{11} = \\frac{2 \\times 6}{3 \\times 11}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{12}{33}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{12}{33} = \\frac{4}{11}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{7}{24} \\times \\frac{8}{9}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "7/27",
+        "value": {
+          "kind": "fraction",
+          "n": 7,
+          "d": 27
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{7}{24} \\times \\frac{8}{9} = \\frac{7 \\times 8}{24 \\times 9}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{56}{216}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{56}{216} = \\frac{7}{27}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{3}{5} \\times \\frac{4}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "12/35",
+        "value": {
+          "kind": "fraction",
+          "n": 12,
+          "d": 35
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{3}{5} \\times \\frac{4}{7} = \\frac{3 \\times 4}{5 \\times 7}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{12}{35}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{1}{2} = \\frac{2 \\times 1}{3 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{6}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{5}{7} \\times \\frac{11}{13}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "55/91",
+        "value": {
+          "kind": "fraction",
+          "n": 55,
+          "d": 91
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{5}{7} \\times \\frac{11}{13} = \\frac{5 \\times 11}{7 \\times 13}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{55}{91}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{3} \\times \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/9",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 9
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{3} \\times \\frac{1}{3} = \\frac{1 \\times 1}{3 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{9}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{2}{3} \\times \\frac{1}{2}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/3",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 3
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{2}{3} \\times \\frac{1}{2} = \\frac{2 \\times 1}{3 \\times 2}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{2}{6}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{2}{6} = \\frac{1}{3}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{20}{21} \\times \\frac{1}{5}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "4/21",
+        "value": {
+          "kind": "fraction",
+          "n": 4,
+          "d": 21
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{20}{21} \\times \\frac{1}{5} = \\frac{20 \\times 1}{21 \\times 5}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{20}{105}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{20}{105} = \\frac{4}{21}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{11}{21} \\times \\frac{5}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "55/147",
+        "value": {
+          "kind": "fraction",
+          "n": 55,
+          "d": 147
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{11}{21} \\times \\frac{5}{7} = \\frac{11 \\times 5}{21 \\times 7}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{55}{147}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{8}{21} \\times \\frac{6}{7}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "16/49",
+        "value": {
+          "kind": "fraction",
+          "n": 16,
+          "d": 49
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{8}{21} \\times \\frac{6}{7} = \\frac{8 \\times 6}{21 \\times 7}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{48}{147}",
+            "caption": "do the multiplication on top and bottom"
+          },
+          {
+            "math": "\\frac{48}{147} = \\frac{16}{49}",
+            "caption": "reducing to lowest terms"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    },
+    {
+      "text": "What is \\(\\frac{1}{4} \\times \\frac{1}{3}\\)?",
+      "answer": {
+        "form": {
+          "kind": "fraction",
+          "allowUnreduced": false
+        },
+        "canonical": "1/12",
+        "value": {
+          "kind": "fraction",
+          "n": 1,
+          "d": 12
+        }
+      },
+      "walkthrough": {
+        "steps": [
+          {
+            "math": "\\frac{1}{4} \\times \\frac{1}{3} = \\frac{1 \\times 1}{4 \\times 3}",
+            "caption": "to multiply fractions, multiply numerators and denominators across"
+          },
+          {
+            "math": "= \\frac{1}{12}",
+            "caption": "do the multiplication on top and bottom"
+          }
+        ],
+        "selfExplanation": {
+          "question": "Why does multiplying fractions NOT need a common denominator?",
+          "options": [
+            {
+              "label": "we're combining parts, not adding them — multiply across",
+              "isCorrect": true
+            },
+            {
+              "label": "because the denominators cancel out",
+              "isCorrect": false
+            },
+            {
+              "label": "you do need one — we just didn't use it here",
+              "isCorrect": false
+            }
+          ]
+        }
+      },
+      "tags": [
+        "#fractions"
+      ],
+      "source": "generator"
+    }
+  ]
+}
